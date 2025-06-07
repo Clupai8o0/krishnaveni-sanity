@@ -1,0 +1,19 @@
+{
+  "name": "krishnaveni",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm:dev --workspace=client\" \"npm:dev --workspace=studio\""
+  },
+  "workspaces": [
+    "client",
+    "studio"
+  ],
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
