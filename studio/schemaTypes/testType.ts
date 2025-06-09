@@ -1,4 +1,4 @@
-import { defineField, defineType } from "sanity";
+import { defineField, defineType } from 'sanity';
 
 export const testType = defineType({
   name: 'test',
@@ -6,9 +6,14 @@ export const testType = defineType({
   type: 'document',
   fields: [
     defineField({
+      name: 'language',
+      type: 'string',
+      hidden: true,
+    }),
+    defineField({
       name: 'title',
       title: 'Title',
       type: 'string',
-    })
-  ]
-})
+    }),
+  ],
+});
