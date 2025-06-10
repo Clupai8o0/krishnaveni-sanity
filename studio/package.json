@@ -34,6 +34,6 @@
     "semi": true,
     "printWidth": 100,
     "bracketSpacing": true,
-    "singleQuote": true
+    "singleQuote": false
   }
 }

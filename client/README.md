@@ -29,3 +29,23 @@ export async function generateStaticParams(): Promise<Params[]> {
   return allParams
 }
 ```
+
+Navigation
+```tsx
+import { createClient } from 'next-sanity'
+import { draftMode } from 'next/headers'
+
+export async function getNavigation(lang: string) {
+  const client = createClient({ projectId: 'your-id', dataset: 'production' })
+  return client.fetch(
+    `*[_type == "navigation" && language == $lang][0]{
+      items[]{
+        label,
+        internalLink->{slug},
+        externalUrl
+      }
+    }`,
+    { lang }
+  )
+}
+```
