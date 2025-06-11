@@ -1,3 +1,4 @@
+import { generateId } from "@/lib/utils";
 import { Image } from "next-sanity/image";
 import React from "react";
 
@@ -8,21 +9,23 @@ interface Props {
 	subtitle: string;
 	imageUrl: string;
 	description: string;
-	ctaBtns: {
-		buttons: {
-			_key: string;
-			style: "primary" | "secondary" | "outline";
-			label: string;
-			internalLink?: {
-				_ref: string;
-				_type: "reference";
-			};
-			externalLink?: string;
-		}[];
-	};
+	ctaButtons: {
+		style: "primary" | "secondary" | "outline";
+		label: string;
+		internalPage?: {
+			slug: string;
+		};
+		externalLink?: string;
+	}[];
 }
 
-const Hero = ({ title, subtitle, imageUrl, description, ctaBtns }: Props) => {
+const Hero = ({
+	title,
+	subtitle,
+	imageUrl,
+	description,
+	ctaButtons,
+}: Props) => {
 	return (
 		<section
 			id="hero"
@@ -36,14 +39,16 @@ const Hero = ({ title, subtitle, imageUrl, description, ctaBtns }: Props) => {
 					{subtitle}
 				</h2>
 				<div className="flex flex-col md:flex-row gap-4">
-					{ctaBtns.buttons.map((btn) => {
+					{ctaButtons.map((btn) => {
 						return (
-							<button
-								key={btn._key}
+							<a
+								key={generateId()}
 								className={`${btn.style === "primary" ? "bg-primary text-white" : btn.style === "secondary" ? "bg-secondary text-black" : "bg-transparent text-white border border-white"} px-6 py-3 rounded-full font-medium`}
+								href={btn.externalLink || btn.internalPage?.slug}
+								target={btn.externalLink ? "_blank" : "_self"}
 							>
 								{btn.label}
-							</button>
+							</a>
 						);
 					})}
 				</div>

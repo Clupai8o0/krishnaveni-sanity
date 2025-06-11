@@ -6,13 +6,23 @@ import Hero from "@/components/hero";
 
 async function Homepage({ params }: { params: Promise<{ lang: string }> }) {
 	const { lang } = await params;
-  console.log(lang)
 
   const homePage = await client.fetch<SanityDocument>(
     `*[_type == "page" && language == $lang && pageType == $pageType][0]{ 
       seo, content[]{
-        "imageUrl": image.asset->url,
-        ...
+        ...,
+
+        _type == "heroSection" => {
+          "imageUrl": image.asset->url,
+          "ctaButtons": ctaBtns.buttons[]{
+            label,
+            style,
+            externalLink,
+            "internalPage": internalLink->{
+              "slug": slug.current
+            }
+          }
+        }
       }
     }`,
     { lang, pageType: "home" }
