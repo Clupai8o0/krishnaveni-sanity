@@ -11,6 +11,11 @@ export const navigation = defineType({
       hidden: true,
     }),
     defineField({
+      name: "title",
+      title: "Title",
+      type: "string",
+    }),
+    defineField({
       name: "navLinks",
       title: "Nav Links",
       type: "array",
@@ -32,6 +37,24 @@ export const navigation = defineType({
               to: [{ type: "page" }],
             }),
           ],
+        }),
+      ],
+    }),
+    defineField({
+      name: "cta",
+      title: "CTA",
+      type: "object",
+      fields: [
+        defineField({
+          name: "label",
+          title: "Label",
+          type: "string",
+        }),
+        defineField({
+          name: "link",
+          title: "Link",
+          type: "reference",
+          to: [{ type: "page" }],
         }),
       ],
     }),
