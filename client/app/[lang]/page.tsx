@@ -31,7 +31,6 @@ async function Homepage({ params }: { params: Promise<{ lang: string }> }) {
 
 	return (
 		<main>
-			<Navbar />
 			{homePage.content.map((section: any) => {
         switch (section._type) {
           case "heroSection":

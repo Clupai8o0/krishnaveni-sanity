@@ -29,7 +29,7 @@ const Hero = ({
 	return (
 		<section
 			id="hero"
-			className="w-full h-auto overflow-hidden rounded-b-[4em] py-40 relative"
+			className="w-full h-auto overflow-hidden rounded-b-[4em] pt-60 pb-40 relative"
 		>
 			<div className="container relative z-10 text-white flex flex-col items-center justify-center px-4">
 				<h1 className="font-serif text-5xl font-bold text-balance text-center">
