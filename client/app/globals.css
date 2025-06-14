@@ -123,3 +123,21 @@
     @apply bg-background text-foreground;
   }
 }
+
+@layer components {
+  .btn {
+    @apply px-6 py-2 rounded-full font-medium text-center motion-safe:md:transition-all motion-safe:md:duration-300 cursor-pointer motion-safe:md:transform hover:shadow-lg hover:scale-105;
+  }
+  .btn-primary {
+    @apply bg-primary text-white hover:bg-primary/80;
+  }
+  .btn-secondary {
+    @apply bg-secondary text-white border border-white;
+  }
+  .btn-outline {
+    @apply bg-transparent text-white border border-white hover:bg-white hover:text-black;
+  }
+  .btn-none {
+    @apply hover:underline hover:text-primary;
+  }
+}

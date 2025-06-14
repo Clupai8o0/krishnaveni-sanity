@@ -36,7 +36,7 @@ export const ctaBtns = defineType({
               title: "Style",
               type: "string",
               options: {
-                list: ["primary", "secondary", "outline"],
+                list: ["primary", "secondary", "outline", "none"],
               },
             }),
           ],

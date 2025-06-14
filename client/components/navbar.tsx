@@ -25,13 +25,17 @@ const Navbar = ({ navigation }: { navigation: NavigationProps }) => {
 							height={20}
 							className="hidden md:block"
 						/>
-
 					</Link>
 					<div className="hidden md:block">
 						<ul className="flex gap-6">
 							{navigation.navLinks.map((link) => (
 								<li key={generateId()}>
-									<Link href={link.link.slug} className="text-white font-medium opacity-70 hover:opacity-100 transition-all duration-300">{link.label}</Link>
+									<Link
+										href={link.link.slug}
+										className="text-white font-medium opacity-70 hover:opacity-100 transition-all duration-300"
+									>
+										{link.label}
+									</Link>
 								</li>
 							))}
 						</ul>
@@ -39,8 +43,8 @@ const Navbar = ({ navigation }: { navigation: NavigationProps }) => {
 				</div>
 
 				<div>
-					<Link href={navigation.cta.link.slug} className="text-white font-medium opacity-70 hover:opacity-100 transition-all duration-300 border border-gray-100 px-6 py-2 rounded-full hover:bg-white hover:text-black hidden md:block">
-						{navigation.cta.label}
+					<Link href={navigation.cta.link.slug} className="hidden md:block">
+						<span className="btn btn-outline inline-block">{navigation.cta.label}</span>
 					</Link>
 					<Sidebar navigation={navigation} />
 				</div>

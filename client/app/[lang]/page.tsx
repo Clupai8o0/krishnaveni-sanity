@@ -13,7 +13,10 @@ async function Homepage({ params }: { params: Promise<{ lang: string }> }) {
         ...,
 
         _type == "heroSection" => {
-          "imageUrl": image.asset->url,
+          "imageUrl": images{
+            "desktop": desktop.asset->url,
+            "mobile": mobile.asset->url
+          },
           "ctaButtons": ctaBtns.buttons[]{
             label,
             style,
