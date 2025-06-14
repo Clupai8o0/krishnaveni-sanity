@@ -12,7 +12,7 @@ import { generateId } from "@/lib/utils";
 
 const Sidebar = ({ navigation }: { navigation: NavigationProps }) => {
 	return (
-		<nav>
+		<nav className="md:hidden">
 			<Sheet>
 				<SheetTrigger>
 					<Menu className="w-8 h-8 stroke-2 text-white" />
