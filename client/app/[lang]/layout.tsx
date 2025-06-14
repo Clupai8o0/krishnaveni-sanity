@@ -1,3 +1,4 @@
+import LanguageBanner from "@/components/language-banner";
 import Navbar from "@/components/navbar";
 import { SUPPORTED_LANGUAGES } from "@/lib/constants";
 import { client } from "@/lib/sanity";
@@ -37,6 +38,7 @@ export default async function RootLayout({
 	return (
 		<html lang={lang}>
 			<body>
+				{/* <LanguageBanner page={lang} /> */}
 				<Navbar navigation={navigation as unknown as NavigationProps} />
 				{children}
 			</body>
