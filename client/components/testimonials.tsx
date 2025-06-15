@@ -22,11 +22,10 @@ function Testimonials({ title, testimonials }: Props) {
 
 				<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-12">
 					{testimonials.map(({ video, thumbnail, author, authorTitle }) => (
-						<div className="flex flex-col">
+						<div className="flex flex-col" key={generateId()}>
 							<HeroVideoDialog
 								className="block h-full object-cover"
 								animationStyle="from-center"
-								key={generateId()}
 								videoSrc={video}
 								thumbnailSrc={thumbnail}
 							/>
