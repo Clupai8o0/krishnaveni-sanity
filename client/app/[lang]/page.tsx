@@ -3,6 +3,7 @@ import { SanityDocument } from "next-sanity";
 
 import Navbar from "@/components/navbar";
 import Hero from "@/components/hero";
+import FeatureCards from "@/components/feature-cards";
 
 async function Homepage({ params }: { params: Promise<{ lang: string }> }) {
 	const { lang } = await params;
@@ -30,6 +31,7 @@ async function Homepage({ params }: { params: Promise<{ lang: string }> }) {
     }`,
     { lang, pageType: "home" }
   )
+  console.log(homePage)
 
 	return (
 		<main>
@@ -37,6 +39,8 @@ async function Homepage({ params }: { params: Promise<{ lang: string }> }) {
         switch (section._type) {
           case "heroSection":
             return <Hero key={section._key} {...section} />
+          case "featureCards":
+            return <FeatureCards key={section._key} {...section} />
           default:
             return null;
         }

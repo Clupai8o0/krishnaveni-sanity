@@ -14,21 +14,21 @@ const LanguageBanner = () => {
 				View this page in{" "}
 				<Link
 					href={`/en/${url}`}
-					className="font-semibold mx-1 hover:underline"
+					className="font-semibold hover:underline"
 				>
 					English
 				</Link>{" "}
 				or{" "}
 				<Link
 					href={`/hi/${url}`}
-					className="font-semibold mx-1 hover:underline"
+					className="font-semibold hover:underline"
 				>
 					हिन्दी
 				</Link>{" "}
 				or{" "}
 				<Link
 					href={`/te/${url}`}
-					className="font-semibold mx-1 hover:underline"
+					className="font-semibold hover:underline"
 				>
 					తెలుగు
 				</Link>

@@ -33,7 +33,7 @@ const Hero = ({
 	return (
 		<section
 			id="hero"
-			className="w-full h-auto overflow-hidden rounded-b-[3rem] md:rounded-b-[4em] pt-40 pb-30 relative"
+			className="w-full h-auto overflow-hidden rounded-b-none md:rounded-b-[4em] pt-40 pb-30 relative"
 		>
 			<div className="max-w-4xl mx-auto relative z-10 text-white flex flex-col items-center justify-center px-4">
 				<h1 className="font-serif text-5xl md:text-6xl lg:text-7xl font-bold text-balance text-center">
