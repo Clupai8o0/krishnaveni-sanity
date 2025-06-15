@@ -45,7 +45,7 @@ export const introduction = defineType({
       ],
     }),
     defineField({
-      name: "ctaButtons",
+      name: "ctaBtns",
       title: "CTA Buttons",
       type: "ctaBtns",
     }),

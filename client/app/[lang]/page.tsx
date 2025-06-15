@@ -4,6 +4,7 @@ import { SanityDocument } from "next-sanity";
 import Navbar from "@/components/navbar";
 import Hero from "@/components/hero";
 import FeatureCards from "@/components/feature-cards";
+import AtAGlance from "@/components/at-a-glance";
 
 async function Homepage({ params }: { params: Promise<{ lang: string }> }) {
 	const { lang } = await params;
@@ -26,6 +27,16 @@ async function Homepage({ params }: { params: Promise<{ lang: string }> }) {
               "slug": slug.current
             }
           }
+        },
+        _type == "introduction" => {
+          "imageUrl": image.asset->url,
+          "ctaButtons": ctaBtns.buttons[]{
+            label,
+            style,
+            "internalPage": internalLink->{
+              "slug": slug.current
+            }
+          }
         }
       }
     }`,
@@ -41,6 +52,8 @@ async function Homepage({ params }: { params: Promise<{ lang: string }> }) {
             return <Hero key={section._key} {...section} />
           case "featureCards":
             return <FeatureCards key={section._key} {...section} />
+          case "introduction":
+            return <AtAGlance key={section._key} {...section} />
           default:
             return null;
         }

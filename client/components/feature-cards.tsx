@@ -18,8 +18,8 @@ const FeatureCard = ({ title, description, icon, color }: CardProps) => {
 			<div className="flex items-center justify-center w-10 h-10 rounded-full">
 				<DynamicIcon name={icon} color="white" size={30} />
 			</div>
-			<h3 className="text-lg font-medium text-white text-center text-balance font-serif leading-tight">{title}</h3>
-			<p className="text-sm text-center text-pretty text-white opacity-80">{description}</p>
+			<h3 className="text-lg md:text-xl font-medium text-white text-center text-balance font-serif leading-tight">{title}</h3>
+			<p className="text-sm md:text-base text-center text-pretty text-white opacity-80">{description}</p>
 		</div>
 	);
 };
