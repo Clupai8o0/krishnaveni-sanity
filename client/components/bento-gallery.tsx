@@ -26,7 +26,7 @@ const BentoGallery = ({ title, imageUrl, ctaButtons }: Props) => {
 				<h1 className="font-serif text-4xl md:text-6xl lg:text-7xl font-bold text-balance text-center">
 					{title}
 				</h1>
-				<div className="grid grid-cols-2 lg:grid-cols-3 grid-rows-3 lg:grid-rows-2 gap-2 mt-12 w-full h-[500px] lg:h[700px]">
+				<div className="grid grid-cols-2 lg:grid-cols-3 grid-rows-3 lg:grid-rows-2 gap-2 mt-12 w-full h-[500px] lg:h[800px]">
 					<div className="col-span-1 row-span-1 relative overflow-hidden rounded-md flex items-end justify-start">
 						<div className="absolute [box-shadow:0_0_20px_30px_rgba(0,0,0,0.3)_inset] z-[2] w-full h-full"></div>
 						<span className="inline-block text-white font-medium text-base relative z-[3] m-2">
