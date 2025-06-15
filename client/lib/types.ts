@@ -13,3 +13,15 @@ export interface NavigationProps {
     }
   }
 }
+
+export interface CTAProps {
+  title: string;
+  description: string;
+  ctaBtns: {
+    label: string;
+    style: "primary" | "secondary" | "outline" | "none";
+    internalPage?: {
+      slug: string;
+    }
+  }[]
+}

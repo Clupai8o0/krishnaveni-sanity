@@ -8,6 +8,7 @@ import { featureCards } from "./components/feature-cards";
 import { introduction } from "./components/introduction";
 import { bentoGallery } from "./components/bento-gallery";
 import { testimonials } from "./components/testimonials";
+import { cta } from "./cta";
 
 export const schemaTypes = [
   testType,
@@ -20,4 +21,5 @@ export const schemaTypes = [
   introduction,
   bentoGallery,
   testimonials,
+  cta,
 ];

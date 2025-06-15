@@ -2,9 +2,9 @@ import LanguageBanner from "@/components/language-banner";
 import Navbar from "@/components/navbar";
 import { SUPPORTED_LANGUAGES } from "@/lib/constants";
 import { client } from "@/lib/sanity";
-import { NavigationProps } from "@/lib/types";
+import { CTAProps, NavigationProps } from "@/lib/types";
 import { SanityDocument } from "next-sanity";
-import { headers } from "next/headers";
+import CTA from "@/components/cta";
 
 export async function generateStaticParams() {
 	return SUPPORTED_LANGUAGES.map((lang) => ({ lang }));
@@ -37,12 +37,33 @@ export default async function RootLayout({
 		{ lang }
 	);
 
+	const cta = await client.fetch<SanityDocument>(
+		`*[_type == "cta" && language == $lang][0]{
+			"title": title,
+			"description": description,
+			"ctaBtns": ctaBtns.buttons[]{
+				label,
+				style,
+				"internalPage": internalLink->{
+					"slug": slug.current
+				},
+			},
+			"imageUrl": images{
+				"desktop": desktop.asset->url,
+				"mobile": mobile.asset->url
+			}
+		}`,
+		{ lang }
+	);
+	console.log(cta);
+
 	return (
 		<html lang={lang}>
 			<body>
 				<LanguageBanner />
 				<Navbar navigation={navigation as unknown as NavigationProps} />
 				{children}
+				<CTA cta={cta as unknown as CTAProps} />
 			</body>
 		</html>
 	);

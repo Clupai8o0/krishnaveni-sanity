@@ -22,7 +22,7 @@ interface Props {
 const BentoGallery = ({ title, imageUrl, ctaButtons }: Props) => {
 	return (
 		<section className="w-full h-auto overflow-hidden py-20 relative px-4 md:px-8">
-			<div className="w-full max-w-7xl mx-auto h-auto overflow-hidden relative flex flex-col">
+			<div className="w-full max-w-7xl mx-auto h-auto overflow-hidden py-1 relative flex flex-col">
 				<h1 className="font-serif text-4xl md:text-6xl lg:text-7xl font-bold text-balance text-center">
 					{title}
 				</h1>
