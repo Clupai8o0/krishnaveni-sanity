@@ -7,7 +7,6 @@ import React from "react";
 const LanguageBanner = () => {
 	const pathname = usePathname();
 	const url = pathname.split("/").slice(2).join("/");
-  console.log(url)
 
 	return (
 		<div className="w-full h-auto bg-primary text-white py-2 flex justify-center">
