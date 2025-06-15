@@ -47,6 +47,7 @@ export default async function RootLayout({
 				"internalPage": internalLink->{
 					"slug": slug.current
 				},
+				externalLink
 			},
 			"imageUrl": images{
 				"desktop": desktop.asset->url,

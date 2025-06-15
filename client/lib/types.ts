@@ -22,6 +22,11 @@ export interface CTAProps {
     style: "primary" | "secondary" | "outline" | "none";
     internalPage?: {
       slug: string;
-    }
+    },
+    externalLink?: string;
   }[]
+  imageUrl: {
+    desktop: string;
+    mobile: string;
+  }
 }
