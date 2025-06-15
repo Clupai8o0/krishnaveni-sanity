@@ -1,11 +1,11 @@
 import { client } from "@/lib/sanity";
 import { SanityDocument } from "next-sanity";
 
-import Navbar from "@/components/navbar";
 import Hero from "@/components/hero";
 import FeatureCards from "@/components/feature-cards";
 import AtAGlance from "@/components/at-a-glance";
 import BentoGallery from "@/components/bento-gallery";
+import Testimonials from "@/components/testimonials";
 
 async function Homepage({ params }: { params: Promise<{ lang: string }> }) {
 	const { lang } = await params;
@@ -52,6 +52,15 @@ async function Homepage({ params }: { params: Promise<{ lang: string }> }) {
               "slug": slug.current
             }
           }
+        },
+        _type == "testimonials" => {
+          "title": title,
+          "testimonials": testimonials[]{
+            "video": video.asset->url,
+            "thumbnail": thumbnail.asset->url,
+            "author": author,
+            "authorTitle": authorTitle
+          }
         }
       }
     }`,
@@ -71,6 +80,8 @@ async function Homepage({ params }: { params: Promise<{ lang: string }> }) {
             return <AtAGlance key={section._key} {...section} />
           case "bentoGallery":
             return <BentoGallery key={section._key} {...section} />
+          case "testimonials":
+            return <Testimonials key={section._key} {...section} />
           default:
             return null;
         }
