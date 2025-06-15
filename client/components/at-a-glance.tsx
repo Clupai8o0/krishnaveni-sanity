@@ -32,7 +32,7 @@ const AtAGlance = ({
 	ctaButtons,
 }: Props) => {
 	return (
-		<div className="w-full h-auto overflow-hidden py-20 relative">
+		<div className="w-full h-auto overflow-hidden py-10 relative">
 			<div className="max-w-7xl mx-auto relative z-10 text-black flex flex-col lg:flex-row-reverse items-center justify-center px-4 md:px-8 gap-10">
 				<div className="w-full lg:w-[50vw] max-w-[680px] h-64 lg:h-[600px] relative">
 					<Image src={imageUrl} alt={title} fill className="object-contain" />
