@@ -21,7 +21,12 @@ export const page = defineType({
       name: "content",
       title: "Page Content",
       type: "array",
-      of: [{ type: "heroSection" }, { type: "featureCards" }, { type: "introduction" }],
+      of: [
+        { type: "heroSection" },
+        { type: "featureCards" },
+        { type: "introduction" },
+        { type: "bentoGallery" },
+      ],
     }),
   ],
 });
