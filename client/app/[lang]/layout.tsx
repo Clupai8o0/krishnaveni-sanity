@@ -4,6 +4,7 @@ import { SUPPORTED_LANGUAGES } from "@/lib/constants";
 import { client } from "@/lib/sanity";
 import { NavigationProps } from "@/lib/types";
 import { SanityDocument } from "next-sanity";
+import { headers } from "next/headers";
 
 export async function generateStaticParams() {
 	return SUPPORTED_LANGUAGES.map((lang) => ({ lang }));
@@ -17,6 +18,7 @@ export default async function RootLayout({
 	params: Promise<{ lang: string }>;
 }) {
 	const { lang } = await params;
+
 	const navigation = await client.fetch<SanityDocument>(
 		`*[_type == "navigation" && language == $lang][0]{
       "navLinks": navLinks[]{
@@ -38,7 +40,7 @@ export default async function RootLayout({
 	return (
 		<html lang={lang}>
 			<body>
-				{/* <LanguageBanner page={lang} /> */}
+				<LanguageBanner />
 				<Navbar navigation={navigation as unknown as NavigationProps} />
 				{children}
 			</body>

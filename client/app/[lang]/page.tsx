@@ -30,7 +30,6 @@ async function Homepage({ params }: { params: Promise<{ lang: string }> }) {
     }`,
     { lang, pageType: "home" }
   )
-  console.log(homePage)
 
 	return (
 		<main>

@@ -1,17 +1,38 @@
+"use client";
+
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import React from "react";
 
-interface Props {
-	page: string;
-}
+const LanguageBanner = () => {
+	const pathname = usePathname();
+	const url = pathname.split("/").slice(2).join("/");
+  console.log(url)
 
-const LanguageBanner = ({ page }: Props) => {
 	return (
-		<div className="w-full h-auto bg-primary text-white py-4 flex justify-center">
+		<div className="w-full h-auto bg-primary text-white py-2 flex justify-center">
 			<p>
-				View this page in <Link href={`/en${page}`}>English</Link> or{" "}
-				<Link href={`/hi${page}`}>हिन्दी</Link> or{" "}
-				<Link href={`/te${page}`}>తెలుగు</Link>
+				View this page in{" "}
+				<Link
+					href={`/en/${url}`}
+					className="font-semibold mx-1 hover:underline"
+				>
+					English
+				</Link>{" "}
+				or{" "}
+				<Link
+					href={`/hi/${url}`}
+					className="font-semibold mx-1 hover:underline"
+				>
+					हिन्दी
+				</Link>{" "}
+				or{" "}
+				<Link
+					href={`/te/${url}`}
+					className="font-semibold mx-1 hover:underline"
+				>
+					తెలుగు
+				</Link>
 			</p>
 		</div>
 	);
