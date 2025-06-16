@@ -21,7 +21,7 @@ const CTA = ({ cta }: { cta: CTAProps }) => {
 				className="object-cover w-full h-full block lg:hidden opacity-20"
 			/>
 
-			<div className="w-full max-w-7xl mx-auto h-auto overflow-hidden relative flex flex-col items-center gap-3 text-white">
+			<div className="w-full max-w-7xl mx-auto h-auto relative flex flex-col items-center gap-3 text-white">
 				<h1 className="font-serif text-4xl md:text-6xl lg:text-7xl font-bold text-balance text-center">
 					{cta.title}
 				</h1>

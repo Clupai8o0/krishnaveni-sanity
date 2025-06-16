@@ -32,7 +32,7 @@ const Footer = ({
 						/>
 					</Link>
 
-					<div className="flex flex-col md:flex-row gap-y-3 xl:gap-y-0 gap-x-4 xl:gap-x-8 text-white mt-6 md:mt-0 xl:mt-4 list-none">
+					<div className="flex flex-col md:flex-row gap-y-3 xl:gap-y-0 gap-x-4 xl:gap-x-8 text-white mt-6 md:mt-0 list-none">
 						{navigation.navLinks.map((link) => (
 							<li key={generateId()}>
 								<Link
