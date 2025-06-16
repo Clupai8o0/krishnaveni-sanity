@@ -5,6 +5,7 @@ import { client } from "@/lib/sanity";
 import { CTAProps, NavigationProps } from "@/lib/types";
 import { SanityDocument } from "next-sanity";
 import CTA from "@/components/cta";
+import Footer from "@/components/footer";
 
 export async function generateStaticParams() {
 	return SUPPORTED_LANGUAGES.map((lang) => ({ lang }));
@@ -62,9 +63,10 @@ export default async function RootLayout({
 		<html lang={lang}>
 			<body>
 				<LanguageBanner />
-				<Navbar navigation={navigation as unknown as NavigationProps} />
+				<Navbar navigation={navigation as unknown as NavigationProps} lang={lang} />
 				{children}
 				<CTA cta={cta as unknown as CTAProps} />
+				<Footer navigation={navigation as unknown as NavigationProps} lang={lang} />
 			</body>
 		</html>
 	);
