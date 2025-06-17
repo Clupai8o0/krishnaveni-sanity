@@ -7,24 +7,19 @@ import AtAGlance from "@/components/at-a-glance";
 import BentoGallery from "@/components/bento-gallery";
 import Testimonials from "@/components/testimonials";
 import { getMetadata } from "@/lib/metadata";
+import { PageParams } from "@/lib/types";
 
 export async function generateMetadata({
 	params,
 }: {
-	params: Promise<{ lang: string }>;
+	params: Promise<PageParams>;
 }) {
 	const { lang } = await params;
 	const metadata = await getMetadata(lang, "home");
-
-  console.log(metadata)
-
-	return {
-		title: metadata.metaTitle,
-		description: metadata.metaDescription,
-	};
+	return metadata;
 }
 
-async function Homepage({ params }: { params: Promise<{ lang: string }> }) {
+async function Homepage({ params }: { params: Promise<PageParams> }) {
 	const { lang } = await params;
 
 	const homePage = await client.fetch<SanityDocument>(
