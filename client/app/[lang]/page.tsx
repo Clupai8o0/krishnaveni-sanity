@@ -1,13 +1,15 @@
-import { client } from "@/lib/sanity";
 import { SanityDocument } from "next-sanity";
+
+import { client } from "@/lib/sanity";
+import { getMetadata } from "@/lib/metadata";
+import { PageParams } from "@/lib/types";
+import { PAGE_TYPES } from "@/lib/constants";
 
 import Hero from "@/components/hero";
 import FeatureCards from "@/components/feature-cards";
 import AtAGlance from "@/components/at-a-glance";
 import BentoGallery from "@/components/bento-gallery";
 import Testimonials from "@/components/testimonials";
-import { getMetadata } from "@/lib/metadata";
-import { PageParams } from "@/lib/types";
 
 export async function generateMetadata({
 	params,
@@ -15,7 +17,7 @@ export async function generateMetadata({
 	params: Promise<PageParams>;
 }) {
 	const { lang } = await params;
-	const metadata = await getMetadata(lang, "home");
+	const metadata = await getMetadata(lang, PAGE_TYPES.HOME);
 	return metadata;
 }
 

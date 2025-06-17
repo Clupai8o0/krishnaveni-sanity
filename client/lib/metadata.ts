@@ -1,9 +1,10 @@
+import { PageType } from "./constants";
 import { client } from "./sanity";
 import { Seo } from "./sanity.types";
 
 export async function getMetadata(
 	lang: string,
-	pageType: string
+	pageType: PageType
 ): Promise<{
 	title: string;
 	description: string;
