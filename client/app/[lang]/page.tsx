@@ -6,11 +6,28 @@ import FeatureCards from "@/components/feature-cards";
 import AtAGlance from "@/components/at-a-glance";
 import BentoGallery from "@/components/bento-gallery";
 import Testimonials from "@/components/testimonials";
+import { getMetadata } from "@/lib/metadata";
+
+export async function generateMetadata({
+	params,
+}: {
+	params: Promise<{ lang: string }>;
+}) {
+	const { lang } = await params;
+	const metadata = await getMetadata(lang, "home");
+
+  console.log(metadata)
+
+	return {
+		title: metadata.metaTitle,
+		description: metadata.metaDescription,
+	};
+}
 
 async function Homepage({ params }: { params: Promise<{ lang: string }> }) {
 	const { lang } = await params;
 
-  const homePage = await client.fetch<SanityDocument>(
+	const homePage = await client.fetch<SanityDocument>(
 		`*[_type == "page" && language == $lang && pageType == $pageType][0]{ 
       seo, content[]{
         ...,
@@ -66,26 +83,25 @@ async function Homepage({ params }: { params: Promise<{ lang: string }> }) {
     }`,
 		{ lang, pageType: "home" }
 	);
-  console.log(homePage)
 
 	return (
 		<main>
 			{homePage.content.map((section: any) => {
-        switch (section._type) {
-          case "heroSection":
-            return <Hero key={section._key} {...section} />
-          case "featureCards":
-            return <FeatureCards key={section._key} {...section} />
-          case "introduction":
-            return <AtAGlance key={section._key} {...section} />
-          case "bentoGallery":
-            return <BentoGallery key={section._key} {...section} />
-          case "testimonials":
-            return <Testimonials key={section._key} {...section} />
-          default:
-            return null;
-        }
-      })}
+				switch (section._type) {
+					case "heroSection":
+						return <Hero key={section._key} {...section} />;
+					case "featureCards":
+						return <FeatureCards key={section._key} {...section} />;
+					case "introduction":
+						return <AtAGlance key={section._key} {...section} />;
+					case "bentoGallery":
+						return <BentoGallery key={section._key} {...section} />;
+					case "testimonials":
+						return <Testimonials key={section._key} {...section} />;
+					default:
+						return null;
+				}
+			})}
 		</main>
 	);
 }
