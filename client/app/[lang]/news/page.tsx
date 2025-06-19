@@ -1,9 +1,8 @@
-import React from 'react'
+import React from "react";
+import UnderConstruction from "@/components/under-construction";
 
 function AllNewsPage() {
-  return (
-    <div>AllNewsPage</div>
-  )
+	return <UnderConstruction />;
 }
 
-export default AllNewsPage
+export default AllNewsPage;

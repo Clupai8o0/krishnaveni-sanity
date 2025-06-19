@@ -2,6 +2,8 @@ import { getMetadata } from "@/lib/metadata";
 import { PageParams } from "@/lib/types";
 import { PAGE_TYPES } from "@/lib/constants";
 
+import UnderConstruction from "@/components/under-construction";
+
 export async function generateMetadata({
 	params,
 }: {
@@ -13,9 +15,7 @@ export async function generateMetadata({
 }
 
 function AcademicsPage() {
-  return (
-    <div>AcademicsPage</div>
-  )
+	return <UnderConstruction />;
 }
 
-export default AcademicsPage
+export default AcademicsPage;
