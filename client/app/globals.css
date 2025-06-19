@@ -140,4 +140,11 @@
   .btn-none {
     @apply hover:underline hover:text-primary;
   }
+
+  .parent-container {
+    @apply relative px-4 md:px-8 lg:px-12 xl:px-16;
+  }
+  .container {
+    @apply mx-auto relative max-w-7xl;
+  }
 }
