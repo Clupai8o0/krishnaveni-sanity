@@ -1,11 +1,11 @@
 import Image from "next/image";
-import React from "react";
-import Button from "./button";
 import { Paintbrush } from "lucide-react";
+
+import Button from "./button";
 
 const UnderConstruction = () => {
 	return (
-		<div className="parent-container flex items-center justify-center bg-black h-[70vh]">
+		<div className="parent-container flex items-center justify-center bg-black pt-30 pb-20 lg:pt-40 lg:pb-30">
 			<Image
 				src="/bg-desktop-construction.jpg"
 				alt="under-construction"

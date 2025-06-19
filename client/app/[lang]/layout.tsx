@@ -1,8 +1,14 @@
 import { SanityDocument } from "next-sanity";
 
 import { client } from "@/lib/sanity";
-import { CTAProps, NavigationProps } from "@/lib/types";
 import { SUPPORTED_LANGUAGES } from "@/lib/constants";
+import { CTAProps, NavigationProps } from "@/lib/types";
+import {
+	CTA_QUERY,
+	getCTAData,
+	getNavigationData,
+	NAVIGATION_QUERY,
+} from "@/lib/queries";
 
 import CTA from "@/components/cta";
 import Navbar from "@/components/navbar";
@@ -22,59 +28,17 @@ export default async function RootLayout({
 }) {
 	const { lang } = await params;
 
-	const navigation = await client.fetch<SanityDocument>(
-		`*[_type == "navigation" && language == $lang][0]{
-      "navLinks": navLinks[]{
-        "label": label,
-        "link": link->{
-          "slug": slug.current
-        }
-      },
-      "cta": cta{
-        "label": label,
-        "link": link->{
-          "slug": slug.current
-        }
-      }
-    }`,
-		{ lang }
-	);
-
-	const cta = await client.fetch<SanityDocument>(
-		`*[_type == "cta" && language == $lang][0]{
-			"title": title,
-			"description": description,
-			"ctaBtns": ctaBtns.buttons[]{
-				label,
-				style,
-				"internalPage": internalLink->{
-					"slug": slug.current
-				},
-				externalLink
-			},
-			"imageUrl": images{
-				"desktop": desktop.asset->url,
-				"mobile": mobile.asset->url
-			}
-		}`,
-		{ lang }
-	);
-	console.log(cta);
+	const navigation = await getNavigationData(lang);
+	const cta = await getCTAData(lang);
 
 	return (
 		<html lang={lang}>
 			<body>
 				<LanguageBanner />
-				<Navbar
-					navigation={navigation as unknown as NavigationProps}
-					lang={lang}
-				/>
+				<Navbar navigation={navigation} lang={lang} />
 				{children}
-				<CTA cta={cta as unknown as CTAProps} />
-				<Footer
-					navigation={navigation as unknown as NavigationProps}
-					lang={lang}
-				/>
+				<CTA cta={cta} />
+				<Footer navigation={navigation} lang={lang} />
 			</body>
 		</html>
 	);
