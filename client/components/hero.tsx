@@ -1,3 +1,4 @@
+import { HeroSectionProps } from "@/lib/types";
 import { generateId } from "@/lib/utils";
 import { Image } from "next-sanity/image";
 import Link from "next/link";
@@ -5,31 +6,13 @@ import React from "react";
 
 //todo: JSON-LD
 
-interface Props {
-	title: string;
-	subtitle: string;
-	imageUrl: {
-		desktop: string;
-		mobile: string;
-	}
-	description: string;
-	ctaButtons: {
-		style: "primary" | "secondary" | "outline";
-		label: string;
-		internalPage?: {
-			slug: string;
-		};
-		externalLink?: string;
-	}[];
-}
-
 const Hero = ({
 	title,
 	subtitle,
 	imageUrl,
 	description,
-	ctaButtons,
-}: Props) => {
+	ctaBtns,
+}: HeroSectionProps) => {
 	return (
 		<section
 			id="hero"
@@ -43,7 +26,7 @@ const Hero = ({
 					{subtitle}
 				</h2>
 				<div className="flex flex-col md:flex-row gap-2">
-					{ctaButtons.map((btn) => {
+					{ctaBtns.map((btn) => {
 						return (
 							<Link
 								key={generateId()}

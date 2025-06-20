@@ -1,3 +1,4 @@
+import { IconName } from 'lucide-react/dynamic';
 import { SectionType } from './constants';
 
 export interface NavigationProps {
@@ -19,24 +20,14 @@ export interface NavigationProps {
 export interface CTAProps {
   title: string;
   description: string;
-  ctaBtns: {
-    label: string;
-    style: "primary" | "secondary" | "outline" | "none";
-    internalPage?: {
-      slug: string;
-    },
-    externalLink?: string;
-  }[]
-  imageUrl: {
-    desktop: string;
-    mobile: string;
-  }
+  ctaBtns: CTAButton[]
+  imageUrl: ImageUrls;
 }
 
 // Common interfaces
 export interface CTAButton {
   label: string;
-  style: "primary" | "secondary" | "outline";
+  style: "primary" | "secondary" | "outline" | "none";
   internalPage?: {
     slug: string;
   };
@@ -56,7 +47,7 @@ export interface HeroSectionProps {
   subtitle: string;
   description: string;
   imageUrl: ImageUrls;
-  ctaButtons: CTAButton[];
+  ctaBtns: CTAButton[];
 }
 
 export interface FeatureCardsProps {
@@ -66,7 +57,7 @@ export interface FeatureCardsProps {
   cards: {
     title: string;
     description: string;
-    icon: string;
+    icon: IconName;
     color: string;
   }[];
 }
@@ -80,9 +71,9 @@ export interface IntroductionProps {
   facts: {
     title: string;
     description: string;
-    icon: string;
+    icon: IconName;
   }[];
-  ctaButtons: CTAButton[];
+  ctaBtns: CTAButton[];
 }
 
 export interface BentoGalleryProps {
@@ -94,7 +85,7 @@ export interface BentoGalleryProps {
     mobileImage: string;
     desktopImage: string;
   }[];
-  ctaButtons: CTAButton[];
+  ctaBtns: CTAButton[];
 }
 
 export interface TestimonialsProps {

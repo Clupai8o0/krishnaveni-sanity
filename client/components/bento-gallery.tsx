@@ -1,25 +1,10 @@
-import { generateId } from "@/lib/utils";
-import { Image } from "next-sanity/image";
 import Link from "next/link";
-import React from "react";
+import { Image } from "next-sanity/image";
 
-interface Props {
-	title: string;
-	imageUrl: {
-		desktopImage: string;
-		mobileImage: string;
-		label: string;
-	}[];
-	ctaButtons: {
-		label: string;
-		style: string;
-		internalPage: {
-			slug: string;
-		};
-	}[];
-}
+import { generateId } from "@/lib/utils";
+import { BentoGalleryProps } from "@/lib/types";
 
-const BentoGallery = ({ title, imageUrl, ctaButtons }: Props) => {
+const BentoGallery = ({ title, imageUrl, ctaBtns }: BentoGalleryProps) => {
 	return (
 		<section className="w-full h-auto overflow-hidden py-20 relative px-4 md:px-8">
 			<div className="w-full max-w-7xl mx-auto h-auto overflow-hidden py-1 relative flex flex-col">
@@ -107,7 +92,7 @@ const BentoGallery = ({ title, imageUrl, ctaButtons }: Props) => {
 					</div>
 				</div>
 				<div className="flex justify-center gap-2 mt-6">
-					{ctaButtons.map((btn) => {
+					{ctaBtns.map((btn) => {
 						return (
 							<Link
 								key={generateId()}

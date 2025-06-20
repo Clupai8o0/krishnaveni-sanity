@@ -1,36 +1,17 @@
-import { generateId } from "@/lib/utils";
-import { DynamicIcon, IconName } from "lucide-react/dynamic";
-import { Image } from "next-sanity/image";
 import Link from "next/link";
+import { DynamicIcon } from "lucide-react/dynamic";
+import { Image } from "next-sanity/image";
 
-interface Fact {
-	_key: string;
-	title: string;
-	description: string;
-	icon: IconName;
-}
-
-interface Props {
-	title: string;
-	imageUrl: string;
-	description: string;
-	facts: Fact[];
-	ctaButtons: {
-		label: string;
-		style: "primary" | "secondary" | "outline";
-		internalPage: {
-			slug: string;
-		};
-	}[];
-}
+import { IntroductionProps } from "@/lib/types";
+import { generateId } from "@/lib/utils";
 
 const AtAGlance = ({
 	title,
 	imageUrl,
 	description,
 	facts,
-	ctaButtons,
-}: Props) => {
+	ctaBtns,
+}: IntroductionProps) => {
 	return (
 		<div className="w-full h-auto overflow-hidden py-10 relative px-4 md:px-8">
 			<div className="max-w-7xl mx-auto relative z-10 text-black flex flex-col lg:flex-row-reverse items-center justify-center gap-10">
@@ -47,7 +28,7 @@ const AtAGlance = ({
 					</p>
 
 					<div className="flex flex-col md:flex-row gap-2">
-						{ctaButtons.map((btn) => {
+						{ctaBtns.map((btn) => {
 							return (
 								<Link
 									key={generateId()}
@@ -65,7 +46,7 @@ const AtAGlance = ({
 			<div className="grid grid-cols-2 lg:grid-cols-4 gap-2 max-w-7xl mx-auto mt-6">
 				{facts.map((fact) => (
 					<div
-						key={fact._key}
+						key={generateId()}
 						className="flex flex-col items-center justify-center gap-2 text-center p-2"
 					>
 						<DynamicIcon name={fact.icon} className="w-8 h-8" />

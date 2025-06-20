@@ -1,18 +1,9 @@
-import React from 'react'
-import HeroVideoDialog from './magicui/hero-video-dialog';
+import { TestimonialsProps } from '@/lib/types';
 import { generateId } from '@/lib/utils';
 
-interface Props {
-  title: string;
-  testimonials: {
-    video: string;
-    thumbnail: string;
-    author: string;
-    authorTitle: string;
-  }[];
-}
+import HeroVideoDialog from './magicui/hero-video-dialog';
 
-function Testimonials({ title, testimonials }: Props) {
+function Testimonials({ title, testimonials }: TestimonialsProps) {
   return (
 		<section className="w-full h-auto overflow-hidden py-10 mb-10 relative px-4 md:px-8">
 			<div className="w-full max-w-7xl mx-auto h-auto overflow-hidden relative flex flex-col">
