@@ -30,6 +30,10 @@ export const ctaBtns = defineType({
               name: "externalLink",
               title: "External Link",
               type: "url",
+              validation: (Rule) =>
+                Rule.uri({
+                  scheme: ["tel", "mailto", "https", "http", "www"],
+                }),
             }),
             defineField({
               name: "style",

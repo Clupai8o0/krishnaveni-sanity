@@ -2,7 +2,8 @@ import { getMetadata } from "@/lib/metadata";
 import { PageParams } from "@/lib/types";
 import { PAGE_TYPES } from "@/lib/constants";
 
-import UnderConstruction from "@/components/under-construction";
+import { SectionRenderer } from "@/components/section-renderer";
+import { getPageData } from "@/lib/queries";
 
 export async function generateMetadata({
 	params,
@@ -14,8 +15,16 @@ export async function generateMetadata({
 	return metadata;
 }
 
-function ContactPage() {
-	return <UnderConstruction />;
+async function ContactPage({ params }: { params: Promise<PageParams> }) {
+	const { lang } = await params;
+
+	const contactPageData = await getPageData(lang, "contact");
+
+	return (
+		<main>
+			<SectionRenderer content={contactPageData.content} />
+		</main>
+	);
 }
 
 export default ContactPage;

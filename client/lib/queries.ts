@@ -1,3 +1,4 @@
+import { PageType } from "./constants";
 import { client } from "./sanity";
 import { CTAProps, HomepageData, NavigationProps } from "./types";
 
@@ -65,11 +66,14 @@ export const HOMEPAGE_QUERY = `
   }
 `;
 
-export const getHomepageData = async (lang: string) => {
+export const getPageData = async (lang: string, pageType: PageType) => {
 	let homepage: HomepageData;
 
 	if (useSanity) {
-		homepage = await client.fetch<HomepageData>(HOMEPAGE_QUERY, { lang });
+		homepage = await client.fetch<HomepageData>(HOMEPAGE_QUERY, {
+			lang,
+			pageType,
+		});
 	} else {
 		homepage = {
 			content: [

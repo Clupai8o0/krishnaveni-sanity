@@ -1,7 +1,7 @@
 import { PageParams } from "@/lib/types";
 import { getMetadata } from "@/lib/metadata";
 import { PAGE_TYPES } from "@/lib/constants";
-import { getHomepageData } from "@/lib/queries";
+import { getPageData } from "@/lib/queries";
 
 import { SectionRenderer } from "@/components/section-renderer";
 
@@ -18,7 +18,7 @@ export async function generateMetadata({
 async function Homepage({ params }: { params: Promise<PageParams> }) {
 	const { lang } = await params;
 
-	const homePage = await getHomepageData(lang);
+	const homePage = await getPageData(lang, PAGE_TYPES.HOME);
 
 	return (
 		<main>
