@@ -148,8 +148,11 @@
     @apply mx-auto relative max-w-7xl;
   }
 
-  .heading {
+  .title {
     @apply font-serif text-4xl md:text-6xl lg:text-7xl text-balance mb-2;
+  }
+  .heading {
+    @apply font-serif text-3xl md:text-5xl text-balance mb-2;
   }
 
   .contact-section {

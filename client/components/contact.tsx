@@ -26,8 +26,8 @@ const Contact = ({
 }: ContactProps) => {
 	return (
 		<section className="parent-container">
-			<div className="container flex flex-col gap-10">
-				<div className="contact-section">
+			<div className="container flex flex-col lg:flex-row-reverse gap-10">
+				<div className="contact-section lg:w-1/2 w-full">
 					<h2 className="heading">School Address</h2>
 					<p className="opacity-80">{address.subtext}</p>
 					<p className="font-bold">{address.address}</p>
@@ -41,7 +41,7 @@ const Contact = ({
 					></iframe>
 				</div>
 
-				<div className="flex flex-col gap-4">
+				<div className="flex flex-col gap-4 md:gap-8 lg:w-1/2 w-full">
 					<div className="contact-section">
 						<h2 className="heading">Contact Information</h2>
 						<p className="opacity-80">
@@ -79,15 +79,15 @@ const Contact = ({
 							an appointment.
 						</p>
 						<p>
-							<span className="font-semibold">Monday to Friday:</span>{" "}
+							<span className="font-bold">Monday to Friday:</span>{" "}
 							{workingHours.monFri}
 						</p>
 						<p>
-							<span className="font-semibold">Saturday:</span>{" "}
+							<span className="font-bold">Saturday:</span>{" "}
 							{workingHours.sat}
 						</p>
 						<p>
-							<span className="font-semibold">Sunday:</span> {workingHours.sun}
+							<span className="font-bold">Sunday:</span> {workingHours.sun}
 						</p>
 					</div>
 
