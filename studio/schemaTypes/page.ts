@@ -27,6 +27,7 @@ export const page = defineType({
         { type: "introduction" },
         { type: "bentoGallery" },
         { type: "testimonials" },
+        { type: "contact" },
       ],
     }),
   ],

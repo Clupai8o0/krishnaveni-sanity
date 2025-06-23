@@ -9,6 +9,7 @@ export const SECTION_TYPES = {
   INTRODUCTION: "introduction",
   BENTO_GALLERY: "bentoGallery",
   TESTIMONIALS: "testimonials",
+  CONTACT: "contact",
 } as const;
 
 // Page Types  

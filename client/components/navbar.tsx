@@ -13,18 +13,10 @@ const Navbar = ({ navigation, lang }: { navigation: NavigationProps, lang: strin
 					<div className="flex items-center md:gap-10 lg:gap-16">
 						<Link href={`/${lang}`}>
 							<Image
-								src="/logo-mobile-dark.svg"
-								alt="Logo"
-								width={40}
-								height={40}
-								className="md:hidden"
-							/>
-							<Image
 								src="/logo-desktop-dark.svg"
 								alt="Logo"
 								width={150}
 								height={20}
-								className="hidden md:block"
 							/>
 						</Link>
 						<div className="hidden md:block">

@@ -44,7 +44,7 @@ export interface HeroSectionProps {
   _key: string;
   _type: "heroSection";
   title: string;
-  subtitle: string;
+  subtitle?: string;
   description: string;
   imageUrl: ImageUrls;
   ctaBtns: CTAButton[];
@@ -100,13 +100,36 @@ export interface TestimonialsProps {
   }[];
 }
 
+export interface ContactProps {
+  _type: "contact";
+  transport: string;
+  workingHours: {
+    monFri: string;
+    sat: string;
+    sun: string;
+  }
+  contact: {
+    email: string;
+    facebook: string;
+    phone: string;
+    subtext: string;
+    whatsapp: string;
+  }
+  address: {
+    address: string;
+    map: string;
+    subtext: string;
+  }
+}
+
 // Union type for all sections
 export type PageSection = 
   | HeroSectionProps 
   | FeatureCardsProps 
   | IntroductionProps 
   | BentoGalleryProps 
-  | TestimonialsProps;
+  | TestimonialsProps
+  | ContactProps;
 
 // Base section interface
 export interface BaseSection {
@@ -122,6 +145,11 @@ export interface HomepageData {
     metaDescription: string;
     metaKeywords?: string;
   };
+}
+
+// Page Data
+export interface PageData {
+  content: PageSection[];
 }
 
 // Page params interface

@@ -20,7 +20,7 @@ const AtAGlance = ({
 				</div>
 
 				<div className="flex flex-col items-center justify-center lg:items-start w-full lg:w-1/2">
-					<h1 className="font-serif text-4xl md:text-6xl lg:text-7xl font-bold text-balance text-center">
+					<h1 className="heading text-center">
 						{title}
 					</h1>
 					<p className="text-base md:text-lg max-w-2xl text-center lg:text-left text-balance leading-tight mt-3 mb-6 opacity-80">

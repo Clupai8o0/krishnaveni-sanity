@@ -78,209 +78,66 @@ export const getPageData = async (lang: string, pageType: PageType) => {
 		homepage = {
 			content: [
 				{
-					_key: "d968bb0441bb",
+					_key: "2dba660d7d23",
 					_type: "heroSection",
 					ctaBtns: [
 						{
-							externalLink: undefined,
-							internalPage: {
-								slug: "/en/admissions",
-							},
-							label: "Apply Now",
+							externalLink: "tel:+919963373679",
+							internalPage: undefined,
+							label: "Call Now",
 							style: "primary",
 						},
 						{
 							externalLink:
 								"https://wa.me/919963373679?text=Hello%20Krishnaveni%20School%2C%20I’d%20like%20to%20book%20a%20school%20tour%20for%20my%20child.",
 							internalPage: undefined,
-							label: "Book a School Tour",
-							style: "none",
+							label: "Visit School",
+							style: "outline",
 						},
 					],
 					description:
-						"Krishnaveni School in Peerzadiguda offers affordable, English-medium education rooted in local values and life skills.",
+						"Visit us at Peerzadiguda, Hyderabad or call now to speak with our admissions team about enrollment for Nursery to Class 8",
 					imageUrl: {
 						desktop:
-							"https://cdn.sanity.io/images/jzbduz09/production/dfc7e6918a11671c8b0af4dc92ec483993181ebc-1944x1296.jpg",
+							"https://cdn.sanity.io/images/jzbduz09/production/d70d5b265bccd15413025d7373389ca376eba00f-1296x864.jpg",
 						mobile:
-							"https://cdn.sanity.io/images/jzbduz09/production/9d59dc8a0666915240673a85403c8e5618e4ef26-982x1728.jpg",
+							"https://cdn.sanity.io/images/jzbduz09/production/39a90caa7591aff18d2ae6e35cb2ecb1319fc8b9-435x731.jpg",
 					},
-					subtitle:
-						"Empowering Future-Ready Students with Strong Academics & Life Skills",
-					title: "Affordable, Values Driven Education in Peerzadiguda",
+					title: "We’re Here to Help You Get Started",
 				},
 				{
-					_key: "5d9ff123e715",
-					_type: "featureCards",
-					cards: [
-						{
-							color: "2951e0",
-							description:
-								"Telangana SSC-recognized. High teaching standards at an affordable fee.",
-							icon: "indian-rupee",
-							title: "Affordable Excellence",
-						},
-						{
-							color: "7AADD9",
-							description: "Kawiz App, WhatsApp updates, real-time monitoring.",
-							icon: "heart-handshake",
-							title: "Strong Parent–School Connection",
-						},
-						{
-							color: "F92543",
-							description: "25:1 ratio, guidance for slow learners.",
-							icon: "user-round",
-							title: "Personal Attention",
-						},
-						{
-							color: "25DE32",
-							description:
-								"Activity-based learning, storytelling, digital tools.",
-							icon: "shrub",
-							title: "Values + Modern Methods",
-						},
-					],
-					title: "Why Choose Krishnaveni?",
-				},
-				{
-					_key: "86608f601875",
-					_type: "introduction",
-					ctaBtns: [
-						{
-							internalPage: {
-								slug: "/en/about",
-							},
-							label: "Learn More",
-							style: "primary",
-						},
-						{
-							internalPage: {
-								slug: "/en/contact",
-							},
-							label: "Contact Us",
-							style: "none",
-						},
-					],
-					description:
-						"Krishnaveni School is a trusted choice among Peerzadiguda education institutions, offering affordable, values-based learning for children from Nursery to Class 8. With a strong focus on both academics and life skills, our school blends modern teaching methods with local cultural roots to create a well-rounded educational experience for every child.",
-					facts: [
-						{
-							description: "Nursery to Class 8 (Class 10 coming soon)",
-							icon: "graduation-cap",
-							title: "Grades Offered",
-						},
-						{
-							description: "Telangana SSC / CBSE ",
-							icon: "school",
-							title: "Board Affiliation",
-						},
-						{
-							description: "Peerzadiguda – serving Uppal, Boduppal, Medipally",
-							icon: "map-pin",
-							title: "Location",
-						},
-						{
-							description:
-								"English (Primary), Telugu & Hindi (2nd/3rd languages)",
-							icon: "languages",
-							title: "Medium of Instruction",
-						},
-					],
-					imageUrl:
-						"https://cdn.sanity.io/images/jzbduz09/production/ff8fe8440d1863a65f913bd775bd34a88dd8de21-1296x864.png",
-					title: "At a Glance",
-				},
-				{
-					_key: "22761bedc0a8",
-					_type: "bentoGallery",
-					ctaBtns: [
-						{
-							internalPage: {
-								slug: "/en/campus-life",
-							},
-							label: "View More",
-							style: "primary",
-						},
-					],
-					imageUrl: [
-						{
-							desktopImage:
-								"https://cdn.sanity.io/images/jzbduz09/production/9e7b329421e0056883e25f3eaecb17cbfd093717-684x456.jpg",
-							label: "Our Events",
-							mobileImage:
-								"https://cdn.sanity.io/images/jzbduz09/production/9e7b329421e0056883e25f3eaecb17cbfd093717-684x456.jpg",
-						},
-						{
-							desktopImage:
-								"https://cdn.sanity.io/images/jzbduz09/production/a5c450f591ab829be0b1937ce50230720f9883d8-1134x1911.jpg",
-							label: "Our Transport Facilities",
-							mobileImage:
-								"https://cdn.sanity.io/images/jzbduz09/production/92a0997c93b19d7be075711ef2a1a94e8d9dcd65-567x956.jpg",
-						},
-						{
-							desktopImage:
-								"https://cdn.sanity.io/images/jzbduz09/production/1ddc427bf3123be354607e1d93a2b4d2015c0aca-1680x1120.jpg",
-							label: "Our Activities",
-							mobileImage:
-								"https://cdn.sanity.io/images/jzbduz09/production/2a00171dc41291d453add674d2eee3cebd5c3b10-461x836.jpg",
-						},
-						{
-							desktopImage:
-								"https://cdn.sanity.io/images/jzbduz09/production/61b8eb8ce04daa82e80d19752ccdac4b5cdb89bf-840x560.jpg",
-							label: "Our Classrooms",
-							mobileImage:
-								"https://cdn.sanity.io/images/jzbduz09/production/61b8eb8ce04daa82e80d19752ccdac4b5cdb89bf-840x560.jpg",
-						},
-					],
-					title: "Explore Our Campus Life",
-				},
-				{
-					_key: "02621ce4e321",
-					_type: "testimonials",
-					testimonials: [
-						{
-							author: "Sharon Pappala",
-							authorTitle: "Student",
-							thumbnail:
-								"https://cdn.sanity.io/images/jzbduz09/production/2e40a5098d5c8b1f0ff5acee705601de6867a416-609x874.png",
-							video:
-								"https://cdn.sanity.io/files/jzbduz09/production/aa81364686076dd09d45c3151c46a3818cab4990.mp4",
-						},
-						{
-							author: "Abinya",
-							authorTitle: "Student",
-							thumbnail:
-								"https://cdn.sanity.io/images/jzbduz09/production/49cfc84f46533bf877ff007f22932a7a90ca86fd-607x674.png",
-							video:
-								"https://cdn.sanity.io/files/jzbduz09/production/cbf44912408097afb82cd744a5a7e6838ebc7108.mp4",
-						},
-						{
-							author: "Priya Jha",
-							authorTitle: "Teacher",
-							thumbnail:
-								"https://cdn.sanity.io/images/jzbduz09/production/3e2b987b15cd1edfd47be527997a6ffc47e71e4f-604x688.png",
-							video:
-								"https://cdn.sanity.io/files/jzbduz09/production/a159e0164e8bcabedafd589b7a8dd95c05f9aca5.mp4",
-						},
-						{
-							author: "Yamuna",
-							authorTitle: "Parent",
-							thumbnail:
-								"https://cdn.sanity.io/images/jzbduz09/production/890f7ff4aa2e0deafe63cf6387d6f5bfecba3fa8-607x761.png",
-							video:
-								"https://cdn.sanity.io/files/jzbduz09/production/195a82cb28c8e3cb392a69d412d52c121df05f10.mp4",
-						},
-					],
-					title: "Why Choose Us?",
+					_type: "contact",
+					address: {
+						address:
+							"Krishnaveni School Peerzadiguda Main Road Hyderabad – 500098 Telangana, India",
+						map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50260804.070813!2d103.3194165631587!3d3.006131546229591!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9efcda041387%3A0xf6d6e640790d1d31!2sKrishnaveni%20School!5e0!3m2!1sen!2sau!4v1750594531558!5m2!1sen!2sau",
+						subtext: "Located minutes from Uppal and Boduppal",
+					},
+					contact: {
+						email: "ktspeerzadiguda97@gmail.com",
+						facebook: "https://www.facebook.com/krishnaveni.peerzadiguda.7",
+						phone: "+919963373679",
+						subtext:
+							"Call us at the number above or use the form below to schedule a school tour or admission consultation. Let us know how we can help. We’ll get back to you shortly.",
+						whatsapp:
+							"https://wa.me/919963373679?text=Hello%20Krishnaveni%20School%2C%20I%E2%80%99d%20like%20to%20book%20a%20school%20tour%20for%20my%20child.",
+					},
+					transport:
+						"We offer transportation services to nearby areas including Uppal, Boduppal, and Medipally. >  >  > Ask about routes and pick-up points during your call or visit. >",
+					workingHours: {
+						monFri: "8:30AM — 3:00PM",
+						sat: "8:30AM — 12:30PM",
+						sun: "Closed",
+					},
 				},
 			],
 			seo: {
 				metaDescription:
-					"Krishnaveni School offers affordable, values-based education in Peerzadiguda. Recognized by Telangana SSC Board. Small class sizes, activity-based learning, and strong parent communication.",
+					"Get in touch with Krishnaveni School in Peerzadiguda. Call for school admissions, schedule a visit, or ask about transport. Serving families from Uppal to Medipally.",
 				metaKeywords:
-					"- affordable English medium school in Peerzadiguda - best school near Uppal or Boduppal - values-based school in Hyderabad - Telangana SSC school admissions - activity-based learning school",
+					"- school contact Peerzadiguda Hyderabad - call for school admissions Telangana - visit Krishnaveni School location - school with transport in Hyderabad",
 				metaTitle:
-					"Affordable English Medium School in Peerzadiguda – Krishnaveni School",
+					"Contact Krishnaveni School – Peerzadiguda, Hyderabad | Call for Admissions",
 			},
 		};
 	}

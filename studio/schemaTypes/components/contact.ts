@@ -45,7 +45,7 @@ export const contact = defineType({
         defineField({
           name: "phone",
           title: "Phone",
-          type: "phone",
+          type: "string",
         }),
         defineField({
           name: "whatsapp",
@@ -56,11 +56,6 @@ export const contact = defineType({
           name: "facebook",
           title: "Facebook",
           type: "url",
-        }),
-        defineField({
-          name: "subtext",
-          title: "Subtext",
-          type: "string",
         }),
       ],
     }),
@@ -86,6 +81,10 @@ export const contact = defineType({
         }),
       ],
     }),
-    
+    defineField({
+      name: "transport",
+      title: "Transport",
+      type: "string"
+    })
   ],
 });

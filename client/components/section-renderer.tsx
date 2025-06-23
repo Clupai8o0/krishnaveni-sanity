@@ -1,8 +1,10 @@
+import { generateId } from "@/lib/utils";
 import { PageSection } from "@/lib/types";
 
 import Hero from "./hero";
-import FeatureCards from "./feature-cards";
+import Contact from "./contact";
 import AtAGlance from "./at-a-glance";
+import FeatureCards from "./feature-cards";
 import BentoGallery from "./bento-gallery";
 import Testimonials from "./testimonials";
 
@@ -16,15 +18,17 @@ export const SectionRenderer = ({ content }: Props) => {
 			{content.map((section: PageSection) => {
 				switch (section._type) {
 					case "heroSection":
-						return <Hero key={section._key} {...section} />;
+						return <Hero key={generateId()} {...section} />;
 					case "featureCards":
-						return <FeatureCards key={section._key} {...section} />;
+						return <FeatureCards key={generateId()} {...section} />;
 					case "introduction":
-						return <AtAGlance key={section._key} {...section} />;
+						return <AtAGlance key={generateId()} {...section} />;
 					case "bentoGallery":
-						return <BentoGallery key={section._key} {...section} />;
+						return <BentoGallery key={generateId()} {...section} />;
 					case "testimonials":
-						return <Testimonials key={section._key} {...section} />;
+						return <Testimonials key={generateId()} {...section} />;
+					case "contact":
+						return <Contact key={generateId()} {...section} />;
 					default:
 						return null;
 				}

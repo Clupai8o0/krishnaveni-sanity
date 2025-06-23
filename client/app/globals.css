@@ -142,9 +142,17 @@
   }
 
   .parent-container {
-    @apply relative px-4 md:px-8 lg:px-12 xl:px-16;
+    @apply relative px-4 md:px-8 lg:px-12 xl:px-16 py-20;
   }
   .container {
     @apply mx-auto relative max-w-7xl;
+  }
+
+  .heading {
+    @apply font-serif text-4xl md:text-6xl lg:text-7xl text-balance mb-2;
+  }
+
+  .contact-section {
+    @apply flex flex-col gap-2;
   }
 }
