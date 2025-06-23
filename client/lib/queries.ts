@@ -123,7 +123,7 @@ export const getPageData = async (lang: string, pageType: PageType) => {
 							"https://wa.me/919963373679?text=Hello%20Krishnaveni%20School%2C%20I%E2%80%99d%20like%20to%20book%20a%20school%20tour%20for%20my%20child.",
 					},
 					transport:
-						"We offer transportation services to nearby areas including Uppal, Boduppal, and Medipally. >  >  > Ask about routes and pick-up points during your call or visit. >",
+						"We offer transportation services to nearby areas including Uppal, Boduppal, and Medipally. Ask about routes and pick-up points during your call or visit.",
 					workingHours: {
 						monFri: "8:30AM — 3:00PM",
 						sat: "8:30AM — 12:30PM",
