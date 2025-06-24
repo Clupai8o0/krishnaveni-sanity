@@ -15,5 +15,10 @@ export const testType = defineType({
       title: 'Title',
       type: 'string',
     }),
+    defineField({
+      name: 'myTable',
+      title: 'My Table',
+      type: 'table',
+    }),
   ],
 });
