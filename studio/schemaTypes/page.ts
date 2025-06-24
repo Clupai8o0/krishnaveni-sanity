@@ -28,6 +28,7 @@ export const page = defineType({
         { type: "bentoGallery" },
         { type: "testimonials" },
         { type: "contact" },
+        { type: "twoColLayout" },
       ],
     }),
   ],

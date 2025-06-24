@@ -10,6 +10,7 @@ import { bentoGallery } from "./components/bento-gallery";
 import { testimonials } from "./components/testimonials";
 import { cta } from "./cta";
 import { contact } from "./components/contact";
+import { twoColLayout } from "./two-col-layout";
 
 export const schemaTypes = [
   testType,
@@ -24,4 +25,5 @@ export const schemaTypes = [
   testimonials,
   cta,
   contact,
+  twoColLayout,
 ];

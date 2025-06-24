@@ -15,6 +15,16 @@ export const twoColLayout = defineType({
       title: "Reverse",
       type: "boolean",
     }),
-    
-  ]
-})
+    defineField({
+      name: "image",
+      title: "Image",
+      type: "image",
+    }),
+    defineField({
+      name: "content",
+      title: "Content",
+      type: "array",
+      of: [{ type: "block" }],
+    }),
+  ],
+});
