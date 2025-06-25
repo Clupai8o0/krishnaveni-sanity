@@ -21,7 +21,7 @@ async function AdmissionPage({ params }: { params: Promise<PageParams> }) {
 	const admissionPageData = await getPageData(lang, "admission");
 
 	return (
-		<main className="flex flex-col gap-10 lg:gap-20">
+		<main className="flex flex-col gap-10 lg:gap-20 mb-10 lg:mb-20">
 			<SectionRenderer content={admissionPageData.content} />
 		</main>
 	);
