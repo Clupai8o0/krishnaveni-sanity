@@ -12,6 +12,7 @@
     "@gsap/react": "^2.1.2",
     "@next/third-parties": "^15.3.3",
     "@portabletext/react": "^3.2.1",
+    "@radix-ui/react-accordion": "^1.2.11",
     "@radix-ui/react-dialog": "^1.1.14",
     "@sanity/image-url": "^1.1.0",
     "class-variance-authority": "^0.7.1",

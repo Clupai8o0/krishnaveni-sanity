@@ -32,7 +32,7 @@ const Sidebar = ({ navigation }: { navigation: NavigationProps }) => {
 					<div className="px-9 mt-8 flex items-start h-[60vh]">
 						<ul className="flex flex-col gap-6">
 							{navigation.navLinks.map((link) => (
-								<li key={generateId()}>
+								<li key={generateId()} className="list-outside list-none">
 									<Link
 										href={link.link.slug}
 										className="uppercase text-2xl font-light opacity-80 hover:font-semibold hover:opacity-100 transition-all duration-300"

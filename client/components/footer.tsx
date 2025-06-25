@@ -34,7 +34,7 @@ const Footer = ({
 
 					<div className="flex flex-col md:flex-row gap-y-3 xl:gap-y-0 gap-x-4 xl:gap-x-8 text-white mt-6 md:mt-0 list-none">
 						{navigation.navLinks.map((link) => (
-							<li key={generateId()}>
+							<li key={generateId()} className="list-outside list-none">
 								<Link
 									href={link.link.slug}
 									className="text-white font-medium opacity-70 hover:opacity-100 transition-all duration-300"

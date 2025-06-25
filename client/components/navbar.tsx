@@ -22,7 +22,7 @@ const Navbar = ({ navigation, lang }: { navigation: NavigationProps, lang: strin
 						<div className="hidden md:block">
 							<ul className="flex gap-6">
 								{navigation.navLinks.map((link) => (
-									<li key={generateId()}>
+									<li key={generateId()} className="list-outside list-none">
 										<Link
 											href={link.link.slug}
 											className="text-white font-medium opacity-70 hover:opacity-100 transition-all duration-300"
