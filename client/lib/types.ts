@@ -102,13 +102,19 @@ export interface TestimonialsProps {
 
 export interface ContactProps {
   _type: "contact";
-  transport: string;
+  transport: {
+    title: string;
+    subtext: string;
+  }
   workingHours: {
+    title: string;
+    subtext: string;
     monFri: string;
     sat: string;
     sun: string;
   }
   contact: {
+    title: string;
     email: string;
     facebook: string;
     phone: string;
@@ -116,6 +122,7 @@ export interface ContactProps {
     whatsapp: string;
   }
   address: {
+    title: string;
     address: string;
     map: string;
     subtext: string;

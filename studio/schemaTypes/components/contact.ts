@@ -16,6 +16,11 @@ export const contact = defineType({
       type: "object",
       fields: [
         defineField({
+          name: "title",
+          title: "Title",
+          type: "string",
+        }),
+        defineField({
           name: "address",
           title: "Address",
           type: "string",
@@ -37,6 +42,16 @@ export const contact = defineType({
       title: "Contact",
       type: "object",
       fields: [
+        defineField({
+          name: "title",
+          title: "Title",
+          type: "string",
+        }),
+        defineField({
+          name: "subtext",
+          title: "Subtext",
+          type: "string",
+        }),
         defineField({
           name: "email",
           title: "Email",
@@ -65,6 +80,16 @@ export const contact = defineType({
       type: "object",
       fields: [
         defineField({
+          name: "title",
+          title: "Title",
+          type: "string",
+        }),
+        defineField({
+          name: "subtext",
+          title: "Subtext",
+          type: "string",
+        }),
+        defineField({
           name: "monFri",
           title: "Monday-Friday",
           type: "string",
@@ -84,7 +109,19 @@ export const contact = defineType({
     defineField({
       name: "transport",
       title: "Transport",
-      type: "string"
+      type: "object",
+      fields: [
+        defineField({
+          name: "title",
+          title: "Title",
+          type: "string",
+        }),
+        defineField({
+          name: "subtext",
+          title: "Subtext",
+          type: "string",
+        }),
+      ],
     })
   ],
 });

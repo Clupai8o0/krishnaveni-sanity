@@ -28,7 +28,7 @@ const Contact = ({
 		<section className="parent-container">
 			<div className="container flex flex-col lg:flex-row-reverse gap-10">
 				<div className="contact-section lg:w-1/2 w-full">
-					<h2 className="heading">School Address</h2>
+					<h2 className="heading">{address.title}</h2>
 					<p className="opacity-80">{address.subtext}</p>
 					<p className="font-bold">{address.address}</p>
 					<iframe
@@ -43,12 +43,8 @@ const Contact = ({
 
 				<div className="flex flex-col gap-4 md:gap-8 lg:w-1/2 w-full">
 					<div className="contact-section">
-						<h2 className="heading">Contact Information</h2>
-						<p className="opacity-80">
-							Call us at the number above or use the form below to schedule a
-							school tour or admission consultation. Let us know how we can help
-							— we’ll get back to you shortly.
-						</p>
+						<h2 className="heading">{contact.title}</h2>
+						<p className="opacity-80">{contact.subtext}</p>
 
 						<ContactLink
 							href={`mailto:${contact.email}`}
@@ -73,11 +69,8 @@ const Contact = ({
 					</div>
 
 					<div className="contact-section">
-						<h2 className="heading">Working Hours</h2>
-						<p className="opacity-80">
-							Feel free to visit during working hours or call ahead to schedule
-							an appointment.
-						</p>
+						<h2 className="heading">{workingHours.title}</h2>
+						<p className="opacity-80">{workingHours.subtext}</p>
 						<p>
 							<span className="font-bold">Monday to Friday:</span>{" "}
 							{workingHours.monFri}
@@ -92,8 +85,8 @@ const Contact = ({
 					</div>
 
 					<div className="contact-section">
-						<h2 className="heading">Transport</h2>
-						<p className="opacity-80">{transport}</p>
+						<h2 className="heading">{transport.title}</h2>
+						<p className="opacity-80">{transport.subtext}</p>
 					</div>
 				</div>
 			</div>
