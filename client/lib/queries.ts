@@ -61,7 +61,11 @@ export const HOMEPAGE_QUERY = `
           "author": author,
           "authorTitle": authorTitle
         }
-      }
+      },
+			_type == "twoColLayout" => {
+				"imageUrl": image.asset->url,
+
+			}
     }
   }
 `;
@@ -78,66 +82,320 @@ export const getPageData = async (lang: string, pageType: PageType) => {
 		homepage = {
 			content: [
 				{
-					_key: "2dba660d7d23",
+					_key: "907529e97004",
 					_type: "heroSection",
-					ctaBtns: [
-						{
-							externalLink: "tel:+919963373679",
-							internalPage: undefined,
-							label: "Call Now",
-							style: "primary",
-						},
-						{
-							externalLink:
-								"https://wa.me/919963373679?text=Hello%20Krishnaveni%20School%2C%20I’d%20like%20to%20book%20a%20school%20tour%20for%20my%20child.",
-							internalPage: undefined,
-							label: "Visit School",
-							style: "outline",
-						},
-					],
+					ctaBtns: undefined	,
 					description:
-						"Visit us at Peerzadiguda, Hyderabad or call now to speak with our admissions team about enrollment for Nursery to Class 8",
+						"Admissions are open for Nursery to Class 8 with expansion to Class 10 underway — enroll early to reserve your seat!",
 					imageUrl: {
 						desktop:
-							"https://cdn.sanity.io/images/jzbduz09/production/d70d5b265bccd15413025d7373389ca376eba00f-1296x864.jpg",
+							"https://cdn.sanity.io/images/jzbduz09/production/c251db31dbbb7ad8868f6c6c4c06fbc9afaa4833-1296x864.jpg",
 						mobile:
-							"https://cdn.sanity.io/images/jzbduz09/production/39a90caa7591aff18d2ae6e35cb2ecb1319fc8b9-435x731.jpg",
+							"https://cdn.sanity.io/images/jzbduz09/production/bc6306a0879e1eabff22bf25f8bec24f053bfce6-428x691.jpg",
 					},
-					title: "We’re Here to Help You Get Started",
+					subtitle:
+						"Looking for a school that blends academic excellence, local values, and affordability?",
+					title: "Why Choose Krishnaveni?",
 				},
 				{
-					_type: "contact",
-					address: {
-						address:
-							"Krishnaveni School Peerzadiguda Main Road Hyderabad – 500098 Telangana, India",
-						map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50260804.070813!2d103.3194165631587!3d3.006131546229591!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9efcda041387%3A0xf6d6e640790d1d31!2sKrishnaveni%20School!5e0!3m2!1sen!2sau!4v1750594531558!5m2!1sen!2sau",
-						subtext: "Located minutes from Uppal and Boduppal",
-					},
-					contact: {
-						email: "ktspeerzadiguda97@gmail.com",
-						facebook: "https://www.facebook.com/krishnaveni.peerzadiguda.7",
-						phone: "+919963373679",
-						subtext:
-							"Call us at the number above or use the form below to schedule a school tour or admission consultation. Let us know how we can help. We’ll get back to you shortly.",
-						whatsapp:
-							"https://wa.me/919963373679?text=Hello%20Krishnaveni%20School%2C%20I%E2%80%99d%20like%20to%20book%20a%20school%20tour%20for%20my%20child.",
-					},
-					transport:
-						"We offer transportation services to nearby areas including Uppal, Boduppal, and Medipally. Ask about routes and pick-up points during your call or visit.",
-					workingHours: {
-						monFri: "8:30AM — 3:00PM",
-						sat: "8:30AM — 12:30PM",
-						sun: "Closed",
-					},
+					_type: "twoColLayout",
+					reverse: false,
+					content: [
+						{
+							_type: "block",
+							children: [
+								{
+									_type: "span",
+									marks: [],
+									text: "Our simple admission process involves a walk-in or phone inquiry, followed by a brief parent–child interaction with the Principal.",
+								},
+							],
+							markDefs: [],
+							style: "normal",
+						},
+						{
+							_type: "block",
+							children: [
+								{
+									_type: "span",
+									marks: ["strong"],
+									text: "Inquiry",
+								},
+								{
+									_type: "span",
+									marks: [],
+									text: " – Walk in or call us",
+								},
+							],
+							level: 1,
+							listItem: "number",
+							markDefs: [],
+							style: "normal",
+						},
+						{
+							_type: "block",
+							children: [
+								{
+									_type: "span",
+									marks: ["strong"],
+									text: "Registration",
+								},
+								{
+									_type: "span",
+									marks: [],
+									text: " – Fill the basic form",
+								},
+							],
+							level: 1,
+							listItem: "number",
+							markDefs: [],
+							style: "normal",
+						},
+						{				
+							_type: "block",
+							children: [
+								{
+									_type: "span",
+									marks: ["strong"],
+									text: "Interaction",
+								},
+								{
+									_type: "span",
+									marks: [],
+									text: " – Meet with Principal or coordinator",
+								},
+							],
+							level: 1,
+							listItem: "number",
+							markDefs: [],
+							style: "normal",
+						},
+						{
+							_key: "90b2b3a2ecda",
+							_type: "block",
+							children: [
+								{
+									_key: "7b80a588cb08",
+									_type: "span",
+									marks: ["strong"],
+									text: "Confirmation",
+								},
+								{
+									_key: "0e9e20babbb0",
+									_type: "span",
+									marks: [],
+									text: " – Submit documents, confirm admission",
+								},
+							],
+							level: 1,
+							listItem: "number",
+							markDefs: [],
+							style: "normal",
+						},
+						{
+							_key: "e02d1552cdf0",
+							_type: "block",
+							children: [
+								{
+									_key: "79329d10d258",
+									_type: "span",
+									marks: ["em"],
+									text: "No entrance test for Nursery to Class 1 – admission is on first-come, first-served basis.",
+								},
+							],
+							markDefs: [],
+							style: "normal",
+						},
+					],
+					imageUrl:
+						"https://cdn.sanity.io/images/jzbduz09/production/2b30fa781fd01af6b8dfe7336e29ac75d31b650f-768x768.png",
+					title: "How to Apply",
+				},
+				{
+					_type: "centerLayout",
+					content: [
+						{
+							_type: "block",
+							children: [
+								{
+									_key: "760e5ae1b405",
+									_type: "span",
+									marks: [],
+									text: "Children aged 2.5 years and above can join Nursery without formal tests.",
+								},
+							],
+							markDefs: [],
+							style: "normal",
+						},
+						{
+							_key: "1b51b3df2fe5",
+							_type: "table",
+							rows: [
+								{
+									_key: "71556776-e993-4ed8-b0ff-0e112b7c7054",
+									_type: "tableRow",
+									cells: ["Grade", "Age Requirement"],
+								},
+								{
+									_key: "62166198-5b9a-44b7-a8c2-0cb7dc7c5c88",
+									_type: "tableRow",
+									cells: ["Nursery", "2.5+ years"],
+								},
+								{
+									_key: "8c2ac581-993e-46cb-b7d7-5d91ebdd148a",
+									_type: "tableRow",
+									cells: ["LKG", "3.5+ years"],
+								},
+								{
+									_key: "4644df65-9fcb-49ce-81d9-6c61c0f50f3a",
+									_type: "tableRow",
+									cells: ["UKG", "4.5+ years"],
+								},
+								{
+									_key: "e7d3c0e2-6fb7-4625-a1d9-8a0ee7f36a00",
+									_type: "tableRow",
+									cells: ["Class 1", "5.5+ years"],
+								},
+							],
+						},
+					],
+					title: "Eligibility by Age",
+				},
+				{
+					_type: "twoColLayout",
+					content: [
+						{
+							_type: "block",
+							children: [
+								{
+									_type: "span",
+									marks: [],
+									text: "Child's Birth Certificate",
+								},
+							],
+							level: 1,
+							listItem: "bullet",
+							markDefs: [],
+							style: "normal",
+						},
+						{
+							_type: "block",
+							children: [
+								{
+									_type: "span",
+									marks: [],
+									text: "Aadhaar Card (Parent & Child)",
+								},
+							],
+							level: 1,
+							listItem: "bullet",
+							markDefs: [],
+							style: "normal",
+						},
+						{
+							_type: "block",
+							children: [
+								{
+									_key: "9e4d4b407541",
+									_type: "span",
+									marks: [],
+									text: "2 Passport Photos (each)",
+								},
+							],
+							level: 1,
+							listItem: "bullet",
+							markDefs: [],
+							style: "normal",
+						},
+						{
+							_key: "bc666694827d",
+							_type: "block",
+							children: [
+								{
+									_key: "a11b9e37293d",
+									_type: "span",
+									marks: [],
+									text: "Transfer Certificate (if applicable)",
+								},
+							],
+							level: 1,
+							listItem: "bullet",
+							markDefs: [],
+							style: "normal",
+						},
+					],
+					imageUrl:
+						"https://cdn.sanity.io/images/jzbduz09/production/21485e47a9637f89dfc596ece31d52da6d279a16-768x768.png",
+					reverse: true,
+					title: "What to Bring?",
+				},
+				{
+					_type: "centerLayout",
+					content: [
+						{
+							_key: "58a68a86029a",
+							_type: "block",
+							children: [
+								{
+									_key: "ada11e758a29",
+									_type: "span",
+									marks: [],
+									text: "We share fee details directly during the campus visit or through the Kawiz App for enrolled parents. We do not publish fee tables online to ensure fairness and protect family privacy",
+								},
+							],
+							markDefs: [],
+							style: "normal",
+						},
+					],
+					title: "Fees & Transparency",
+				},
+				{
+					_type: "centerLayout",
+					content: [
+						{
+							_key: "5d3c34b86cad",
+							_type: "block",
+							children: [
+								{
+									_key: "1f16a4a113dc",
+									_type: "span",
+									marks: [],
+									text: "We’re preparing to offer merit-based waivers to high-performing and low-income students starting next academic cycle.",
+								},
+							],
+							markDefs: [],
+							style: "normal",
+						},
+					],
+					title: "Scholarship Options",
+				},
+				{
+					_type: "faq",
+					faqs: [
+						{
+							answer: "Yes, if seats are available.",
+							question: "Do you accept mid-year admissions?",
+						},
+						{
+							answer:
+								"English, with Telugu and Hindi as second/third languages.",
+							question: "What’s the medium of instruction?",
+						},
+						{
+							answer: "Yes, we run buses to Uppal and Boduppal.",
+							question: "Is transport available?",
+						},
+					],
+					title: "Common Questions",
 				},
 			],
 			seo: {
 				metaDescription:
-					"Get in touch with Krishnaveni School in Peerzadiguda. Call for school admissions, schedule a visit, or ask about transport. Serving families from Uppal to Medipally.",
+					"Learn how to apply to Krishnaveni School in Peerzadiguda. English medium nursery admissions, no entrance test, simple process, and trusted SSC board affiliation.",
 				metaKeywords:
-					"- school contact Peerzadiguda Hyderabad - call for school admissions Telangana - visit Krishnaveni School location - school with transport in Hyderabad",
+					"- how to apply to schools in Peerzadiguda - admission age for nursery in Hyderabad - school admission process Telangana - schools accepting new students in Hyderabad - English medium nursery admissions",
 				metaTitle:
-					"Contact Krishnaveni School – Peerzadiguda, Hyderabad | Call for Admissions",
+					"Admissions – English Medium School in Peerzadiguda | Krishnaveni School",
 			},
 		};
 	}

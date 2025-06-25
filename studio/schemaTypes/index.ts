@@ -11,6 +11,8 @@ import { testimonials } from "./components/testimonials";
 import { cta } from "./cta";
 import { contact } from "./components/contact";
 import { twoColLayout } from "./two-col-layout";
+import { centerLayout } from "./components/centerLayout";
+import { faq } from "./components/faq";
 
 export const schemaTypes = [
   testType,
@@ -26,4 +28,6 @@ export const schemaTypes = [
   cta,
   contact,
   twoColLayout,
+  centerLayout,
+  faq,
 ];

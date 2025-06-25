@@ -19,7 +19,6 @@ async function ContactPage({ params }: { params: Promise<PageParams> }) {
 	const { lang } = await params;
 
 	const contactPageData = await getPageData(lang, "contact");
-	console.log(contactPageData);
 
 	return (
 		<main>

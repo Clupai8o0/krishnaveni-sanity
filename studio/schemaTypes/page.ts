@@ -29,6 +29,8 @@ export const page = defineType({
         { type: "testimonials" },
         { type: "contact" },
         { type: "twoColLayout" },
+        { type: "centerLayout" },
+        { type: "faq" },
       ],
     }),
   ],

@@ -10,6 +10,9 @@ export const SECTION_TYPES = {
   BENTO_GALLERY: "bentoGallery",
   TESTIMONIALS: "testimonials",
   CONTACT: "contact",
+  TWO_COL_LAYOUT: "twoColLayout",
+  CENTER_LAYOUT: "centerLayout",
+  FAQ: "faq",
 } as const;
 
 // Page Types  

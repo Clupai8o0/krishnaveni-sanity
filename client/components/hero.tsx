@@ -3,6 +3,7 @@ import { generateId } from "@/lib/utils";
 import { Image } from "next-sanity/image";
 import Link from "next/link";
 import React from "react";
+import clsx from "clsx";
 
 //todo: JSON-LD
 
@@ -25,8 +26,8 @@ const Hero = ({
 				<h2 className="text-xl md:text-2xl max-w-2xl text-center text-balance md:text-pretty leading-tight mt-3 mb-6 opacity-80">
 					{subtitle}
 				</h2>
-				<div className="flex flex-col md:flex-row gap-2">
-					{ctaBtns.map((btn) => {
+				<div className={clsx("flex flex-col md:flex-row gap-2", !ctaBtns && "hidden")}>
+					{ctaBtns?.map((btn) => {
 						return (
 							<Link
 								key={generateId()}

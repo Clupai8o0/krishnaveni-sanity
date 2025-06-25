@@ -47,7 +47,7 @@ export interface HeroSectionProps {
   subtitle?: string;
   description: string;
   imageUrl: ImageUrls;
-  ctaBtns: CTAButton[];
+  ctaBtns?: CTAButton[];
 }
 
 export interface FeatureCardsProps {
@@ -122,6 +122,29 @@ export interface ContactProps {
   }
 }
 
+export interface TwoColLayoutProps {
+  _type: "twoColLayout";
+  title: string;
+  reverse?: boolean;
+  imageUrl: string;
+  content: any[];
+}
+
+export interface CenterLayoutProps {
+  _type: "centerLayout";
+  title: string;
+  content: any[];
+}
+
+export interface FAQsProps {
+  _type: "faq";
+  title: string;
+  faqs: {
+    question: string;
+    answer: string;
+  }[];
+}
+
 // Union type for all sections
 export type PageSection = 
   | HeroSectionProps 
@@ -129,7 +152,10 @@ export type PageSection =
   | IntroductionProps 
   | BentoGalleryProps 
   | TestimonialsProps
-  | ContactProps;
+  | ContactProps
+  | TwoColLayoutProps
+  | CenterLayoutProps
+  | FAQsProps;
 
 // Base section interface
 export interface BaseSection {

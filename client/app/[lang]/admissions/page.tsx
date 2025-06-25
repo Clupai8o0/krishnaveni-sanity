@@ -1,8 +1,9 @@
 import { getMetadata } from "@/lib/metadata";
 import { PageParams } from "@/lib/types";
 import { PAGE_TYPES } from "@/lib/constants";
+import { getPageData } from "@/lib/queries";
 
-import UnderConstruction from "@/components/under-construction";
+import { SectionRenderer } from "@/components/section-renderer";
 
 export async function generateMetadata({
 	params,
@@ -14,8 +15,16 @@ export async function generateMetadata({
 	return metadata;
 }
 
-function AdmissionPage() {
-	return <UnderConstruction />;
+async function AdmissionPage({ params }: { params: Promise<PageParams> }) {
+	const { lang } = await params;
+
+	const admissionPageData = await getPageData(lang, "admission");
+
+	return (
+		<main className="flex flex-col gap-10">
+			<SectionRenderer content={admissionPageData.content} />
+		</main>
+	);
 }
 
 export default AdmissionPage;
