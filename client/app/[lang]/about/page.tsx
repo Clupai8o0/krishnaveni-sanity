@@ -2,7 +2,8 @@ import { getMetadata } from "@/lib/metadata";
 import { PageParams } from "@/lib/types";
 import { PAGE_TYPES } from "@/lib/constants";
 
-import UnderConstruction from "@/components/under-construction";
+import { SectionRenderer } from "@/components/section-renderer";
+import { getPageData } from "@/lib/queries";
 
 export async function generateMetadata({
 	params,
@@ -14,8 +15,15 @@ export async function generateMetadata({
 	return metadata;
 }
 
-function AboutPage() {
-	return <UnderConstruction />;
+async function AboutPage({ params }: { params: Promise<PageParams> }) {
+	const { lang } = await params;
+	const page = await getPageData(lang, PAGE_TYPES.ABOUT);
+
+	return (
+		<main className="flex flex-col gap-10 lg:gap-20">
+			<SectionRenderer content={page.content} />
+		</main>
+	);
 }
 
 export default AboutPage;

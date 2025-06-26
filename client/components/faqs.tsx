@@ -7,11 +7,11 @@ import {
 	AccordionTrigger,
 } from "@/components/ui/accordion";
 
-const FAQs = ({ faqs }: FAQsProps) => {
+const FAQs = ({ title, faqs }: FAQsProps) => {
 	return (
 		<section className="parent-container">
 			<div className="container max-w-3xl">
-				<h2 className="heading">FAQs</h2>
+				<h2 className="heading">{title}</h2>
 				<Accordion type="single" collapsible className="w-full">
 					{faqs.map((faq) => (
 						<AccordionItem value={generateId()} key={generateId()}>

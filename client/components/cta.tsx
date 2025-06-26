@@ -7,7 +7,7 @@ import clsx from "clsx";
 
 const CTA = ({ cta }: { cta: CTAProps }) => {
 	return (
-		<section className="w-full h-auto overflow-hidden py-40 bg-black relative px-4 md:px-8">
+		<section className="w-full h-auto overflow-hidden py-40 bg-black relative px-4 md:px-8 mt-10 lg:mt-20">
 			<Image
 				src={cta.imageUrl.desktop}
 				alt={cta.title}

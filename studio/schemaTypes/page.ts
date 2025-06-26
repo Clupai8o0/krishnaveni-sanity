@@ -31,6 +31,8 @@ export const page = defineType({
         { type: "twoColLayout" },
         { type: "centerLayout" },
         { type: "faq" },
+        { type: "visionMission" },
+        { type: "uniqueCards" },
       ],
     }),
   ],

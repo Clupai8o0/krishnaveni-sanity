@@ -13,6 +13,8 @@ import { contact } from "./components/contact";
 import { twoColLayout } from "./two-col-layout";
 import { centerLayout } from "./components/centerLayout";
 import { faq } from "./components/faq";
+import { visionMission } from "./components/vision-mission";
+import { uniqueCards } from "./components/unique-cards";
 
 export const schemaTypes = [
   testType,
@@ -30,4 +32,6 @@ export const schemaTypes = [
   twoColLayout,
   centerLayout,
   faq,
+  visionMission,
+  uniqueCards,
 ];

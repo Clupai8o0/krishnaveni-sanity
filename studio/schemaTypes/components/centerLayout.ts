@@ -14,7 +14,11 @@ export const centerLayout = defineType({
       name: "content",
       title: "Content",
       type: "array",
-      of: [{ type: "block" }, { type: "table" }],
+      of: [
+        { type: "block" },
+        { type: "table" },
+        { type: "image" },
+      ],
     }),
   ],
 });

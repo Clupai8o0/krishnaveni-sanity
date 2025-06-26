@@ -21,7 +21,7 @@ async function ContactPage({ params }: { params: Promise<PageParams> }) {
 	const contactPageData = await getPageData(lang, "contact");
 
 	return (
-		<main className="flex flex-col gap-10 lg:gap-20 mb-10 lg:mb-20">
+		<main className="flex flex-col gap-10 lg:gap-20">
 			<SectionRenderer content={contactPageData.content} />
 		</main>
 	);
