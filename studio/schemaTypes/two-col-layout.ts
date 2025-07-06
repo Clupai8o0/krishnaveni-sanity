@@ -34,5 +34,10 @@ export const twoColLayout = defineType({
       type: "array",
       of: [{ type: "block" }],
     }),
+    defineField({
+      name: "ctaBtns",
+      title: "CTA Buttons",
+      type: "ctaBtns"
+    })
   ],
 });

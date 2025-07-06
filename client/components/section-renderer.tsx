@@ -11,6 +11,7 @@ import TwoColLayout from "./two-col-layout";
 import CenterLayout from "./center-layout";
 import FAQs from "./faqs";
 import VisionMission from "./vision-mission";
+import UniqueCards from "./unique-cards";
 
 interface Props {
 	content: PageSection[];
@@ -41,6 +42,8 @@ export const SectionRenderer = ({ content }: Props) => {
 						return <FAQs key={generateId()} {...section} />;
 					case "visionMission":
 						return <VisionMission key={generateId()} {...section} />;
+					case "uniqueCards":
+						return <UniqueCards key={generateId()} {...section} />;
 					default:
 						return null;
 				}
