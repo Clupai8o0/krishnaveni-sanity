@@ -9,6 +9,7 @@ const TwoColLayout = ({
 	title,
 	content,
 	reverse,
+	imageFit,
 }: TwoColLayoutProps) => {
 	return (
 		<section className="parent-container">
@@ -19,7 +20,14 @@ const TwoColLayout = ({
 				)}
 			>
 				<div className="relative h-[400px] w-full overflow-hidden rounded-lg lg:w-1/2">
-					<Image src={imageUrl} alt={title} fill className="object-cover" />
+					<Image
+						src={imageUrl}
+						alt={title}
+						fill
+						className={clsx(
+							imageFit === "contain" && "object-contain" || "object-cover",
+						)}
+					/>
 				</div>
 
 				<div className="flex flex-col gap-4 lg:w-1/2 lg:justify-center">

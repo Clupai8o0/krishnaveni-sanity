@@ -21,6 +21,14 @@ export const twoColLayout = defineType({
       type: "image",
     }),
     defineField({
+      name: "imageFit",
+      title: "Image Fit",
+      type: "string",
+      options: {
+        list: ["cover", "contain"],
+      },
+    }),
+    defineField({
       name: "content",
       title: "Content",
       type: "array",

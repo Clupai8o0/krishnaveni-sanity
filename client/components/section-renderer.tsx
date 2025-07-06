@@ -10,6 +10,7 @@ import Testimonials from "./testimonials";
 import TwoColLayout from "./two-col-layout";
 import CenterLayout from "./center-layout";
 import FAQs from "./faqs";
+import VisionMission from "./vision-mission";
 
 interface Props {
 	content: PageSection[];
@@ -38,6 +39,8 @@ export const SectionRenderer = ({ content }: Props) => {
 						return <CenterLayout key={generateId()} {...section} />;
 					case "faq":
 						return <FAQs key={generateId()} {...section} />;
+					case "visionMission":
+						return <VisionMission key={generateId()} {...section} />;
 					default:
 						return null;
 				}

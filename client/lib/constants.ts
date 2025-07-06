@@ -13,6 +13,7 @@ export const SECTION_TYPES = {
   TWO_COL_LAYOUT: "twoColLayout",
   CENTER_LAYOUT: "centerLayout",
   FAQ: "faq",
+  VISION_MISSION: "visionMission",
 } as const;
 
 // Page Types  

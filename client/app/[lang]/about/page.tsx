@@ -18,6 +18,7 @@ export async function generateMetadata({
 async function AboutPage({ params }: { params: Promise<PageParams> }) {
 	const { lang } = await params;
 	const page = await getPageData(lang, PAGE_TYPES.ABOUT);
+	console.log(page)
 
 	return (
 		<main className="flex flex-col gap-10 lg:gap-20">
