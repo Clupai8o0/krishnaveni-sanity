@@ -95,3 +95,7 @@ Studio ships with `@sanity/eslint-config-studio`; no automated tests are defined
 
 ## License
 - Root `package.json` lists ISC; no standalone `LICENSE` file is included.
+
+- Remove the 3 pages
+- integrate with the socials in gallery page
+- integrate principals and chairmans message pages
