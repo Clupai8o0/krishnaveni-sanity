@@ -14,7 +14,7 @@ export const page = defineType({
       title: "Page Type",
       type: "string",
       options: {
-        list: ["home", "about", "academics", "admission", "campusLife", "contact", "parents"],
+        list: ["home", "about", "academics", "admission", "campusLife", "contact", "parents", "achievements", "facilities"],
       },
     }),
     defineField({

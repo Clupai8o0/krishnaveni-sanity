@@ -1,6 +1,6 @@
 import { PageType } from "./constants";
 import { client } from "./sanity";
-import { CTAProps, HomepageData, NavigationProps } from "./types";
+import { CTAProps, HomepageData, MessagePageData, NavigationProps } from "./types";
 
 const useSanity = process.env.NEXT_PUBLIC_USE_SANITY === "true";
 
@@ -78,6 +78,221 @@ export const getPageData = async (lang: string, pageType: PageType) => {
 			lang,
 			pageType,
 		});
+	} else if (pageType === "achievements") {
+		homepage = {
+			content: [
+				{
+					_key: "achievements-hero",
+					_type: "heroSection",
+					ctaBtns: [],
+					description:
+						"Krishnaveni School is proud of the remarkable achievements of our students and staff.",
+					imageUrl: {
+						desktop:
+							"https://cdn.sanity.io/images/jzbduz09/production/05f745aaf696ed75e192341f84da7c027eb5aa4d-1680x1120.jpg",
+						mobile:
+							"https://cdn.sanity.io/images/jzbduz09/production/960c9f6115c323d593f04ae389bd07ea91770cbf-637x896.jpg",
+					},
+					subtitle: "Our Honours & Recognitions",
+					title: "Achievements",
+				},
+				{
+					_key: "achievements-cards",
+					_type: "featureCards",
+					title: "Our Awards & Recognitions",
+					cards: [
+						{
+							title: "Karate Awards",
+							description:
+								"Our students have excelled in national-level karate competitions, bringing pride to the school.",
+							icon: "medal",
+							color: "#E8B84B",
+						},
+						{
+							title: "Gold Medals",
+							description:
+								"Consistently securing gold medals in academic and sports events at regional and state levels.",
+							icon: "trophy",
+							color: "#F5A623",
+						},
+						{
+							title: "Limca Book of Records",
+							description:
+								"Recognised in the Limca Book of Records for outstanding collective achievements.",
+							icon: "book-open",
+							color: "#4A90D9",
+						},
+						{
+							title: "Eco Clubs",
+							description:
+								"Active participation in environmental initiatives and eco-club activities.",
+							icon: "leaf",
+							color: "#27AE60",
+						},
+						{
+							title: "TATA Certifications",
+							description:
+								"Students and staff have earned certifications under TATA-backed educational programs.",
+							icon: "award",
+							color: "#2951E0",
+						},
+					],
+				},
+			],
+			seo: {
+				metaDescription:
+					"Explore the achievements of Krishnaveni School — karate awards, gold medals, Limca Book of Records recognition, eco clubs, and TATA certifications.",
+				metaKeywords:
+					"Krishnaveni School achievements, karate awards, gold medals, Limca Book of Records, eco clubs, TATA certifications",
+				metaTitle: "Achievements – Krishnaveni School",
+			},
+		};
+	} else if (pageType === "facilities") {
+		homepage = {
+			content: [
+				{
+					_key: "facilities-hero",
+					_type: "heroSection",
+					ctaBtns: [],
+					description:
+						"We provide a rich learning environment with modern infrastructure and diverse academic programs.",
+					imageUrl: {
+						desktop:
+							"https://cdn.sanity.io/images/jzbduz09/production/05f745aaf696ed75e192341f84da7c027eb5aa4d-1680x1120.jpg",
+						mobile:
+							"https://cdn.sanity.io/images/jzbduz09/production/960c9f6115c323d593f04ae389bd07ea91770cbf-637x896.jpg",
+					},
+					subtitle: "Everything Your Child Needs to Thrive",
+					title: "Our Facilities",
+				},
+				{
+					_key: "facilities-infra",
+					_type: "featureCards",
+					title: "Infrastructure",
+					cards: [
+						{
+							title: "Playroom",
+							description:
+								"Dedicated playroom for early learners with age-appropriate activities.",
+							icon: "gamepad-2",
+							color: "#E74C3C",
+						},
+						{
+							title: "Playground",
+							description:
+								"Spacious outdoor playground for physical activity and team sports.",
+							icon: "trees",
+							color: "#27AE60",
+						},
+						{
+							title: "Library",
+							description:
+								"Well-stocked library encouraging a love for reading and research.",
+							icon: "library",
+							color: "#8E44AD",
+						},
+						{
+							title: "Composite Lab",
+							description:
+								"Fully equipped science composite lab for hands-on experiments.",
+							icon: "flask-conical",
+							color: "#2980B9",
+						},
+						{
+							title: "LED Projector & LCD TVs",
+							description:
+								"Smart classrooms with LED projectors and LCD TVs for interactive learning.",
+							icon: "monitor",
+							color: "#2C3E50",
+						},
+						{
+							title: "Activity Room",
+							description:
+								"Dedicated space for arts, crafts, and extracurricular activities.",
+							icon: "palette",
+							color: "#E67E22",
+						},
+						{
+							title: "Computer Lab",
+							description:
+								"Modern computer lab with high-speed internet access for digital learning.",
+							icon: "monitor-check",
+							color: "#16A085",
+						},
+						{
+							title: "Separate Washrooms",
+							description:
+								"Clean, safe, and separate washroom facilities for boys and girls.",
+							icon: "building-2",
+							color: "#7F8C8D",
+						},
+					],
+				},
+				{
+					_key: "facilities-programs",
+					_type: "featureCards",
+					title: "Academic Programs",
+					cards: [
+						{
+							title: "AI-Based Learning",
+							description:
+								"Cutting-edge AI-powered tools integrated into the curriculum.",
+							icon: "cpu",
+							color: "#2951E0",
+						},
+						{
+							title: "Vedic Maths & IIT Foundation",
+							description:
+								"Strong foundation in mathematics through Vedic techniques and IIT prep.",
+							icon: "calculator",
+							color: "#F5A623",
+						},
+						{
+							title: "Abacus",
+							description:
+								"Abacus training to sharpen mental arithmetic and concentration.",
+							icon: "hash",
+							color: "#E8B84B",
+						},
+						{
+							title: "Coding & Robotics",
+							description:
+								"Hands-on coding and robotics classes for future-ready learners.",
+							icon: "bot",
+							color: "#1ABC9C",
+						},
+						{
+							title: "Karate",
+							description:
+								"Structured karate training building discipline, fitness, and confidence.",
+							icon: "shield",
+							color: "#E74C3C",
+						},
+						{
+							title: "Special Classes",
+							description:
+								"Remedial and advanced special classes tailored to individual learning needs.",
+							icon: "graduation-cap",
+							color: "#9B59B6",
+						},
+						{
+							title: "Bus Transport",
+							description:
+								"Safe and reliable bus transport to and from nearby locations.",
+							icon: "bus",
+							color: "#2ECC71",
+						},
+					],
+				},
+			],
+			seo: {
+				metaDescription:
+					"Discover world-class facilities at Krishnaveni School — playroom, playground, library, composite lab, computer lab, AI learning, coding & robotics, and more.",
+				metaKeywords:
+					"Krishnaveni School facilities, computer lab, AI learning, robotics, library, playground, bus transport",
+				metaTitle: "Facilities – Krishnaveni School",
+			},
+		};
 	} else {
 		homepage = {
 			content: [
@@ -258,7 +473,7 @@ export const getPageData = async (lang: string, pageType: PageType) => {
 						{
 							color: "7AADD9",
 							description:
-								"Kawiz App, WhatsApp updates, real-time monitoring, and regular PTMs.",
+								"WhatsApp updates, real-time monitoring, and regular PTMs.",
 							icon: "heart-handshake",
 							title: "Strong Parent–School Connection",
 						},
@@ -335,6 +550,79 @@ export const getPageData = async (lang: string, pageType: PageType) => {
 	return homepage;
 };
 
+// Message page query
+export const MESSAGE_PAGE_QUERY = `
+  *[_type == "messagePage" && language == $lang && pageType == $pageType][0]{
+    name,
+    designation,
+    "imageUrl": image.asset->url,
+    content,
+    ${SEO_FRAGMENT}
+  }
+`;
+
+export const getMessagePageData = async (
+	lang: string,
+	pageType: PageType
+): Promise<MessagePageData> => {
+	if (useSanity) {
+		return await client.fetch<MessagePageData>(MESSAGE_PAGE_QUERY, {
+			lang,
+			pageType,
+		});
+	}
+
+	// Fallback mock data
+	const mockData: Record<string, MessagePageData> = {
+		principalMessage: {
+			name: "V. Kavitha",
+			designation: "Principal",
+			imageUrl:
+				"https://cdn.sanity.io/images/jzbduz09/production/9a0e87f56b6d19dde3f0b6f71dc08c0faeb03bf8-723x690.png",
+			content: [
+				{
+					_key: "1",
+					_type: "block",
+					children: [
+						{
+							_key: "a",
+							_type: "span",
+							marks: [],
+							text: "Every student has a story waiting to unfold—our job is just to give them the pen.",
+						},
+					],
+					markDefs: [],
+					style: "normal",
+				},
+			],
+		},
+		chairmanMessage: {
+			name: "P. V. Rajendra Prasad",
+			designation: "Chairman",
+			imageUrl:
+				"https://cdn.sanity.io/images/jzbduz09/production/2a7605ef91e9e9c33fedb877e7f423dfe9d94eec-780x764.png",
+			content: [
+				{
+					_key: "1",
+					_type: "block",
+					children: [
+						{
+							_key: "a",
+							_type: "span",
+							marks: [],
+							text: "Our job is not to prepare students for something. Our job is to help students prepare themselves for anything.",
+						},
+					],
+					markDefs: [],
+					style: "normal",
+				},
+			],
+		},
+	};
+
+	return mockData[pageType] || mockData.principalMessage;
+};
+
 export const NAVIGATION_QUERY = `
 *[_type == "navigation" && language == $lang][0]{
   title,
@@ -391,6 +679,18 @@ export const getNavigationData = async (lang: string) => {
 					label: "Campus Life",
 					link: {
 						slug: "/en/campus-life",
+					},
+				},
+				{
+					label: "Achievements",
+					link: {
+						slug: "/en/achievements",
+					},
+				},
+				{
+					label: "Facilities",
+					link: {
+						slug: "/en/facilities",
 					},
 				},
 				{

@@ -1,11 +1,24 @@
+"use client";
+
 import Link from "next/link";
 import Image from "next/image";
 import React from "react";
+import { usePathname } from "next/navigation";
 import Sidebar from "./sidebar";
 import { NavigationProps } from "@/lib/types";
 import { generateId } from "@/lib/utils";
 
-const Navbar = ({ navigation, lang }: { navigation: NavigationProps, lang: string }) => {
+const Navbar = ({ navigation, lang }: { navigation: NavigationProps; lang: string }) => {
+	const pathname = usePathname();
+
+	const isActive = (slug: string) => {
+		const langRoot = `/${lang}`;
+		if (slug === langRoot || slug === `${langRoot}/`) {
+			return pathname === langRoot || pathname === `${langRoot}/`;
+		}
+		return pathname.startsWith(slug);
+	};
+
 	return (
 		<div className="relative">
 			<header className="absolute top-0 left-0 w-full flex justify-center">
@@ -20,12 +33,16 @@ const Navbar = ({ navigation, lang }: { navigation: NavigationProps, lang: strin
 							/>
 						</Link>
 						<div className="hidden md:block">
-							<ul className="flex gap-6">
+							<ul className="flex gap-2">
 								{navigation.navLinks.map((link) => (
 									<li key={generateId()} className="list-outside list-none">
 										<Link
 											href={link.link.slug}
-											className="text-white font-medium opacity-70 hover:opacity-100 transition-all duration-300"
+											className={`font-medium px-3 py-1.5 rounded-md transition-all duration-300 ${
+												isActive(link.link.slug)
+													? "bg-white/20 text-white opacity-100"
+													: "text-white opacity-70 hover:opacity-100 hover:bg-white/10"
+											}`}
 										>
 											{link.label}
 										</Link>

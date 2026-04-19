@@ -1,3 +1,5 @@
+"use client";
+
 import { Menu } from "lucide-react";
 import {
 	Sheet,
@@ -9,8 +11,13 @@ import { NavigationProps } from "@/lib/types";
 import Link from "next/link";
 import Image from "next/image";
 import { generateId } from "@/lib/utils";
+import { usePathname } from "next/navigation";
 
 const Sidebar = ({ navigation }: { navigation: NavigationProps }) => {
+	const pathname = usePathname();
+
+	const isActive = (slug: string) => pathname === slug || (slug !== "/" && pathname.startsWith(slug));
+
 	return (
 		<nav className="md:hidden">
 			<Sheet>
@@ -35,7 +42,11 @@ const Sidebar = ({ navigation }: { navigation: NavigationProps }) => {
 								<li key={generateId()} className="list-outside list-none">
 									<Link
 										href={link.link.slug}
-										className="uppercase text-2xl font-light opacity-80 hover:font-semibold hover:opacity-100 transition-all duration-300"
+										className={`uppercase text-2xl font-light transition-all duration-300 ${
+											isActive(link.link.slug)
+												? "font-semibold opacity-100 bg-primary/10 px-2 py-0.5 rounded"
+												: "opacity-80 hover:font-semibold hover:opacity-100"
+										}`}
 									>
 										{link.label}
 									</Link>

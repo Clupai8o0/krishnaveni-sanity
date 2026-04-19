@@ -14,7 +14,7 @@ const FeatureCard = ({ title, description, icon, color }: CardProps) => {
 	return (
 		<div
 			className="px-8 py-12 flex flex-col items-center justify-center gap-2"
-			style={{ backgroundColor: `#${color}` }}
+			style={{ backgroundColor: color.startsWith("#") ? color : `#${color}` }}
 		>
 			<div className="flex items-center justify-center w-10 h-10 rounded-full">
 				<DynamicIcon name={icon} color="white" size={30} />

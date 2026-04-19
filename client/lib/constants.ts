@@ -16,15 +16,19 @@ export const SECTION_TYPES = {
   VISION_MISSION: "visionMission",
 } as const;
 
-// Page Types  
+// Page Types
 export const PAGE_TYPES = {
   HOME: "home",
-  ABOUT: "about", 
+  ABOUT: "about",
   ACADEMICS: "academics",
   ADMISSION: "admission",
   CAMPUS_LIFE: "campusLife",
   CONTACT: "contact",
   PARENTS: "parents",
+  PRINCIPAL_MESSAGE: "principalMessage",
+  CHAIRMAN_MESSAGE: "chairmanMessage",
+  ACHIEVEMENTS: "achievements",
+  FACILITIES: "facilities",
 } as const;
 
 export type SectionType = typeof SECTION_TYPES[keyof typeof SECTION_TYPES];

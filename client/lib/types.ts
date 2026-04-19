@@ -212,6 +212,19 @@ export interface PageData {
 	content: PageSection[];
 }
 
+// Message page data
+export interface MessagePageData {
+	name: string;
+	designation: string;
+	imageUrl: string;
+	content: any[];
+	seo?: {
+		metaTitle: string;
+		metaDescription: string;
+		metaKeywords?: string;
+	};
+}
+
 // Page params interface
 export interface PageParams {
 	lang: string;
