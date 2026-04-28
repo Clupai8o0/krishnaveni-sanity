@@ -2,7 +2,7 @@ import React from "react";
 import { CTAProps } from "@/lib/types";
 import Link from "next/link";
 import { generateId } from "@/lib/utils";
-import { Image } from "next-sanity/image";
+import Image from "next/image";
 import clsx from "clsx";
 
 const CTA = ({ cta }: { cta: CTAProps }) => {

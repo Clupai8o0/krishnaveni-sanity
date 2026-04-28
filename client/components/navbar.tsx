@@ -8,13 +8,12 @@ import Sidebar from "./sidebar";
 import { NavigationProps } from "@/lib/types";
 import { generateId } from "@/lib/utils";
 
-const Navbar = ({ navigation, lang }: { navigation: NavigationProps; lang: string }) => {
+const Navbar = ({ navigation }: { navigation: NavigationProps }) => {
 	const pathname = usePathname();
 
 	const isActive = (slug: string) => {
-		const langRoot = `/${lang}`;
-		if (slug === langRoot || slug === `${langRoot}/`) {
-			return pathname === langRoot || pathname === `${langRoot}/`;
+		if (slug === "/" || slug === "") {
+			return pathname === "/";
 		}
 		return pathname.startsWith(slug);
 	};
@@ -24,7 +23,7 @@ const Navbar = ({ navigation, lang }: { navigation: NavigationProps; lang: strin
 			<header className="absolute top-0 left-0 w-full flex justify-center">
 				<nav className="max-w-7xl z-20 w-full py-8 px-4 md:px-8 lg:px-16 flex justify-between items-center">
 					<div className="flex items-center md:gap-10 lg:gap-16">
-						<Link href={`/${lang}`}>
+						<Link href="/">
 							<Image
 								src="/logo-desktop-dark.svg"
 								alt="Logo"

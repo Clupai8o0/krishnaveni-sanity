@@ -1,7 +1,7 @@
-import { Image } from "next-sanity/image";
+import Image from "next/image";
 import React from "react";
 import { TwoColLayoutProps } from "@/lib/types";
-import { PortableText } from "next-sanity";
+import { PortableText } from "@portabletext/react";
 import clsx from "clsx";
 
 const TwoColLayout = ({

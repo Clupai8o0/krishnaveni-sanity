@@ -1,5 +1,5 @@
 import { CenterLayoutProps } from "@/lib/types";
-import { PortableText } from "next-sanity";
+import { PortableText } from "@portabletext/react";
 import { PortableTable } from "./portable-table";
 
 const CenterLayout = ({ title, content }: CenterLayoutProps) => {

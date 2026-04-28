@@ -1,0 +1,3180 @@
+{
+  "pages": {
+    "home": {
+      "content": [
+        {
+          "_key": "d968bb0441bb",
+          "_type": "heroSection",
+          "ctaBtns": [
+            {
+              "externalLink": null,
+              "internalPage": {
+                "slug": "/en/admissions"
+              },
+              "label": "Apply Now",
+              "style": "primary"
+            },
+            {
+              "externalLink": "https://wa.me/919963373679?text=Hello%20Krishnaveni%20School%2C%20I’d%20like%20to%20book%20a%20school%20tour%20for%20my%20child.",
+              "internalPage": null,
+              "label": "Book a School Tour",
+              "style": "none"
+            }
+          ],
+          "description": "పీర్జాదిగూడలోని కృష్ణవేణి పాఠశాల సరసమైన, స్థానిక విలువలు మరియు జీవన నైపుణ్యాలతో పాతుకుపోయిన ఆంగ్ల-మీడియం విద్యను అందిస్తుంది.",
+          "imageUrl": {
+            "desktop": "https://cdn.sanity.io/images/jzbduz09/production/dfc7e6918a11671c8b0af4dc92ec483993181ebc-1944x1296.jpg",
+            "mobile": "https://cdn.sanity.io/images/jzbduz09/production/9d59dc8a0666915240673a85403c8e5618e4ef26-982x1728.jpg"
+          },
+          "images": {
+            "desktop": {
+              "_type": "image",
+              "asset": {
+                "_ref": "image-dfc7e6918a11671c8b0af4dc92ec483993181ebc-1944x1296-jpg",
+                "_type": "reference"
+              }
+            },
+            "mobile": {
+              "_type": "image",
+              "asset": {
+                "_ref": "image-9d59dc8a0666915240673a85403c8e5618e4ef26-982x1728-jpg",
+                "_type": "reference"
+              }
+            }
+          },
+          "subtitle": "బలమైన విద్యావేత్తలు & లైఫ్ స్కిల్స్‌తో భవిష్యత్తు కోసం సిద్ధంగా ఉన్న విద్యార్థులను శక్తివంతం చేయడం",
+          "title": "పీర్జాదిగూడలో సరసమైన, విలువలతో కూడిన విద్య"
+        },
+        {
+          "_key": "5d9ff123e715",
+          "_type": "featureCards",
+          "cards": [
+            {
+              "color": "2951e0",
+              "description": "తెలంగాణ SSC- గుర్తింపు పొందింది. సరసమైన రుసుముతో ఉన్నత బోధనా ప్రమాణాలు.",
+              "icon": "indian-rupee",
+              "title": "సరసమైన ఎక్సలెన్స్"
+            },
+            {
+              "color": "7AADD9",
+              "description": "Kawiz యాప్, WhatsApp నవీకరణలు, నిజ-సమయ పర్యవేక్షణ.",
+              "icon": "heart-handshake",
+              "title": "బలమైన తల్లిదండ్రులు-పాఠశాల కనెక్షన్"
+            },
+            {
+              "color": "F92543",
+              "description": "25:1 నిష్పత్తి, నెమ్మదిగా నేర్చుకునే వారికి మార్గదర్శకం.",
+              "icon": "user-round",
+              "title": "వ్యక్తిగత శ్రద్ధ"
+            },
+            {
+              "color": "25DE32",
+              "description": "కార్యాచరణ ఆధారిత అభ్యాసం, కథ చెప్పడం, డిజిటల్ సాధనాలు.",
+              "icon": "shrub",
+              "title": "విలువలు + ఆధునిక పద్ధతులు"
+            }
+          ],
+          "title": "కృష్ణవేణిని ఎందుకు ఎంచుకున్నారు?"
+        },
+        {
+          "_key": "86608f601875",
+          "_type": "introduction",
+          "ctaBtns": [
+            {
+              "externalLink": null,
+              "internalPage": {
+                "slug": "/en/about"
+              },
+              "label": "మరింత తెలుసుకోండి",
+              "style": "primary"
+            },
+            {
+              "externalLink": null,
+              "internalPage": {
+                "slug": "/en/contact"
+              },
+              "label": "మమ్మల్ని సంప్రదించండి",
+              "style": "none"
+            }
+          ],
+          "description": "కృష్ణవేణి పాఠశాల పీర్జాదిగూడ విద్యా సంస్థలలో విశ్వసనీయ ఎంపిక, నర్సరీ నుండి 8వ తరగతి వరకు పిల్లలకు సరసమైన, విలువలతో కూడిన అభ్యాసాన్ని అందిస్తోంది. విద్యావేత్తలు మరియు జీవన నైపుణ్యాలు రెండింటిపై బలమైన దృష్టితో, మా పాఠశాల ప్రతి చిన్నారికి చక్కటి విద్యా అనుభవాన్ని సృష్టించేందుకు స్థానిక సాంస్కృతిక మూలాలతో ఆధునిక బోధనా పద్ధతులను మిళితం చేస్తుంది.",
+          "facts": [
+            {
+              "description": "నర్సరీ నుండి 8వ తరగతి వరకు (10వ తరగతి త్వరలో)",
+              "icon": "graduation-cap",
+              "title": "గ్రేడ్‌లు అందించబడ్డాయి"
+            },
+            {
+              "description": "తెలంగాణ SSC / CBSE",
+              "icon": "school",
+              "title": "బోర్డు అనుబంధం"
+            },
+            {
+              "description": "పీర్జాదిగూడ - ఉప్పల్, బోడుప్పల్, మేడిపల్లిలో సేవలందిస్తోంది",
+              "icon": "map-pin",
+              "title": "స్థానం"
+            },
+            {
+              "description": "ఇంగ్లీష్ (ప్రాథమిక), తెలుగు & హిందీ (2వ/3వ భాషలు)",
+              "icon": "languages",
+              "title": "బోధనా మాధ్యమం"
+            }
+          ],
+          "image": {
+            "_type": "image",
+            "asset": {
+              "_ref": "image-ff8fe8440d1863a65f913bd775bd34a88dd8de21-1296x864-png",
+              "_type": "reference"
+            }
+          },
+          "imageUrl": "https://cdn.sanity.io/images/jzbduz09/production/ff8fe8440d1863a65f913bd775bd34a88dd8de21-1296x864.png",
+          "title": "ఒక చూపులో"
+        },
+        {
+          "_key": "22761bedc0a8",
+          "_type": "bentoGallery",
+          "ctaBtns": [
+            {
+              "externalLink": null,
+              "internalPage": {
+                "slug": "/en/campus-life"
+              },
+              "label": "View More",
+              "style": "primary"
+            }
+          ],
+          "imageUrl": [
+            {
+              "desktopImage": "https://cdn.sanity.io/images/jzbduz09/production/9e7b329421e0056883e25f3eaecb17cbfd093717-684x456.jpg",
+              "label": "మా ఈవెంట్స్",
+              "mobileImage": "https://cdn.sanity.io/images/jzbduz09/production/9e7b329421e0056883e25f3eaecb17cbfd093717-684x456.jpg"
+            },
+            {
+              "desktopImage": "https://cdn.sanity.io/images/jzbduz09/production/a5c450f591ab829be0b1937ce50230720f9883d8-1134x1911.jpg",
+              "label": "మా రవాణా సౌకర్యాలు",
+              "mobileImage": "https://cdn.sanity.io/images/jzbduz09/production/92a0997c93b19d7be075711ef2a1a94e8d9dcd65-567x956.jpg"
+            },
+            {
+              "desktopImage": "https://cdn.sanity.io/images/jzbduz09/production/1ddc427bf3123be354607e1d93a2b4d2015c0aca-1680x1120.jpg",
+              "label": "మా కార్యకలాపాలు",
+              "mobileImage": "https://cdn.sanity.io/images/jzbduz09/production/2a00171dc41291d453add674d2eee3cebd5c3b10-461x836.jpg"
+            },
+            {
+              "desktopImage": "https://cdn.sanity.io/images/jzbduz09/production/61b8eb8ce04daa82e80d19752ccdac4b5cdb89bf-840x560.jpg",
+              "label": "మా తరగతి గదులు",
+              "mobileImage": "https://cdn.sanity.io/images/jzbduz09/production/61b8eb8ce04daa82e80d19752ccdac4b5cdb89bf-840x560.jpg"
+            }
+          ],
+          "images": [
+            {
+              "_key": "029bb962f7e5",
+              "desktopImage": {
+                "_type": "image",
+                "asset": {
+                  "_ref": "image-9e7b329421e0056883e25f3eaecb17cbfd093717-684x456-jpg",
+                  "_type": "reference"
+                }
+              },
+              "label": "Our Events",
+              "mobileImage": {
+                "_type": "image",
+                "asset": {
+                  "_ref": "image-9e7b329421e0056883e25f3eaecb17cbfd093717-684x456-jpg",
+                  "_type": "reference"
+                }
+              }
+            },
+            {
+              "_key": "89af02cd8279",
+              "desktopImage": {
+                "_type": "image",
+                "asset": {
+                  "_ref": "image-a5c450f591ab829be0b1937ce50230720f9883d8-1134x1911-jpg",
+                  "_type": "reference"
+                }
+              },
+              "label": "Our Transport Facilities",
+              "mobileImage": {
+                "_type": "image",
+                "asset": {
+                  "_ref": "image-92a0997c93b19d7be075711ef2a1a94e8d9dcd65-567x956-jpg",
+                  "_type": "reference"
+                }
+              }
+            },
+            {
+              "_key": "8eb7ae55efe0",
+              "desktopImage": {
+                "_type": "image",
+                "asset": {
+                  "_ref": "image-1ddc427bf3123be354607e1d93a2b4d2015c0aca-1680x1120-jpg",
+                  "_type": "reference"
+                }
+              },
+              "label": "Our Activities",
+              "mobileImage": {
+                "_type": "image",
+                "asset": {
+                  "_ref": "image-2a00171dc41291d453add674d2eee3cebd5c3b10-461x836-jpg",
+                  "_type": "reference"
+                }
+              }
+            },
+            {
+              "_key": "79bd4e54362d",
+              "desktopImage": {
+                "_type": "image",
+                "asset": {
+                  "_ref": "image-61b8eb8ce04daa82e80d19752ccdac4b5cdb89bf-840x560-jpg",
+                  "_type": "reference"
+                }
+              },
+              "label": "Our Classrooms",
+              "mobileImage": {
+                "_type": "image",
+                "asset": {
+                  "_ref": "image-61b8eb8ce04daa82e80d19752ccdac4b5cdb89bf-840x560-jpg",
+                  "_type": "reference"
+                }
+              }
+            }
+          ],
+          "title": "మా క్యాంపస్ జీవితాన్ని అన్వేషించండి"
+        },
+        {
+          "_key": "02621ce4e321",
+          "_type": "testimonials",
+          "testimonials": [
+            {
+              "author": "Sharon Pappala",
+              "authorTitle": "విద్యార్థి",
+              "thumbnail": "https://cdn.sanity.io/images/jzbduz09/production/2e40a5098d5c8b1f0ff5acee705601de6867a416-609x874.png",
+              "video": "https://cdn.sanity.io/files/jzbduz09/production/aa81364686076dd09d45c3151c46a3818cab4990.mp4"
+            },
+            {
+              "author": "Abinya",
+              "authorTitle": "విద్యార్థి",
+              "thumbnail": "https://cdn.sanity.io/images/jzbduz09/production/49cfc84f46533bf877ff007f22932a7a90ca86fd-607x674.png",
+              "video": "https://cdn.sanity.io/files/jzbduz09/production/cbf44912408097afb82cd744a5a7e6838ebc7108.mp4"
+            },
+            {
+              "author": "Priya Jha",
+              "authorTitle": "టీచర్",
+              "thumbnail": "https://cdn.sanity.io/images/jzbduz09/production/3e2b987b15cd1edfd47be527997a6ffc47e71e4f-604x688.png",
+              "video": "https://cdn.sanity.io/files/jzbduz09/production/a159e0164e8bcabedafd589b7a8dd95c05f9aca5.mp4"
+            },
+            {
+              "author": "Yamuna",
+              "authorTitle": "తల్లిదండ్రులు",
+              "thumbnail": "https://cdn.sanity.io/images/jzbduz09/production/890f7ff4aa2e0deafe63cf6387d6f5bfecba3fa8-607x761.png",
+              "video": "https://cdn.sanity.io/files/jzbduz09/production/195a82cb28c8e3cb392a69d412d52c121df05f10.mp4"
+            }
+          ],
+          "title": "మమ్మల్ని ఎందుకు ఎంచుకోవాలి?"
+        }
+      ],
+      "seo": {
+        "_type": "seo",
+        "metaDescription": "కృష్ణవేణి స్కూల్ పీర్జాదిగూడలో సరసమైన, విలువలతో కూడిన విద్యను అందిస్తుంది. తెలంగాణ SSC బోర్డు ద్వారా గుర్తింపు పొందింది. చిన్న తరగతి పరిమాణాలు, కార్యాచరణ-ఆధారిత అభ్యాసం మరియు బలమైన పేరెంట్ కమ్యూనికేషన్.",
+        "metaKeywords": "- పీర్జాదిగూడలోని సరసమైన ఆంగ్ల మాధ్యమ పాఠశాల - ఉప్పల్ లేదా బోడుప్పల్ సమీపంలోని ఉత్తమ పాఠశాల - హైదరాబాద్‌లోని విలువల ఆధారిత పాఠశాల - తెలంగాణ SSC పాఠశాల ప్రవేశాలు - కార్యాచరణ ఆధారిత అభ్యాస పాఠశాల",
+        "metaTitle": "పీర్జాదిగూడలోని సరసమైన ఇంగ్లీష్ మీడియం స్కూల్ - కృష్ణవేణి స్కూల్"
+      }
+    },
+    "about": {
+      "content": [
+        {
+          "_key": "7256177e525d",
+          "_type": "heroSection",
+          "ctaBtns": [
+            {
+              "externalLink": null,
+              "internalPage": {
+                "slug": "/en/admissions"
+              },
+              "label": "Apply Now",
+              "style": "primary"
+            },
+            {
+              "externalLink": "https://wa.me/919963373679?text=Hello%20Krishnaveni%20School%2C%20I%E2%80%99d%20like%20to%20book%20a%20school%20tour%20for%20my%20child.",
+              "internalPage": null,
+              "label": "Book a School Tour",
+              "style": "none"
+            }
+          ],
+          "description": "2017లో స్థాపించబడిన కృష్ణవేణి స్కూల్ అనేది అన్ని కుటుంబాలకు సరసమైన విద్యపై దృష్టి సారించిన గుర్తింపు పొందిన తెలంగాణ SSC బోర్డ్ స్కూల్.",
+          "imageUrl": {
+            "desktop": "https://cdn.sanity.io/images/jzbduz09/production/05f745aaf696ed75e192341f84da7c027eb5aa4d-1680x1120.jpg",
+            "mobile": "https://cdn.sanity.io/images/jzbduz09/production/960c9f6115c323d593f04ae389bd07ea91770cbf-637x896.jpg"
+          },
+          "images": {
+            "desktop": {
+              "_type": "image",
+              "asset": {
+                "_ref": "image-05f745aaf696ed75e192341f84da7c027eb5aa4d-1680x1120-jpg",
+                "_type": "reference"
+              }
+            },
+            "mobile": {
+              "_type": "image",
+              "asset": {
+                "_ref": "image-960c9f6115c323d593f04ae389bd07ea91770cbf-637x896-jpg",
+                "_type": "reference"
+              }
+            }
+          },
+          "subtitle": "హైదరాబాద్‌లోని విలువలు మరియు విద్యావేత్తల కోసం ఉత్తమ పాఠశాల",
+          "title": "కృష్ణవేణి స్కూల్ గురించి"
+        },
+        {
+          "_key": "30d3aeaf5c87",
+          "_type": "visionMission",
+          "mission": {
+            "content": "అకడమిక్ ఫండమెంటల్స్, లైఫ్ స్కిల్స్ మరియు వ్యక్తిగత విలువలతో పాతుకుపోయిన ఆనందకరమైన, ఆచరణాత్మకమైన మరియు క్రమశిక్షణతో కూడిన అభ్యాస వాతావరణం ద్వారా ప్రతి బిడ్డను శక్తివంతం చేయడం.",
+            "title": "మిషన్"
+          },
+          "title": "మా విజన్ & మిషన్",
+          "vision": {
+            "content": "తక్కువ మరియు మధ్య-ఆదాయ కుటుంబాలకు అనుగుణంగా సరసమైన, విలువలతో నడిచే మరియు నాణ్యమైన విద్యను అందించడం, నమ్మకంగా, బాధ్యతాయుతమైన మరియు భవిష్యత్తుకు సిద్ధంగా ఉన్న విద్యార్థులను పెంపొందించడం.",
+            "title": "విజన్"
+          }
+        },
+        {
+          "_key": "2fcef69f4451",
+          "_type": "twoColLayout",
+          "content": [
+            {
+              "_key": "600e5125749c",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "9bdc6183f80d",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "ప్రతి విద్యార్థికి ఒక కథ విప్పడానికి వేచి ఉంటుంది-మా పని వారికి పెన్ను అందించడం."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "c1b1a287fe2b",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "c831e308f3ab",
+                  "_type": "span",
+                  "marks": [],
+                  "text": ""
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "9a918405bc63",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "53f227762d3b",
+                  "_type": "span",
+                  "marks": [
+                    "em"
+                  ],
+                  "text": "- వి.కవిత (ప్రిన్సిపల్)"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "image": {
+            "_type": "image",
+            "asset": {
+              "_ref": "image-9a0e87f56b6d19dde3f0b6f71dc08c0faeb03bf8-723x690-png",
+              "_type": "reference"
+            }
+          },
+          "imageFit": "contain",
+          "imageUrl": "https://cdn.sanity.io/images/jzbduz09/production/9a0e87f56b6d19dde3f0b6f71dc08c0faeb03bf8-723x690.png",
+          "reverse": false,
+          "title": "మా ప్రిన్సిపాల్ నుండి సందేశం"
+        },
+        {
+          "_key": "c2d4b9a7c641",
+          "_type": "twoColLayout",
+          "content": [
+            {
+              "_key": "d7b08562d3fb",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "3bd80eaaa2b8",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "విద్యార్థులను దేనికైనా సిద్ధం చేయడం మా పని కాదు. విద్యార్థులు దేనికైనా సిద్ధపడటం మా పని."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "3d1a0788aea0",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "e117876db579",
+                  "_type": "span",
+                  "marks": [],
+                  "text": ""
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "8816321b0f99",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "10fb6bfb9257",
+                  "_type": "span",
+                  "marks": [
+                    "em"
+                  ],
+                  "text": "- పి.వి.రాజేంద్రప్రసాద్ (చైర్మన్)"
+                },
+                {
+                  "_key": "ea405294c5fc",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "\n"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "image": {
+            "_type": "image",
+            "asset": {
+              "_ref": "image-2a7605ef91e9e9c33fedb877e7f423dfe9d94eec-780x764-png",
+              "_type": "reference"
+            }
+          },
+          "imageFit": "contain",
+          "imageUrl": "https://cdn.sanity.io/images/jzbduz09/production/2a7605ef91e9e9c33fedb877e7f423dfe9d94eec-780x764.png",
+          "reverse": true,
+          "title": "మా ఛైర్మన్ నుండి సందేశం"
+        },
+        {
+          "_key": "425d9b848744",
+          "_type": "twoColLayout",
+          "content": [
+            {
+              "_key": "5e9de9e0964a",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "1c1c0e68e3a6",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "కృష్ణవేణి స్కూల్, పీర్జాదిగూడ విద్యా సంస్థ, నిబద్ధత కలిగిన విద్యావేత్తలు 2017లో స్థాపించారు. ఈ రోజు, మేము ఉప్పల్, బోడుప్పల్ మరియు వెలుపల ఉన్న విద్యార్థులకు సేవలను అందిస్తున్నాము — నమ్మకమైన అభ్యాసకుల కోసం ఆధునిక బోధనతో స్థానిక విలువలను కలపడం."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "786db91403aa",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "b81fd57edf7f",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "\"విశ్వాసం మరియు సమగ్రత యొక్క భవిష్యత్తు కోసం విద్యార్థులను సిద్ధం చేయడానికి మేము ఆధునిక బోధనతో స్థానిక సాంస్కృతిక విలువలను మిళితం చేస్తాము.\""
+                }
+              ],
+              "markDefs": [],
+              "style": "blockquote"
+            }
+          ],
+          "image": {
+            "_type": "image",
+            "asset": {
+              "_ref": "image-410d1cb28c957b81db5179e93ad93177750a484e-1344x896-jpg",
+              "_type": "reference"
+            }
+          },
+          "imageFit": null,
+          "imageUrl": "https://cdn.sanity.io/images/jzbduz09/production/410d1cb28c957b81db5179e93ad93177750a484e-1344x896.jpg",
+          "reverse": false,
+          "title": "2017 నుండి మా ప్రయాణం"
+        },
+        {
+          "_key": "b5aa9f19f7a9",
+          "_type": "uniqueCards",
+          "cards": [
+            {
+              "color": "2951e0",
+              "description": "తెలంగాణ SSC- గుర్తింపు పొందింది. సరసమైన రుసుముతో ఉన్నత బోధనా ప్రమాణాలు.",
+              "icon": "indian-rupee",
+              "title": "సరసమైన ఎక్సలెన్స్"
+            },
+            {
+              "color": "7AADD9",
+              "description": "Kawiz యాప్, WhatsApp అప్‌డేట్‌లు, నిజ-సమయ పర్యవేక్షణ మరియు సాధారణ PTMలు.",
+              "icon": "heart-handshake",
+              "title": "బలమైన తల్లిదండ్రులు-పాఠశాల కనెక్షన్"
+            },
+            {
+              "color": "F92543",
+              "description": "25:1 నిష్పత్తి, నెమ్మదిగా నేర్చుకునే వారికి మార్గదర్శకం.",
+              "icon": "user-round",
+              "title": "వ్యక్తిగత శ్రద్ధ"
+            },
+            {
+              "color": "25DE32",
+              "description": "కార్యాచరణ ఆధారిత అభ్యాసం, కథ చెప్పడం, డిజిటల్ సాధనాలు.",
+              "icon": "shrub",
+              "title": "విలువలు + ఆధునిక పద్ధతులు"
+            }
+          ],
+          "title": "ఏది మమ్మల్ని వేరు చేస్తుంది"
+        },
+        {
+          "_key": "e6de3881083a",
+          "_type": "centerLayout",
+          "content": [
+            {
+              "_key": "5f16e2e49fe4",
+              "_type": "image",
+              "asset": {
+                "_ref": "image-6d5f38b1c93b4b41dac5200ef398064c325879b5-200x200-png",
+                "_type": "reference"
+              }
+            },
+            {
+              "_key": "f60703465b45",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "ffeb554a8a1f",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "కృష్ణవేణి పాఠశాల తెలంగాణ రాష్ట్ర విద్యా శాఖచే గుర్తించబడింది మరియు తెలంగాణ SSC బోర్డ్ పాఠ్యాంశాలను అనుసరిస్తుంది."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "b0281bef0f58",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "08560fcf6d15",
+                  "_type": "span",
+                  "marks": [
+                    "em"
+                  ],
+                  "text": "మెరుగైన విద్యా ఫలితాల కోసం మేము ప్రస్తుతం CBSE ఆధారిత అభ్యాసాన్ని ఏకీకృతం చేయడానికి సిద్ధమవుతున్నాము."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "మా గుర్తింపు"
+        }
+      ],
+      "seo": {
+        "_type": "seo",
+        "metaDescription": "పీర్జాదిగూడలోని గుర్తింపు పొందిన తెలంగాణ SSC బోర్డ్ స్కూల్ అయిన కృష్ణవేణి స్కూల్ గురించి తెలుసుకోండి, ఇది ఉద్వేగభరితమైన వ్యవస్థాపకులు మరియు విద్యావేత్తల నేతృత్వంలో తక్కువ-ధర, విలువలతో కూడిన విద్యను అందిస్తోంది.",
+        "metaKeywords": "- హైదరాబాద్‌లోని విలువలు మరియు విద్యావేత్తల కోసం ఉత్తమ పాఠశాల - నాణ్యమైన విద్యతో తక్కువ ఖర్చుతో కూడిన పాఠశాల - తెలంగాణ SSC బోర్డు పాఠశాల - పీర్జాదిగూడ విద్యా సంస్థలు",
+        "metaTitle": "కృష్ణవేణి స్కూల్ గురించి – హైదరాబాద్‌లోని విలువలు & విద్యావేత్తల కోసం ఉత్తమ పాఠశాల"
+      }
+    },
+    "academics": {
+      "content": [
+        {
+          "_key": "21cfe6979e71",
+          "_type": "heroSection",
+          "ctaBtns": null,
+          "description": "తెలంగాణ SSC బోర్డు ద్వారా గుర్తించబడిన, మేము ఉప్పల్, బోడుప్పల్ మరియు మేడిపల్లి నుండి కుటుంబాలకు సురక్షితమైన, విలువలతో కూడిన వాతావరణంలో సేవలందిస్తున్నాము. నర్సరీ నుండి 8వ తరగతి వరకు 10వ తరగతికి విస్తరణ జరుగుతుండగా అడ్మిషన్‌లు తెరవబడ్డాయి - మీ సీటును రిజర్వ్ చేసుకోవడానికి ముందుగానే నమోదు చేసుకోండి!",
+          "imageUrl": {
+            "desktop": "https://cdn.sanity.io/images/jzbduz09/production/c251db31dbbb7ad8868f6c6c4c06fbc9afaa4833-1296x864.jpg",
+            "mobile": "https://cdn.sanity.io/images/jzbduz09/production/bc6306a0879e1eabff22bf25f8bec24f053bfce6-428x691.jpg"
+          },
+          "images": {
+            "desktop": {
+              "_type": "image",
+              "asset": {
+                "_ref": "image-c251db31dbbb7ad8868f6c6c4c06fbc9afaa4833-1296x864-jpg",
+                "_type": "reference"
+              }
+            },
+            "mobile": {
+              "_type": "image",
+              "asset": {
+                "_ref": "image-bc6306a0879e1eabff22bf25f8bec24f053bfce6-428x691-jpg",
+                "_type": "reference"
+              }
+            }
+          },
+          "subtitle": "అకడమిక్ ఎక్సలెన్స్, స్థానిక విలువలు మరియు స్థోమతతో కూడిన పాఠశాల కోసం వెతుకుతున్నారా?",
+          "title": "కృష్ణవేణిని ఎందుకు ఎంచుకున్నారు?"
+        },
+        {
+          "_key": "9eeb1bb4e29e",
+          "_type": "twoColLayout",
+          "content": [
+            {
+              "_key": "8f4f83dd903b",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "4f212ff33d10",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "మా సాధారణ అడ్మిషన్ ప్రాసెస్‌లో వాక్-ఇన్ లేదా ఫోన్ ఎంక్వయిరీ ఉంటుంది, ఆ తర్వాత ప్రిన్సిపాల్‌తో క్లుప్త తల్లిదండ్రులు-చైల్డ్ ఇంటరాక్షన్ ఉంటుంది."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "e2c1d4526dc8",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "ea9faacc1030",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "విచారణ"
+                },
+                {
+                  "_key": "1c4bedaf1c2b",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "- లోపలికి వెళ్లండి లేదా మాకు కాల్ చేయండి"
+                }
+              ],
+              "level": 1,
+              "listItem": "number",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "24f402361aa3",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "241e7575c32c",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "నమోదు"
+                },
+                {
+                  "_key": "8b775a5797df",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "- ప్రాథమిక ఫారమ్‌ను పూరించండి"
+                }
+              ],
+              "level": 1,
+              "listItem": "number",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "8e5412b372b3",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "6d20e68485dd",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "పరస్పర చర్య"
+                },
+                {
+                  "_key": "294ba665e308",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "– ప్రిన్సిపాల్ లేదా కోఆర్డినేటర్‌ను కలవండి"
+                }
+              ],
+              "level": 1,
+              "listItem": "number",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "21664a81dde8",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "b277e1186505",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "నిర్ధారణ"
+                },
+                {
+                  "_key": "ec01ca219083",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "- పత్రాలను సమర్పించండి, ప్రవేశాన్ని నిర్ధారించండి"
+                }
+              ],
+              "level": 1,
+              "listItem": "number",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "3dc3b6ad63c8",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "4a3c3bed5398",
+                  "_type": "span",
+                  "marks": [
+                    "em"
+                  ],
+                  "text": "నర్సరీ నుండి 1వ తరగతి వరకు ప్రవేశ పరీక్ష లేదు - ప్రవేశం మొదట వచ్చిన వారికి ముందుగా అందించబడుతుంది."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "image": {
+            "_type": "image",
+            "asset": {
+              "_ref": "image-2b30fa781fd01af6b8dfe7336e29ac75d31b650f-768x768-png",
+              "_type": "reference"
+            }
+          },
+          "imageFit": null,
+          "imageUrl": "https://cdn.sanity.io/images/jzbduz09/production/2b30fa781fd01af6b8dfe7336e29ac75d31b650f-768x768.png",
+          "reverse": null,
+          "title": "ఎలా దరఖాస్తు చేయాలి"
+        }
+      ],
+      "seo": {
+        "_type": "seo",
+        "metaDescription": "తెలంగాణ SSC బోర్డ్ స్కూల్ అయిన కృష్ణవేణి స్కూల్‌లో పాఠ్యాంశాలను అన్వేషించండి, ఇది తక్కువ విద్యార్థి-ఉపాధ్యాయ నిష్పత్తి మరియు జీవిత నైపుణ్యాల విద్యతో కార్యాచరణ-ఆధారిత, వ్యక్తిగతీకరించిన అభ్యాసాన్ని అందిస్తుంది.",
+        "metaKeywords": "- తెలంగాణలోని ఆంగ్ల మాధ్యమం SSC పాఠశాల - హైదరాబాద్‌లోని కార్యాచరణ ఆధారిత బోధనా పాఠశాలలు - మధ్య-ఆదాయ కుటుంబాలకు ఉత్తమ పాఠ్యాంశ పాఠశాలలు - నెమ్మదిగా నేర్చుకునేవారికి వ్యక్తిగతీకరించిన విద్య - తక్కువ విద్యార్థి-ఉపాధ్యాయ నిష్పత్తి పాఠశాల",
+        "metaTitle": "తెలంగాణలోని కృష్ణవేణి స్కూల్ - ఇంగ్లీష్ మీడియం SSC స్కూల్‌లో విద్యావేత్తలు"
+      }
+    },
+    "admission": {
+      "content": [
+        {
+          "_key": "907529e97004",
+          "_type": "heroSection",
+          "ctaBtns": null,
+          "description": "నర్సరీ నుండి 8వ తరగతి వరకు 10వ తరగతికి విస్తరణ జరుగుతుండగా అడ్మిషన్‌లు తెరవబడ్డాయి - మీ సీటును రిజర్వ్ చేసుకోవడానికి ముందుగానే నమోదు చేసుకోండి!",
+          "imageUrl": {
+            "desktop": "https://cdn.sanity.io/images/jzbduz09/production/c251db31dbbb7ad8868f6c6c4c06fbc9afaa4833-1296x864.jpg",
+            "mobile": "https://cdn.sanity.io/images/jzbduz09/production/bc6306a0879e1eabff22bf25f8bec24f053bfce6-428x691.jpg"
+          },
+          "images": {
+            "desktop": {
+              "_type": "image",
+              "asset": {
+                "_ref": "image-c251db31dbbb7ad8868f6c6c4c06fbc9afaa4833-1296x864-jpg",
+                "_type": "reference"
+              }
+            },
+            "mobile": {
+              "_type": "image",
+              "asset": {
+                "_ref": "image-bc6306a0879e1eabff22bf25f8bec24f053bfce6-428x691-jpg",
+                "_type": "reference"
+              }
+            }
+          },
+          "subtitle": "అకడమిక్ ఎక్సలెన్స్, స్థానిక విలువలు మరియు స్థోమతతో కూడిన పాఠశాల కోసం వెతుకుతున్నారా?",
+          "title": "కృష్ణవేణిని ఎందుకు ఎంచుకున్నారు?"
+        },
+        {
+          "_key": "e6d0b8c98312",
+          "_type": "twoColLayout",
+          "content": [
+            {
+              "_key": "6709bc12b291",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "80f5ef514f2e",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "మా సాధారణ అడ్మిషన్ ప్రాసెస్‌లో వాక్-ఇన్ లేదా ఫోన్ విచారణ ఉంటుంది, ఆ తర్వాత ప్రిన్సిపాల్‌తో క్లుప్త తల్లిదండ్రులు-పిల్లల పరస్పర చర్య ఉంటుంది."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "cc5a05af8ace",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "0ccc1f368b58",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "విచారణ"
+                },
+                {
+                  "_key": "36d4d283870e",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": " "
+                },
+                {
+                  "_key": "00bfdad8b5ee",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "- లోపలికి వెళ్లండి లేదా మాకు కాల్ చేయండి"
+                }
+              ],
+              "level": 1,
+              "listItem": "number",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "e677582e46e6",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "e759baaa5156",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "నమోదు - ప్రాథమిక ఫారమ్‌ను పూరించండి"
+                }
+              ],
+              "level": 1,
+              "listItem": "number",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "0cc29ec131e1",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "f975a36ea31e",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "పరస్పర చర్య - ప్రిన్సిపాల్ లేదా కోఆర్డినేటర్‌ను కలవండి"
+                }
+              ],
+              "level": 1,
+              "listItem": "number",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "90b2b3a2ecda",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "7b80a588cb08",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "నిర్ధారణ"
+                },
+                {
+                  "_key": "0e9e20babbb0",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "- పత్రాలను సమర్పించండి, ప్రవేశాన్ని నిర్ధారించండి"
+                }
+              ],
+              "level": 1,
+              "listItem": "number",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "e02d1552cdf0",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "79329d10d258",
+                  "_type": "span",
+                  "marks": [
+                    "em"
+                  ],
+                  "text": "నర్సరీ నుండి 1వ తరగతి వరకు ప్రవేశ పరీక్ష లేదు - ప్రవేశం మొదట వచ్చిన వారికి ముందుగా అందించబడుతుంది."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "image": {
+            "_type": "image",
+            "asset": {
+              "_ref": "image-2b30fa781fd01af6b8dfe7336e29ac75d31b650f-768x768-png",
+              "_type": "reference"
+            }
+          },
+          "imageFit": null,
+          "imageUrl": "https://cdn.sanity.io/images/jzbduz09/production/2b30fa781fd01af6b8dfe7336e29ac75d31b650f-768x768.png",
+          "reverse": false,
+          "title": "ఎలా దరఖాస్తు చేయాలి"
+        },
+        {
+          "_key": "58fd01fbd84b",
+          "_type": "centerLayout",
+          "content": [
+            {
+              "_key": "9ae764bc5f9e",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "760e5ae1b405",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "2.5 సంవత్సరాలు మరియు అంతకంటే ఎక్కువ వయస్సు ఉన్న పిల్లలు అధికారిక పరీక్షలు లేకుండా నర్సరీలో చేరవచ్చు."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "1b51b3df2fe5",
+              "_type": "table",
+              "rows": [
+                {
+                  "_key": "71556776-e993-4ed8-b0ff-0e112b7c7054",
+                  "_type": "tableRow",
+                  "cells": [
+                    "Grade",
+                    "Age Requirement"
+                  ]
+                },
+                {
+                  "_key": "62166198-5b9a-44b7-a8c2-0cb7dc7c5c88",
+                  "_type": "tableRow",
+                  "cells": [
+                    "Nursery",
+                    "2.5+ years"
+                  ]
+                },
+                {
+                  "_key": "8c2ac581-993e-46cb-b7d7-5d91ebdd148a",
+                  "_type": "tableRow",
+                  "cells": [
+                    "LKG",
+                    "3.5+ years"
+                  ]
+                },
+                {
+                  "_key": "4644df65-9fcb-49ce-81d9-6c61c0f50f3a",
+                  "_type": "tableRow",
+                  "cells": [
+                    "UKG",
+                    "4.5+ years"
+                  ]
+                },
+                {
+                  "_key": "e7d3c0e2-6fb7-4625-a1d9-8a0ee7f36a00",
+                  "_type": "tableRow",
+                  "cells": [
+                    "Class 1",
+                    "5.5+ years"
+                  ]
+                }
+              ]
+            }
+          ],
+          "title": "వయస్సు వారీగా అర్హత"
+        },
+        {
+          "_key": "bad04485f94f",
+          "_type": "twoColLayout",
+          "content": [
+            {
+              "_key": "d1f93204c529",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "e7cb060f06c7",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "పిల్లల జనన ధృవీకరణ పత్రం"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "0d28382a5657",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "b46285bf5b74",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "ఆధార్ కార్డ్ (తల్లిదండ్రులు & పిల్లలు)"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "98697fe87100",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "9e4d4b407541",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "2 పాస్‌పోర్ట్ ఫోటోలు (ఒక్కొక్కటి)"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "bc666694827d",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "a11b9e37293d",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "బదిలీ సర్టిఫికేట్ (వర్తిస్తే)"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "image": {
+            "_type": "image",
+            "asset": {
+              "_ref": "image-21485e47a9637f89dfc596ece31d52da6d279a16-768x768-png",
+              "_type": "reference"
+            }
+          },
+          "imageFit": null,
+          "imageUrl": "https://cdn.sanity.io/images/jzbduz09/production/21485e47a9637f89dfc596ece31d52da6d279a16-768x768.png",
+          "reverse": true,
+          "title": "ఏమి తీసుకురావాలి?"
+        },
+        {
+          "_key": "5d53ec78fe5a",
+          "_type": "centerLayout",
+          "content": [
+            {
+              "_key": "58a68a86029a",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "ada11e758a29",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "మేము క్యాంపస్ సందర్శన సమయంలో లేదా నమోదు చేసుకున్న తల్లిదండ్రుల కోసం Kawiz యాప్ ద్వారా నేరుగా ఫీజు వివరాలను పంచుకుంటాము. మేము న్యాయంగా మరియు కుటుంబ గోప్యతను రక్షించడానికి ఆన్‌లైన్‌లో ఫీజు పట్టికలను ప్రచురించము"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "రుసుములు & పారదర్శకత"
+        },
+        {
+          "_key": "7471ba2a8adc",
+          "_type": "centerLayout",
+          "content": [
+            {
+              "_key": "5d3c34b86cad",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "1f16a4a113dc",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "మేము తదుపరి అకడమిక్ సైకిల్‌ను ప్రారంభించి అధిక-పనితీరు మరియు తక్కువ-ఆదాయ విద్యార్థులకు మెరిట్-ఆధారిత మినహాయింపులను అందించడానికి సిద్ధం చేస్తున్నాము."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "స్కాలర్షిప్ ఎంపికలు"
+        },
+        {
+          "_key": "7cbd6e50739d",
+          "_type": "faq",
+          "faqs": [
+            {
+              "answer": "అవును, సీట్లు అందుబాటులో ఉంటే.",
+              "question": "మీరు మధ్య సంవత్సరం అడ్మిషన్లను అంగీకరిస్తారా?"
+            },
+            {
+              "answer": "ఇంగ్లీష్, తెలుగు మరియు హిందీతో ద్వితీయ/తృతీయ భాషలు.",
+              "question": "బోధనా మాధ్యమం ఏమిటి?"
+            },
+            {
+              "answer": "అవును, మేము ఉప్పల్ మరియు బోడుప్పల్ వరకు బస్సులను నడుపుతున్నాము.",
+              "question": "రవాణా అందుబాటులో ఉందా?"
+            }
+          ],
+          "title": "సాధారణ ప్రశ్నలు"
+        }
+      ],
+      "seo": {
+        "_type": "seo",
+        "metaDescription": "పీర్జాదిగూడలోని కృష్ణవేణి పాఠశాలకు ఎలా దరఖాస్తు చేయాలో తెలుసుకోండి. ఇంగ్లీష్ మీడియం నర్సరీ అడ్మిషన్లు, ప్రవేశ పరీక్ష లేదు, సాధారణ ప్రక్రియ మరియు విశ్వసనీయ SSC బోర్డు అనుబంధం.",
+        "metaKeywords": "- పీర్జాదిగూడలోని పాఠశాలలకు ఎలా దరఖాస్తు చేయాలి - హైదరాబాద్‌లోని నర్సరీకి ప్రవేశ వయస్సు - పాఠశాల ప్రవేశ ప్రక్రియ తెలంగాణ - హైదరాబాద్‌లో కొత్త విద్యార్థులను అంగీకరించే పాఠశాలలు - ఇంగ్లీష్ మీడియం నర్సరీ అడ్మిషన్లు",
+        "metaTitle": "అడ్మిషన్లు – పీర్జాదిగూడలోని ఇంగ్లీష్ మీడియం స్కూల్ | కృష్ణవేణి స్కూల్"
+      }
+    },
+    "campusLife": {
+      "content": [],
+      "seo": {
+        "_type": "seo",
+        "metaDescription": "హైదరాబాద్‌లోని పీర్జాదిగూడలో క్రీడలు, కళలు మరియు సహ-పాఠ్య కార్యక్రమాలతో కూడిన సురక్షితమైన, విలువల-ఆధారిత తెలంగాణ SSC పాఠశాల - కృష్ణవేణి స్కూల్‌లో శక్తివంతమైన క్యాంపస్ జీవితాన్ని అన్వేషించండి.",
+        "metaKeywords": "- పీర్జాదిగూడలోని క్రీడలు మరియు కళలతో కూడిన పాఠశాలలు - తెలంగాణ పాఠశాలల్లో సహ పాఠ్య కార్యకలాపాలు - హైదరాబాద్‌లోని సురక్షితమైన మరియు పరిశుభ్రమైన పాఠశాలలు - సాంస్కృతిక మరియు పండుగ వేడుకలతో కూడిన పాఠశాల - పాఠశాలలో డ్రాయింగ్, చేతివ్రాత, నైతిక విద్య",
+        "metaTitle": "కృష్ణవేణి స్కూల్‌లో క్యాంపస్ లైఫ్ – పీర్జాదిగూడలోని సురక్షితమైన, యాక్టివిటీ-రిచ్ స్కూల్"
+      }
+    },
+    "contact": {
+      "content": [
+        {
+          "_key": "2dba660d7d23",
+          "_type": "heroSection",
+          "ctaBtns": [
+            {
+              "externalLink": "tel:+919963373679",
+              "internalPage": null,
+              "label": "Call Now",
+              "style": "primary"
+            },
+            {
+              "externalLink": "https://wa.me/919963373679?text=Hello%20Krishnaveni%20School%2C%20I’d%20like%20to%20book%20a%20school%20tour%20for%20my%20child.",
+              "internalPage": null,
+              "label": "Visit School",
+              "style": "outline"
+            }
+          ],
+          "description": "హైదరాబాద్‌లోని పీర్జాదిగూడ వద్ద మమ్మల్ని సందర్శించండి లేదా నర్సరీ నుండి 8వ తరగతి వరకు నమోదు చేయడం గురించి మా అడ్మిషన్ల బృందంతో మాట్లాడేందుకు ఇప్పుడే కాల్ చేయండి",
+          "imageUrl": {
+            "desktop": "https://cdn.sanity.io/images/jzbduz09/production/d70d5b265bccd15413025d7373389ca376eba00f-1296x864.jpg",
+            "mobile": "https://cdn.sanity.io/images/jzbduz09/production/39a90caa7591aff18d2ae6e35cb2ecb1319fc8b9-435x731.jpg"
+          },
+          "images": {
+            "desktop": {
+              "_type": "image",
+              "asset": {
+                "_ref": "image-d70d5b265bccd15413025d7373389ca376eba00f-1296x864-jpg",
+                "_type": "reference"
+              }
+            },
+            "mobile": {
+              "_type": "image",
+              "asset": {
+                "_ref": "image-39a90caa7591aff18d2ae6e35cb2ecb1319fc8b9-435x731-jpg",
+                "_type": "reference"
+              }
+            }
+          },
+          "subtitle": null,
+          "title": "మీరు ప్రారంభించడానికి సహాయం చేయడానికి మేము ఇక్కడ ఉన్నాము"
+        },
+        {
+          "_key": "bb4b0efa681d",
+          "_type": "contact",
+          "address": {
+            "address": "కృష్ణవేణి స్కూల్ పీర్జాదిగూడ మెయిన్ రోడ్ హైదరాబాద్ - 500098 తెలంగాణ, భారతదేశం",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50260804.070813!2d103.3194165631587!3d3.006131546229591!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9efcda041387%3A0xf6d6e640790d1d31!2sKrishnaveni%20School!5e0!3m2!1sen!2sau!4v1750594531558!5m2!1sen!2sau",
+            "subtext": "ఉప్పల్ మరియు బోడుప్పల్ నుండి కొన్ని నిమిషాలు",
+            "title": "పాఠశాల చిరునామా"
+          },
+          "contact": {
+            "email": "ktspeerzadiguda97@gmail.com",
+            "facebook": "https://www.facebook.com/krishnaveni.peerzadiguda.7",
+            "phone": "+919963373679",
+            "subtext": "ఎగువ నంబర్‌కు మాకు కాల్ చేయండి లేదా పాఠశాల పర్యటన లేదా అడ్మిషన్ కన్సల్టేషన్‌ని షెడ్యూల్ చేయడానికి దిగువ ఫారమ్‌ని ఉపయోగించండి. మేము ఎలా సహాయం చేయవచ్చో మాకు తెలియజేయండి - మేము త్వరలో మిమ్మల్ని సంప్రదిస్తాము.",
+            "title": "సంప్రదింపు సమాచారం",
+            "whatsapp": "https://wa.me/919963373679"
+          },
+          "title": "Contact Us",
+          "transport": {
+            "subtext": "మేము ఉప్పల్, బోడుప్పల్ మరియు మేడిపల్లితో సహా సమీప ప్రాంతాలకు రవాణా సేవలను అందిస్తాము. మీ కాల్ లేదా సందర్శన సమయంలో మార్గాలు మరియు పికప్ పాయింట్ల గురించి అడగండి.",
+            "title": "రవాణా"
+          },
+          "workingHours": {
+            "monFri": "8:30AM - 3:00PM",
+            "sat": "8:30AM - 12:30PM",
+            "subtext": "పని గంటలలో సందర్శించడానికి సంకోచించకండి లేదా అపాయింట్‌మెంట్ షెడ్యూల్ చేయడానికి ముందుగా కాల్ చేయండి.",
+            "sun": "మూసివేయబడింది",
+            "title": "పని గంటలు"
+          }
+        }
+      ],
+      "seo": {
+        "_type": "seo",
+        "metaDescription": "పీర్జాదిగూడలోని కృష్ణవేణి స్కూల్‌ని సంప్రదించండి. పాఠశాల అడ్మిషన్ల కోసం కాల్ చేయండి, సందర్శనను షెడ్యూల్ చేయండి లేదా రవాణా గురించి అడగండి. ఉప్పల్ నుండి మేడిపల్లి వరకు కుటుంబాలకు సేవలందిస్తున్నారు.",
+        "metaKeywords": "- స్కూల్ కాంటాక్ట్ పీర్జాదిగూడ హైదరాబాద్ - స్కూల్ అడ్మిషన్ల కోసం కాల్ తెలంగాణ - కృష్ణవేణి స్కూల్ లొకేషన్‌ను సందర్శించండి - హైదరాబాద్‌లో రవాణా సౌకర్యం ఉన్న పాఠశాల",
+        "metaTitle": "కృష్ణవేణి స్కూల్ – పీర్జాదిగూడ, హైదరాబాద్ | అడ్మిషన్ల కోసం కాల్ చేయండి"
+      }
+    },
+    "parents": {
+      "content": [],
+      "seo": {
+        "_type": "seo",
+        "metaDescription": "కృష్ణవేణి స్కూల్ కవిజ్ యాప్ అప్‌డేట్‌లు, వాట్సాప్ హెచ్చరికలు, హాజరు ట్రాకింగ్ మరియు డైరీ నిర్వహణ వంటి తల్లిదండ్రుల-స్నేహపూర్వక ఫీచర్‌లను అందిస్తుంది — హైదరాబాద్‌లో పని చేసే తల్లిదండ్రులకు ఇది సరైనది.",
+        "metaKeywords": "- తల్లిదండ్రులకు ఉత్తమమైన పాఠశాల కమ్యూనికేషన్ - హైదరాబాద్‌లో హాజరు కోసం యాప్‌లను ఉపయోగించే పాఠశాలలు - తెలంగాణలో పేరెంట్-ఫ్రెండ్లీ పాఠశాలలు పనిచేస్తున్నాయి - WhatsApp మరియు యాప్ అప్‌డేట్‌లతో కూడిన పాఠశాలలు - పాఠశాలల్లో విద్యార్థుల హాజరుకాని హెచ్చరికలు",
+        "metaTitle": "తల్లిదండ్రుల కోసం – హైదరాబాద్‌లోని ఉత్తమ పాఠశాల కమ్యూనికేషన్ & యాప్ అప్‌డేట్‌లు | కృష్ణవేణి స్కూల్"
+      }
+    },
+    "achievements": {
+      "content": [
+        {
+          "_key": "achievements-hero",
+          "_type": "heroSection",
+          "title": "విజయాలు",
+          "subtitle": "మా గౌరవాలు & గుర్తింపులు",
+          "description": "మా విద్యార్థులు మరియు సిబ్బంది అద్భుతమైన విజయాలు సాధించినందుకు కృష్ణవేణి పాఠశాల గర్విస్తోంది.",
+          "imageUrl": {
+            "desktop": "https://cdn.sanity.io/images/jzbduz09/production/05f745aaf696ed75e192341f84da7c027eb5aa4d-1680x1120.jpg",
+            "mobile": "https://cdn.sanity.io/images/jzbduz09/production/960c9f6115c323d593f04ae389bd07ea91770cbf-637x896.jpg"
+          },
+          "ctaBtns": []
+        },
+        {
+          "_key": "achievements-cards",
+          "_type": "featureCards",
+          "title": "మా అవార్డులు & గుర్తింపులు",
+          "cards": [
+            {
+              "title": "కరాటే అవార్డులు",
+              "description": "మా విద్యార్థులు జాతీయ స్థాయి కరాటే పోటీల్లో రాణించి పాఠశాలకు గర్వకారణం.",
+              "icon": "medal",
+              "color": "#E8B84B"
+            },
+            {
+              "title": "బంగారు పతకాలు",
+              "description": "ప్రాంతీయ మరియు రాష్ట్ర స్థాయిలలో అకడమిక్ మరియు స్పోర్ట్స్ ఈవెంట్‌లలో స్థిరంగా బంగారు పతకాలు సాధించడం.",
+              "icon": "trophy",
+              "color": "#F5A623"
+            },
+            {
+              "title": "లిమ్కా బుక్ ఆఫ్ రికార్డ్స్",
+              "description": "అత్యుత్తమ సామూహిక విజయాల కోసం లిమ్కా బుక్ ఆఫ్ రికార్డ్స్‌లో గుర్తింపు పొందింది.",
+              "icon": "book-open",
+              "color": "#4A90D9"
+            },
+            {
+              "title": "ఎకో క్లబ్‌లు",
+              "description": "పర్యావరణ కార్యక్రమాలు మరియు పర్యావరణ-క్లబ్ కార్యకలాపాలలో చురుకుగా పాల్గొనడం.",
+              "icon": "leaf",
+              "color": "#27AE60"
+            },
+            {
+              "title": "TATA ధృవపత్రాలు",
+              "description": "విద్యార్థులు మరియు సిబ్బంది TATA-మద్దతుగల విద్యా కార్యక్రమాల క్రింద ధృవపత్రాలను పొందారు.",
+              "icon": "award",
+              "color": "#2951E0"
+            }
+          ]
+        }
+      ],
+      "seo": {
+        "metaTitle": "విజయాలు - కృష్ణవేణి పాఠశాల",
+        "metaDescription": "కృష్ణవేణి స్కూల్ సాధించిన విజయాలను అన్వేషించండి — కరాటే అవార్డులు, బంగారు పతకాలు, లిమ్కా బుక్ ఆఫ్ రికార్డ్స్ గుర్తింపు, ఎకో క్లబ్‌లు మరియు టాటా సర్టిఫికేషన్‌లు.",
+        "metaKeywords": "కృష్ణవేణి స్కూల్ విజయాలు, కరాటే అవార్డులు, బంగారు పతకాలు, లిమ్కా బుక్ ఆఫ్ రికార్డ్స్, ఎకో క్లబ్‌లు, టాటా సర్టిఫికేషన్‌లు"
+      }
+    },
+    "facilities": {
+      "content": [
+        {
+          "_key": "facilities-hero",
+          "_type": "heroSection",
+          "title": "మా సౌకర్యాలు",
+          "subtitle": "మీ బిడ్డ వృద్ధి చెందడానికి అవసరమైన ప్రతిదీ",
+          "description": "మేము ఆధునిక మౌలిక సదుపాయాలు మరియు విభిన్న విద్యా కార్యక్రమాలతో గొప్ప అభ్యాస వాతావరణాన్ని అందిస్తాము.",
+          "imageUrl": {
+            "desktop": "https://cdn.sanity.io/images/jzbduz09/production/05f745aaf696ed75e192341f84da7c027eb5aa4d-1680x1120.jpg",
+            "mobile": "https://cdn.sanity.io/images/jzbduz09/production/960c9f6115c323d593f04ae389bd07ea91770cbf-637x896.jpg"
+          },
+          "ctaBtns": []
+        },
+        {
+          "_key": "facilities-infra",
+          "_type": "featureCards",
+          "title": "మౌలిక సదుపాయాలు",
+          "cards": [
+            {
+              "title": "ఆటగది",
+              "description": "వయస్సు-తగిన కార్యకలాపాలతో ప్రారంభ అభ్యాసకుల కోసం అంకితమైన ఆట గది.",
+              "icon": "gamepad-2",
+              "color": "#E74C3C"
+            },
+            {
+              "title": "ప్లేగ్రౌండ్",
+              "description": "శారీరక శ్రమ మరియు జట్టు క్రీడల కోసం విశాలమైన బహిరంగ ప్లేగ్రౌండ్.",
+              "icon": "trees",
+              "color": "#27AE60"
+            },
+            {
+              "title": "లైబ్రరీ",
+              "description": "పఠనం మరియు పరిశోధన పట్ల ప్రేమను ప్రోత్సహిస్తూ బాగా నిల్వ ఉన్న లైబ్రరీ.",
+              "icon": "library",
+              "color": "#8E44AD"
+            },
+            {
+              "title": "కాంపోజిట్ ల్యాబ్",
+              "description": "ప్రయోగాల కోసం పూర్తిగా అమర్చిన సైన్స్ కాంపోజిట్ ల్యాబ్.",
+              "icon": "flask-conical",
+              "color": "#2980B9"
+            },
+            {
+              "title": "LED ప్రొజెక్టర్ & LCD టీవీలు",
+              "description": "ఇంటరాక్టివ్ లెర్నింగ్ కోసం LED ప్రొజెక్టర్లు మరియు LCD TVలతో కూడిన స్మార్ట్ క్లాస్‌రూమ్‌లు.",
+              "icon": "monitor",
+              "color": "#2C3E50"
+            },
+            {
+              "title": "కార్యాచరణ గది",
+              "description": "కళలు, చేతిపనులు మరియు పాఠ్యేతర కార్యకలాపాల కోసం ప్రత్యేక స్థలం.",
+              "icon": "palette",
+              "color": "#E67E22"
+            },
+            {
+              "title": "కంప్యూటర్ ల్యాబ్",
+              "description": "డిజిటల్ లెర్నింగ్ కోసం హై-స్పీడ్ ఇంటర్నెట్ యాక్సెస్‌తో ఆధునిక కంప్యూటర్ ల్యాబ్.",
+              "icon": "monitor-check",
+              "color": "#16A085"
+            },
+            {
+              "title": "ప్రత్యేక వాష్‌రూమ్‌లు",
+              "description": "బాలురు మరియు బాలికలకు శుభ్రమైన, సురక్షితమైన మరియు ప్రత్యేక వాష్‌రూమ్ సౌకర్యాలు.",
+              "icon": "building-2",
+              "color": "#7F8C8D"
+            }
+          ]
+        },
+        {
+          "_key": "facilities-programs",
+          "_type": "featureCards",
+          "title": "విద్యా కార్యక్రమాలు",
+          "cards": [
+            {
+              "title": "AI-ఆధారిత అభ్యాసం",
+              "description": "అత్యాధునిక AI-శక్తితో కూడిన సాధనాలు పాఠ్యాంశాల్లో విలీనం చేయబడ్డాయి.",
+              "icon": "cpu",
+              "color": "#2951E0"
+            },
+            {
+              "title": "వేద గణితం & IIT ఫౌండేషన్",
+              "description": "వేద పద్ధతులు మరియు IIT ప్రిపరేషన్ ద్వారా గణితంలో బలమైన పునాది.",
+              "icon": "calculator",
+              "color": "#F5A623"
+            },
+            {
+              "title": "అబాకస్",
+              "description": "మానసిక అంకగణితం మరియు ఏకాగ్రతకు పదును పెట్టడానికి అబాకస్ శిక్షణ.",
+              "icon": "hash",
+              "color": "#E8B84B"
+            },
+            {
+              "title": "కోడింగ్ & రోబోటిక్స్",
+              "description": "భవిష్యత్తులో సిద్ధంగా ఉన్న అభ్యాసకుల కోసం కోడింగ్ మరియు రోబోటిక్స్ తరగతులు.",
+              "icon": "bot",
+              "color": "#1ABC9C"
+            },
+            {
+              "title": "కరాటే",
+              "description": "క్రమశిక్షణ, ఫిట్‌నెస్ మరియు విశ్వాసాన్ని పెంపొందించే నిర్మాణాత్మక కరాటే శిక్షణ.",
+              "icon": "shield",
+              "color": "#E74C3C"
+            },
+            {
+              "title": "ప్రత్యేక తరగతులు",
+              "description": "వ్యక్తిగత అభ్యాస అవసరాలకు అనుగుణంగా నివారణ మరియు అధునాతన ప్రత్యేక తరగతులు.",
+              "icon": "graduation-cap",
+              "color": "#9B59B6"
+            },
+            {
+              "title": "బస్ రవాణా",
+              "description": "సమీపంలోని స్థానాలకు మరియు నుండి సురక్షితమైన మరియు నమ్మదగిన బస్సు రవాణా.",
+              "icon": "bus",
+              "color": "#2ECC71"
+            }
+          ]
+        }
+      ],
+      "seo": {
+        "metaTitle": "సౌకర్యాలు - కృష్ణవేణి స్కూల్",
+        "metaDescription": "కృష్ణవేణి స్కూల్‌లో ప్రపంచ స్థాయి సౌకర్యాలను కనుగొనండి — ప్లే రూమ్, ప్లేగ్రౌండ్, లైబ్రరీ, కాంపోజిట్ ల్యాబ్, కంప్యూటర్ ల్యాబ్, AI లెర్నింగ్, కోడింగ్ & రోబోటిక్స్ మరియు మరిన్ని.",
+        "metaKeywords": "కృష్ణవేణి స్కూల్ సౌకర్యాలు, కంప్యూటర్ ల్యాబ్, AI లెర్నింగ్, రోబోటిక్స్, లైబ్రరీ, ప్లేగ్రౌండ్, బస్సు రవాణా"
+      }
+    }
+  },
+  "messagePages": {
+    "principalMessage": {
+      "name": "V. Kavitha",
+      "designation": "ప్రిన్సిపాల్",
+      "imageUrl": "https://cdn.sanity.io/images/jzbduz09/production/9a0e87f56b6d19dde3f0b6f71dc08c0faeb03bf8-723x690.png",
+      "content": [
+        {
+          "_key": "624437dfd952",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-9a0e87f56b6d19dde3f0b6f71dc08c0faeb03bf8-723x690-png",
+            "_type": "reference"
+          }
+        },
+        {
+          "_key": "95115c6e5795",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "edc91ce7b8c2",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "నా ప్రియమైన విద్యార్థులు, తల్లిదండ్రులు మరియు శ్రేయోభిలాషులు,"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "3116cb004ca4",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "14ef671a50b6",
+              "_type": "span",
+              "marks": [],
+              "text": "అపారమైన గర్వంతో మరియు హృదయపూర్వక ఆనందంతో నేను మిమ్మల్ని స్వాగతిస్తున్నాను"
+            },
+            {
+              "_key": "29e96b809e7d",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "కృష్ణవేణి స్కూల్ ఆఫ్ పీర్జాదిగూడ"
+            },
+            {
+              "_key": "ef84e1405980",
+              "_type": "span",
+              "marks": [],
+              "text": "a – కేవలం నేర్చుకునే సంస్థ మాత్రమే కాదు, ఇంటికి దూరంగా ఉండే ఇల్లు, ఇక్కడ కలలు ఎగిరిపోతాయి, ప్రతిభ వికసిస్తుంది మరియు భవిష్యత్తులు నిర్మించబడతాయి. నేను ప్రతి ఉదయం మా ఉత్సాహభరితమైన కారిడార్‌ల గుండా నడుస్తూ, మా విద్యార్థుల శక్తిని మరియు మా ఉపాధ్యాయుల అంకితభావానికి సాక్ష్యమిస్తుంటే, విద్య ఎందుకు ఉదాత్తమైన వృత్తి అని నాకు గుర్తుచేస్తుంది - మేము కేవలం విషయాలను బోధించము; మేము జీవితాలను రూపొందిస్తాము."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "37aee8c3c7df",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0ecd7304001a",
+              "_type": "span",
+              "marks": [],
+              "text": "కృష్ణవేణి వద్ద, ప్రతి బిడ్డను కనుగొనడం కోసం వేచి ఉన్న సంభావ్య విశ్వం అని మేము నమ్ముతున్నాము. విద్యార్థులు కేవలం రోల్ నంబర్‌లుగా ఉండే సాంప్రదాయ పాఠశాలల మాదిరిగా కాకుండా, ఇక్కడ,"
+            },
+            {
+              "_key": "4f658dadb8d3",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "మేము ప్రతి బిడ్డను పేరు ద్వారా తెలుసుకుంటాము, వారి ప్రత్యేక బలాలను అర్థం చేసుకుంటాము మరియు వారి వ్యక్తిత్వాన్ని జరుపుకుంటాము"
+            },
+            {
+              "_key": "64e686419c96",
+              "_type": "span",
+              "marks": [],
+              "text": ". ఉత్కంఠభరితమైన కాన్వాసులను చిత్రించే నిశ్శబ్ద కళాకారుడు అయినా, రోజుకు వందసార్లు “ఎందుకు” అని అడిగే వర్ధమాన శాస్త్రవేత్త అయినా లేదా ఇతరులను ఉద్ధరించే కరుణామయ స్నేహితుడైనా - ప్రతి విద్యార్థి మన కుటుంబానికి తిరుగులేని విలువను జోడిస్తుంది."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "9664d3329202",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "99548522a7eb",
+              "_type": "span",
+              "marks": [],
+              "text": "మా విధానం: ఎక్కడ నేర్చుకోవడం సజీవంగా వస్తుంది"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "7332ec506dac",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "10af3a7c0cd4",
+              "_type": "span",
+              "marks": [],
+              "text": "విద్యను రూపొందించడంలో మన నిబద్ధత నిజంగా మనల్ని వేరు చేస్తుంది"
+            },
+            {
+              "_key": "2ed48f451e80",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "అర్ధవంతమైన, ఉత్తేజకరమైన మరియు సంబంధిత."
+            },
+            {
+              "_key": "be3d020b71f5",
+              "_type": "span",
+              "marks": [],
+              "text": "మా తరగతి గదులలో:"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "5d8c77987d79",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "85ca6901f94e",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "ఉత్సుకత పాఠ్యాంశం"
+            },
+            {
+              "_key": "a863d209e752",
+              "_type": "span",
+              "marks": [],
+              "text": "– “మేఘాలు ఎలా ఏర్పడతాయి?” వంటి వాస్తవ ప్రపంచ ప్రశ్నలతో పాఠాలు ప్రారంభమవుతాయి. లేదా \"కరెన్సీలకు ఎందుకు విలువ ఉంది?\""
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "1caa6f99f85b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "267cfa215da2",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "సృజనాత్మకత వర్గీకరించబడింది"
+            },
+            {
+              "_key": "18026ab2d660",
+              "_type": "span",
+              "marks": [],
+              "text": "- యాప్‌ల రూపకల్పన నుండి సంగీతాన్ని కంపోజ్ చేయడం వరకు, అసలు ఆలోచనకు ప్రతిఫలం లభిస్తుంది"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "b75b1a0686e6",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "242db325137b",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "కరుణ నేర్పుతారు"
+            },
+            {
+              "_key": "35839fa11296",
+              "_type": "span",
+              "marks": [],
+              "text": "– కమ్యూనిటీ ప్రాజెక్ట్‌లు మరియు పీర్ మెంటరింగ్ ద్వారా"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "238bd48b08cb",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "8fffaec7fc5a",
+              "_type": "span",
+              "marks": [],
+              "text": "మా ఉపాధ్యాయులు విద్యావేత్తల కంటే ఎక్కువ - వారు"
+            },
+            {
+              "_key": "97ad3abe7b71",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "వాస్తుశిల్పులు నేర్చుకుంటున్నారు"
+            },
+            {
+              "_key": "d56911b73326",
+              "_type": "span",
+              "marks": [],
+              "text": ". అత్యాధునిక బోధనా పద్ధతుల్లో శిక్షణ పొందిన వారు కేవలం ఉపన్యాసాలు ఇవ్వరు; వారు"
+            },
+            {
+              "_key": "32fe70cd33ab",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "ఆవిష్కరణలను సులభతరం చేస్తాయి"
+            },
+            {
+              "_key": "e598abc0bfc2",
+              "_type": "span",
+              "marks": [],
+              "text": ". మేము భిన్నాలను బోధించేటప్పుడు, విద్యార్థులు కొలతలను అర్థం చేసుకోవడానికి కేక్‌లను కాల్చారు. చారిత్రక సంఘటనల పాత్రల ద్వారా చరిత్ర సజీవంగా ఉంటుంది. సంక్లిష్టమైన భౌతిక శాస్త్ర భావనలు కూడా మనలో థ్రిల్లింగ్ ప్రయోగాలుగా మారుతాయి"
+            },
+            {
+              "_key": "106bb5cd0113",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "అత్యాధునిక సైన్స్ ల్యాబ్‌లు."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "6026b2d9e063",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "e313e2651147",
+              "_type": "span",
+              "marks": [],
+              "text": "బియాండ్ అకడమిక్స్: బిల్డింగ్ క్యారెక్టర్"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "4a8b3d1d5402",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "759e90c60176",
+              "_type": "span",
+              "marks": [],
+              "text": "అకడమిక్ ఎక్సలెన్స్ కీలకమైనప్పటికీ, మేము విజయాన్ని మార్క్‌షీట్‌ల కంటే ఎక్కువగా కొలుస్తాము. మా"
+            },
+            {
+              "_key": "4a59b552f433",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "ఐదు స్తంభాల కార్యక్రమం"
+            },
+            {
+              "_key": "1edbe133593b",
+              "_type": "span",
+              "marks": [],
+              "text": "సమగ్ర వృద్ధిని నిర్ధారిస్తుంది:"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "ad70c7321671",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "94deac749baf",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "మేధో వృద్ధి"
+            },
+            {
+              "_key": "2baf8604dada",
+              "_type": "span",
+              "marks": [],
+              "text": "- విమర్శనాత్మక ఆలోచన తరగతులు, పరిశోధన ప్రాజెక్టులు"
+            }
+          ],
+          "level": 1,
+          "listItem": "number",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "672dc0a4aabe",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "373b4b7f33b4",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "ఎమోషనల్ ఇంటెలిజెన్స్"
+            },
+            {
+              "_key": "1ef0975ac665",
+              "_type": "span",
+              "marks": [],
+              "text": "– మైండ్‌ఫుల్‌నెస్ సెషన్‌లు, కౌన్సెలింగ్"
+            }
+          ],
+          "level": 1,
+          "listItem": "number",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "ddb541c13847",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "7dfb6b7ceda1",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "శారీరక శ్రేయస్సు"
+            },
+            {
+              "_key": "4ec3a1b75f93",
+              "_type": "span",
+              "marks": [],
+              "text": "- యోగా, న్యూట్రిషన్ వర్క్‌షాప్‌లు, క్రీడలు"
+            }
+          ],
+          "level": 1,
+          "listItem": "number",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "39d05de70d77",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "6f6fbbbdf0f1",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "సామాజిక బాధ్యత"
+            },
+            {
+              "_key": "779de0cce078",
+              "_type": "span",
+              "marks": [],
+              "text": "– ఎకో-క్లబ్‌లు, ఛారిటీ డ్రైవ్‌లు"
+            }
+          ],
+          "level": 1,
+          "listItem": "number",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "33e3e86220c0",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "518962580437",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "సాంస్కృతిక గర్వం"
+            },
+            {
+              "_key": "2c37ca5c790c",
+              "_type": "span",
+              "marks": [],
+              "text": "– జానపద కళల పరిరక్షణ, భాషా ఉత్సవాలు"
+            }
+          ],
+          "level": 1,
+          "listItem": "number",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "6500ad66e18d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "447c7fc113bf",
+              "_type": "span",
+              "marks": [],
+              "text": "మా తల్లిదండ్రులకు: వృద్ధిలో భాగస్వాములు"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "a54454a628ed",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "6f17344f826a",
+              "_type": "span",
+              "marks": [],
+              "text": "మీ విశ్వాసం మమ్మల్ని అణగదొక్కుతుంది. మొదటి రోజుల్లో తల్లులు ఆందోళనతో కన్నీళ్లు ఎలా తుడవాలో, ప్రతి ప్రోగ్రెస్ రిపోర్టును తండ్రులు ఎలా గర్వంగా ప్రదర్శిస్తారో, తాతలు మన బోధనలను పూర్తి చేసే విలువలను ఎలా ఉత్తీర్ణులు చేస్తారో మనం చూస్తాము. అందుకే మేము నిర్మించాము"
+            },
+            {
+              "_key": "607a8e967852",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "360° ఎంగేజ్‌మెంట్ సిస్టమ్‌లు:"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "c43dd12433bc",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "4a60e5f30d64",
+              "_type": "span",
+              "marks": [],
+              "text": "నెలవారీ \"ఓపెన్ క్లాస్‌రూమ్\" రోజులు"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "56366f5d3b0c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "b814db382676",
+              "_type": "span",
+              "marks": [],
+              "text": "డిజిటల్ యుగం సవాళ్లపై పేరెంటింగ్ వర్క్‌షాప్‌లు"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "a56881e5a802",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "aa9c4c090053",
+              "_type": "span",
+              "marks": [],
+              "text": "హార్వెస్ట్ ఫెస్ట్ వంటి కమ్యూనిటీ వేడుకలు"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "2d002bfd8cb0",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "b997b6401528",
+              "_type": "span",
+              "marks": [],
+              "text": "విద్యార్థులకు మా వాగ్దానం"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "abeab5d62ed2",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "568b85ad3f9f",
+              "_type": "span",
+              "marks": [],
+              "text": "మీరు మా ద్వారాల గుండా నడిచినప్పుడు:"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "a6b8efc90672",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "73a35de9582a",
+              "_type": "span",
+              "marks": [],
+              "text": "మీరు"
+            },
+            {
+              "_key": "73c74103f4fd",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "సురక్షితంగా విఫలమవుతుంది"
+            },
+            {
+              "_key": "c645791c5ead",
+              "_type": "span",
+              "marks": [],
+              "text": "- ఎందుకంటే తప్పులు ముసుగులో ఆవిష్కరణలు మాత్రమే"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "bd43dc4e0f49",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "9654f8766363",
+              "_type": "span",
+              "marks": [],
+              "text": "మీరు"
+            },
+            {
+              "_key": "a43fc673b2da",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "మీ వాయిస్‌ని కనుగొనండి"
+            },
+            {
+              "_key": "e61b198ab9e3",
+              "_type": "span",
+              "marks": [],
+              "text": "- చర్చలు, బ్లాగులు లేదా థియేటర్ ద్వారా అయినా"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "d3c9ec1cd911",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "a8185d64319a",
+              "_type": "span",
+              "marks": [],
+              "text": "మీరు"
+            },
+            {
+              "_key": "2f5f42388678",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "సిద్ధంగా వదిలివేయండి"
+            },
+            {
+              "_key": "7e6747297d1c",
+              "_type": "span",
+              "marks": [],
+              "text": "- పరీక్షల కోసం మాత్రమే కాకుండా, జీవిత సాహసాల కోసం అమర్చారు"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "b041b9edfde3",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "44c6b5284f29",
+              "_type": "span",
+              "marks": [],
+              "text": "ప్రపంచం గతంలో కంటే వేగంగా మారిపోతుంటే, కృష్ణవేణి యాంకర్‌గా నిలుస్తోంది"
+            },
+            {
+              "_key": "e0b851e397c2",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "విలువలు"
+            },
+            {
+              "_key": "30d93e5a7d71",
+              "_type": "span",
+              "marks": [],
+              "text": "మరియు లాంచ్‌ప్యాడ్"
+            },
+            {
+              "_key": "bbd5053c38cb",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "ఆవిష్కరణ"
+            },
+            {
+              "_key": "e73409293ae2",
+              "_type": "span",
+              "marks": [],
+              "text": ". మా పూర్వ విద్యార్థులు - ఇప్పుడు వైద్యులు, ఇంజనీర్లు, వ్యవస్థాపకులు మరియు కళాకారులు - మేము పాఠాలు బోధించని ఈ తరగతి గదుల్లోనే తమ ప్రయాణం ఇక్కడ ఎలా ప్రారంభమైందో పంచుకోవడానికి తరచుగా తిరిగి వస్తారు."
+            },
+            {
+              "_key": "281e56b17832",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "ఎప్పటికీ ఎలా నేర్చుకోవాలో మేము బోధిస్తాము."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "72b3614792b8",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "b065bf52d9e6",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "ఇంటికి స్వాగతం"
+            },
+            {
+              "_key": "02a0396fcae5",
+              "_type": "span",
+              "marks": [],
+              "text": "ప్రతిరోజూ కొత్త అద్భుతాలను అందించే ప్రదేశానికి, ఇక్కడ విద్య అనేది ఒక రేసు కాదు కానీ ఆనందకరమైన సాహసయాత్ర, మరియు మీ పిల్లల సామర్థ్యం దాని నిజమైన వ్యక్తీకరణను కనుగొంటుంది."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "9b1374f33b73",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "526d24c80798",
+              "_type": "span",
+              "marks": [],
+              "text": ""
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0d9470242168",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "974e6347b8ab",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "తిరుగులేని నిబద్ధతతో,"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "fc16f7fc299c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "6ea43585bed5",
+              "_type": "span",
+              "marks": [],
+              "text": "వి.కవిత"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "de587a8aa4ed",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "dbd788e5a5f4",
+              "_type": "span",
+              "marks": [
+                "em"
+              ],
+              "text": "ప్రిన్సిపాల్"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ],
+      "seo": {
+        "_type": "seo",
+        "metaDescription": "సృజనాత్మకత, కరుణ మరియు ఉత్సుకత ద్వారా యువ మనస్సులను పెంపొందించాలనే కృష్ణవేణి పాఠశాల దృష్టిని పంచుకున్న మా ప్రిన్సిపాల్ వి. కవిత నుండి హృదయపూర్వక సందేశాన్ని కనుగొనండి.",
+        "metaKeywords": "ప్రిన్సిపాల్ మెసేజ్, కృష్ణవేణి స్కూల్, పీర్జాదిగూడ, హోలిస్టిక్ ఎడ్యుకేషన్, బెస్ట్ స్కూల్ హైదరాబాద్, CBSE స్కూల్ తెలంగాణ, TS SSC, V. కవిత, స్కూల్ విజన్, పీర్జాదిగూడలోని టాప్ స్కూల్",
+        "metaTitle": "ప్రిన్సిపాల్ సందేశం — కృష్ణవేణి స్కూల్ పీర్జాదిగూడ"
+      }
+    },
+    "chairmanMessage": {
+      "name": "P. V. Rajendra Prasad",
+      "designation": "చైర్మన్",
+      "imageUrl": "https://cdn.sanity.io/images/jzbduz09/production/2a7605ef91e9e9c33fedb877e7f423dfe9d94eec-780x764.png",
+      "content": [
+        {
+          "_key": "0881efb687f9",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-2a7605ef91e9e9c33fedb877e7f423dfe9d94eec-780x764-png",
+            "_type": "reference"
+          }
+        },
+        {
+          "_key": "ee4d5194c09a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "36ddc172d2a8",
+              "_type": "span",
+              "marks": [],
+              "text": "\"మా పని విద్యార్థులను దేనికైనా సిద్ధం చేయడం కాదు. విద్యార్థులు తమను తాము దేనికైనా సిద్ధం చేయడంలో సహాయపడటం మా పని.\""
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "a5ca6d0685f7",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "5c4aff818590",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "గౌరవనీయులైన తల్లిదండ్రులు, విద్యార్థులు మరియు సంఘం సభ్యులు,"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "f50f4cea3150",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "f9a40ee121d7",
+              "_type": "span",
+              "marks": [],
+              "text": "మేము కృష్ణవేణి పాఠశాలను స్థాపించినప్పుడు, మేము మరొక విద్యా సంస్థ కంటే ఎక్కువగా ఊహించాము - మేము ఒక విద్యా సంస్థను సృష్టించాలని కలలు కన్నాము."
+            },
+            {
+              "_key": "a0a903d6b227",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "ఆదర్శ సమాజం యొక్క సూక్ష్మరూపం"
+            },
+            {
+              "_key": "b6d2984fe82a",
+              "_type": "span",
+              "marks": [],
+              "text": ", ఇక్కడ జ్ఞానం ధర్మాన్ని కలుస్తుంది, మరియు ఆశయం తాదాత్మ్యంతో చేయి చేయి కలిపి నడుస్తుంది. ఈ రోజు, నేను మా విద్యార్థుల విజయాలను చూస్తున్నప్పుడు, ఈ దృక్పథాన్ని వాస్తవికంగా మార్చడంలో సహాయపడిన ప్రతి ఒక్కరికీ నేను ప్రగాఢమైన కృతజ్ఞతతో నిండి ఉన్నాను."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "8231af8cc6bc",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "32ffc5de2e95",
+              "_type": "span",
+              "marks": [],
+              "text": "కృష్ణవేణి తేడా: విద్య రీమాజిన్ చేయబడింది"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "3bd400d483eb",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "3b7242314e37",
+              "_type": "span",
+              "marks": [],
+              "text": "అనేక పాఠశాలలు ర్యాంకింగ్‌లను వెంబడించే యుగంలో, మేము అర్ధవంతమైన ప్రభావాన్ని అనుసరిస్తాము. మేము ఎలా విభిన్నంగా ఉన్నామో పరిశీలించండి:"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "3dd5e2877883",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "bb92cca60ded",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "ఫ్యూచర్-రీడర్ ఇన్‌ఫ్రాస్ట్రక్చర్"
+            }
+          ],
+          "level": 1,
+          "listItem": "number",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "b96109111946",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "73f6de0bf2e6",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "స్మార్ట్ క్లాస్‌రూమ్‌లు"
+            },
+            {
+              "_key": "8733fb48ea5a",
+              "_type": "span",
+              "marks": [],
+              "text": "ఇంటరాక్టివ్ ప్యానెల్‌లతో"
+            }
+          ],
+          "level": 2,
+          "listItem": "number",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "6e8a5586a7de",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "74e165a5c16a",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "మేకర్ స్పేస్‌లు"
+            },
+            {
+              "_key": "4cbce0003b70",
+              "_type": "span",
+              "marks": [],
+              "text": "రోబోటిక్స్ మరియు ఆవిష్కరణల కోసం"
+            }
+          ],
+          "level": 2,
+          "listItem": "number",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "a4f8a1647c9d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "1a3bb98a048d",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "డిజిటల్ లాంగ్వేజ్ ల్యాబ్స్"
+            },
+            {
+              "_key": "d3dc87c0f8af",
+              "_type": "span",
+              "marks": [],
+              "text": "ప్రపంచ కమ్యూనికేషన్ నైపుణ్యాల కోసం"
+            }
+          ],
+          "level": 2,
+          "listItem": "number",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "791d4eebdf25",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "4633bcc13185",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "టీచర్ అడ్వాంటేజ్."
+            },
+            {
+              "_key": "a6683e3c9bac",
+              "_type": "span",
+              "marks": [],
+              "text": "మా అధ్యాపకులు నిర్వహిస్తారు"
+            },
+            {
+              "_key": "66db8a733e49",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "200+ గంటల వార్షిక శిక్షణ"
+            },
+            {
+              "_key": "35191e1610c4",
+              "_type": "span",
+              "marks": [],
+              "text": "లో:"
+            }
+          ],
+          "level": 1,
+          "listItem": "number",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "a198ae7e7c04",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "e42b6311b8e4",
+              "_type": "span",
+              "marks": [],
+              "text": "న్యూరో-ఎడ్యుకేషన్ టెక్నిక్స్"
+            }
+          ],
+          "level": 2,
+          "listItem": "number",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "59395e8a3376",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "cd7003d0751f",
+              "_type": "span",
+              "marks": [],
+              "text": "పాజిటివ్ సైకాలజీ అప్లికేషన్స్"
+            }
+          ],
+          "level": 2,
+          "listItem": "number",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "74de091bef87",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "a60759f6ce16",
+              "_type": "span",
+              "marks": [],
+              "text": "AI-సహాయక వ్యక్తిగతీకరించిన అభ్యాసం"
+            }
+          ],
+          "level": 2,
+          "listItem": "number",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "860cd7031b33",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "ff68f92c4676",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "ముఖ్యమైనది నేర్చుకోవడం."
+            },
+            {
+              "_key": "dbbc563e089f",
+              "_type": "span",
+              "marks": [],
+              "text": "మేము రోట్ మెమోరైజేషన్‌ని దీనితో భర్తీ చేసాము:"
+            }
+          ],
+          "level": 1,
+          "listItem": "number",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "788f0eb1713d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "580bc6669f5f",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "కేస్-స్టడీ మెథడాలజీ"
+            },
+            {
+              "_key": "df52b74654ab",
+              "_type": "span",
+              "marks": [],
+              "text": "(\"హైదరాబాద్ ట్రాఫిక్‌ని మీరు ఎలా పరిష్కరిస్తారు?\")"
+            }
+          ],
+          "level": 2,
+          "listItem": "number",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "6ad672bc6cfd",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "9ee073ff402a",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "అభిరుచి ప్రాజెక్ట్స్"
+            },
+            {
+              "_key": "6b621e57cfce",
+              "_type": "span",
+              "marks": [],
+              "text": "(ఏదైనా ఆసక్తిని లోతుగా అన్వేషించడానికి 6 నెలలు)"
+            }
+          ],
+          "level": 2,
+          "listItem": "number",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "f4aa1b77c60f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "ac786aa771ef",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "గ్లోబల్ క్లాస్‌రూమ్ ఎక్స్ఛేంజీలు"
+            },
+            {
+              "_key": "ffdb934eaf6d",
+              "_type": "span",
+              "marks": [],
+              "text": "(విదేశీ పాఠశాలలతో వర్చువల్ సహకారం)"
+            }
+          ],
+          "level": 2,
+          "listItem": "number",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "714e655c8624",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "eb55ecd1ad66",
+              "_type": "span",
+              "marks": [],
+              "text": "మాకు మార్గనిర్దేశం చేసే విలువలు"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "c2e81570fbba",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "1e4e077c16bf",
+              "_type": "span",
+              "marks": [],
+              "text": "సాంకేతిక పురోగతి మధ్య, మేము శాశ్వతమైన సూత్రాలకు కట్టుబడి ఉన్నాము:"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "85ee946ccfb0",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "8450552d9fe6",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "సంస్కర్ ఫస్ట్"
+            },
+            {
+              "_key": "eb343c7902a3",
+              "_type": "span",
+              "marks": [],
+              "text": "– శాస్త్రీయ వాస్తవాలతో శ్లోకాలను మిళితం చేస్తూ ఉదయం సమావేశాలు"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "64595ab58c61",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "f4e0c9679646",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "సేవ పాఠ్యాంశంగా"
+            },
+            {
+              "_key": "3f55a48c1709",
+              "_type": "span",
+              "marks": [],
+              "text": "– తప్పనిసరి కమ్యూనిటీ సర్వీస్ గంటలు"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "004501f2beac",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "afd185ecaa78",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "రూట్స్ & రెక్కలు"
+            },
+            {
+              "_key": "121ac5ddcd16",
+              "_type": "span",
+              "marks": [],
+              "text": "- స్పేస్ టెక్నాలజీతో పాటు తెలంగాణ వారసత్వాన్ని బోధించడం"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "b96af2ad829e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "091dfc45b23f",
+              "_type": "span",
+              "marks": [],
+              "text": "మా తల్లిదండ్రులకు: ట్రస్ట్ యొక్క సంరక్షకులు"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "553003fb1100",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "a827973a6bd0",
+              "_type": "span",
+              "marks": [],
+              "text": "మీ నిర్ణయం యొక్క బరువును మేము అర్థం చేసుకున్నాము - పాఠశాలను ఎంచుకోవడం అంటే మీ పిల్లల ప్రపంచ దృష్టికోణం యొక్క వాస్తుశిల్పులను ఎంచుకోవడం. అందుకే మనం సాధన చేస్తున్నాం"
+            },
+            {
+              "_key": "b1ad5d3ba8cd",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "రాడికల్ పారదర్శకత"
+            },
+            {
+              "_key": "6f1c7bf99071",
+              "_type": "span",
+              "marks": [],
+              "text": ":"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "bb07aa2608d6",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "834544bef459",
+              "_type": "span",
+              "marks": [],
+              "text": "ప్రత్యక్ష CCTV యాక్సెస్ (గోప్యతా భద్రతలతో)"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "cdaaeb270b06",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "176f32850d51",
+              "_type": "span",
+              "marks": [],
+              "text": "నిజ-సమయ పనితీరు డాష్‌బోర్డ్‌లు"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "5ed2cbdfd920",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "9fdfa4a9c883",
+              "_type": "span",
+              "marks": [],
+              "text": "త్రైమాసిక \"గ్రీవెన్స్ టు కృతజ్ఞత\" ఓపెన్ ఫోరమ్‌లు"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "788388339a18",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "64f4e25bd6fd",
+              "_type": "span",
+              "marks": [],
+              "text": "విద్యార్థులకు ఒక సందేశం"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "d9049987aacd",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "30031be51e13",
+              "_type": "span",
+              "marks": [],
+              "text": "మీరు దీని కోసం రూపొందించిన పర్యావరణ వ్యవస్థలోకి ప్రవేశిస్తున్నారు:"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "d8738a70b579",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "5be105c8e9a4",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "మీ ఉత్సుకతను రేకెత్తించండి"
+            },
+            {
+              "_key": "e3f99a62fccd",
+              "_type": "span",
+              "marks": [],
+              "text": "(మా “వై వాల్”లో ఎప్పుడూ ఖాళీ ఖాళీలు లేవు)"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "078237cd6836",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "f67748a83ca7",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "మీ సామర్థ్యాలను విస్తరించండి"
+            },
+            {
+              "_key": "6dd258d4db5f",
+              "_type": "span",
+              "marks": [],
+              "text": "(ఒలింపియాడ్స్, హ్యాకథాన్‌ల ద్వారా)"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "3d82dcb2a236",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "42fc125f46fd",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Soothe your struggles"
+            },
+            {
+              "_key": "a1972027367d",
+              "_type": "span",
+              "marks": [],
+              "text": "(పీర్ కౌన్సెలింగ్ సర్కిల్‌లతో)"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "4e740c9f281e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "c990e9803c98",
+              "_type": "span",
+              "marks": [],
+              "text": "ది రోడ్ ఎహెడ్"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "20f52149c355",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "06f9c4a926c1",
+              "_type": "span",
+              "marks": [],
+              "text": "మేము విస్తరించేటప్పుడు:"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "998f1717821b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "70c9edae2bc4",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "స్పేస్ టెక్ క్లబ్"
+            },
+            {
+              "_key": "755ab092901f",
+              "_type": "span",
+              "marks": [],
+              "text": "(ఇస్రో ఔట్రీచ్ భాగస్వామ్యంతో)"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "68d048bc6d70",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "ed1fefa4dc89",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "యువ పారిశ్రామికవేత్తల కార్యక్రమం"
+            },
+            {
+              "_key": "11a392aeaf89",
+              "_type": "span",
+              "marks": [],
+              "text": "(విద్యార్థుల స్టార్టప్‌ల కోసం సీడ్ ఫండింగ్‌తో)"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "4e44be65de2f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00564f8c00e4",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "AI For Good Initiative"
+            },
+            {
+              "_key": "f180dc3032f6",
+              "_type": "span",
+              "marks": [],
+              "text": "(సాంకేతికత ద్వారా స్థానిక సమస్యలను పరిష్కరించడం)"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "535f0577a59d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "76ad0e8b2a60",
+              "_type": "span",
+              "marks": [],
+              "text": "మేము మా స్థాపక విశ్వాసానికి కట్టుబడి ఉంటాము:"
+            },
+            {
+              "_key": "5ca6cfbbd8d2",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "నిజమైన విద్య మనస్సు మరియు హృదయం రెండింటినీ ప్రకాశవంతం చేస్తుంది"
+            },
+            {
+              "_key": "7c77a5e96c9f",
+              "_type": "span",
+              "marks": [],
+              "text": "."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "e41b3ffb5ed6",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0c288bf4e1c0",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "మాతో చేరండి"
+            },
+            {
+              "_key": "97e4d0c34329",
+              "_type": "span",
+              "marks": [],
+              "text": "ఈ విప్లవాత్మక ప్రయాణంలో ప్రతి బిడ్డకు ఏమి ఆలోచించాలో నేర్పించలేదు, కానీ"
+            },
+            {
+              "_key": "63c41fa3ee2c",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "ఎలా ఆలోచించాలి"
+            },
+            {
+              "_key": "63260f6c0cdf",
+              "_type": "span",
+              "marks": [],
+              "text": "; కేవలం జీవనోపాధి కోసం కాదు"
+            },
+            {
+              "_key": "1ed161594e1a",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "ప్రయోజనం యొక్క జీవితాన్ని రూపొందించండి."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "42c0cbae31db",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "d9b6b423c0a4",
+              "_type": "span",
+              "marks": [],
+              "text": ""
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "87b4072c6fa6",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "101f79356be8",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "ఆశ మరియు సంకల్పంతో,"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "8da1f6dce038",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "c69434404330",
+              "_type": "span",
+              "marks": [],
+              "text": "పోలవరపు వెంకట రాజేంద్ర ప్రసాద్"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "06878dcb5e9b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "db3ac23520c5",
+              "_type": "span",
+              "marks": [
+                "em"
+              ],
+              "text": "చైర్మన్"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ],
+      "seo": {
+        "_type": "seo",
+        "metaDescription": "చైర్మన్ P. V. రాజేంద్ర ప్రసాద్ నుండి దూరదృష్టితో కూడిన సందేశం, విలువలు, ఆవిష్కరణలు మరియు జీవితకాల ఉద్దేశ్యంతో భవిష్యత్-సిద్ధంగా ఉన్న విద్యార్థులను నిర్మించాలనే కృష్ణవేణి పాఠశాల యొక్క మిషన్‌ను వివరిస్తుంది.",
+        "metaKeywords": "చైర్మన్ సందేశం, కృష్ణవేణి స్కూల్, P. V. రాజేంద్ర ప్రసాద్, పీర్జాదిగూడ, TS SSC, CBSE స్కూల్ హైదరాబాద్, ఫ్యూచర్-రెడీ స్కూల్, విలువల ఆధారిత విద్య, హోలిస్టిక్ లెర్నింగ్, బెస్ట్ స్కూల్ తెలంగాణ",
+        "metaTitle": "చైర్మన్ సందేశం — కృష్ణవేణి స్కూల్ పీర్జాదిగూడ"
+      }
+    }
+  },
+  "navigation": {
+    "cta": {
+      "label": "మమ్మల్ని సంప్రదించండి",
+      "link": {
+        "slug": "/te/contact"
+      }
+    },
+    "navLinks": [
+      {
+        "label": "హోమ్",
+        "link": {
+          "slug": "/te"
+        }
+      },
+      {
+        "label": "మా గురించి",
+        "link": {
+          "slug": "/te/about"
+        }
+      },
+      {
+        "label": "విద్యావేత్తలు",
+        "link": {
+          "slug": "/te/academics"
+        }
+      },
+      {
+        "label": "క్యాంపస్ లైఫ్",
+        "link": {
+          "slug": "/te/campus-life"
+        }
+      },
+      {
+        "label": "విజయాలు",
+        "link": {
+          "slug": "/te/achievements"
+        }
+      },
+      {
+        "label": "సౌకర్యాలు",
+        "link": {
+          "slug": "/te/facilities"
+        }
+      },
+      {
+        "label": "తల్లిదండ్రుల కోసం",
+        "link": {
+          "slug": "/te/parents"
+        }
+      },
+      {
+        "label": "ప్రవేశాలు",
+        "link": {
+          "slug": "/te/admissions"
+        }
+      }
+    ]
+  },
+  "cta": {
+    "ctaBtns": [
+      {
+        "externalLink": null,
+        "internalPage": {
+          "slug": "/te/admissions"
+        },
+        "label": "ఇప్పుడే వర్తించు",
+        "style": "primary"
+      },
+      {
+        "externalLink": "https://wa.me/919963373679?text=Hello%20Krishnaveni%20School%2C%20I’d%20like%20to%20book%20a%20school%20tour%20for%20my%20child.",
+        "internalPage": null,
+        "label": "స్కూల్ టూర్ బుక్ చేయండి",
+        "style": "none"
+      }
+    ],
+    "description": "సందర్శనను షెడ్యూల్ చేయండి లేదా ఈరోజు మా అడ్మిషన్ల బృందంతో మాట్లాడండి.",
+    "imageUrl": {
+      "desktop": "https://cdn.sanity.io/images/jzbduz09/production/d90cf6a6a874201f68243125e7c45ced448a1ae1-1296x864.jpg",
+      "mobile": "https://cdn.sanity.io/images/jzbduz09/production/bba7c6165e83a2cef2d6d3fab6c6130f0dca4b71-517x864.jpg"
+    },
+    "title": "మరింత తెలుసుకోవడానికి సిద్ధంగా ఉన్నారా?"
+  }
+}

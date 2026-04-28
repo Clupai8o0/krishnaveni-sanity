@@ -22,7 +22,7 @@ export const metadata: Metadata = {
 	title:
 		"Affordable English Medium School in Peerzadiguda – Krishnaveni School",
 	description:
-		" Krishnaveni School offers affordable, values-based education in Peerzadiguda. Recognized by Telangana SSC Board. Small class sizes, activity-based learning, and strong parent communication.",
+		"Krishnaveni School offers affordable, values-based education in Peerzadiguda. Recognized by Telangana SSC Board. Small class sizes, activity-based learning, and strong parent communication.",
 };
 
 export default function RootLayout({

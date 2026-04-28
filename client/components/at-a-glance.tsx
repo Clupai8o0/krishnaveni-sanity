@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { DynamicIcon } from "lucide-react/dynamic";
-import { Image } from "next-sanity/image";
+import Image from "next/image";
 
 import { IntroductionProps } from "@/lib/types";
 import { generateId } from "@/lib/utils";

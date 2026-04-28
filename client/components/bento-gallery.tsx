@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Image } from "next-sanity/image";
+import Image from "next/image";
 
 import { generateId } from "@/lib/utils";
 import { BentoGalleryProps } from "@/lib/types";

@@ -4,18 +4,12 @@ import React from "react";
 import { generateId } from "@/lib/utils";
 import Image from "next/image";
 
-const Footer = ({
-	navigation,
-	lang,
-}: {
-	navigation: NavigationProps;
-	lang: string;
-}) => {
+const Footer = ({ navigation }: { navigation: NavigationProps }) => {
 	return (
 		<footer className="bg-primary py-12 md:py-18 w-full px-4 md:px-8 lg:px-16">
 			<div className="max-w-7xl flex flex-col items-start justify-center w-full">
 				<div className="md:flex md:items-center gap-6">
-					<Link href={`/${lang}`} className="flex items-start mb-4 sm:mb-0">
+					<Link href="/" className="flex items-start mb-4 sm:mb-0">
 						<Image
 							src="/logo-mobile-dark.svg"
 							alt="Logo"
@@ -52,23 +46,6 @@ const Footer = ({
 					<span className="text-sm text-white/60 sm:text-center">
 						© 2025 Krishnaveni™. All Rights Reserved.
 					</span>
-
-					{/* <div className="flex mt-4 space-x-5 sm:justify-center sm:mt-0">
-						<a
-							href="https://www.instagram.com/nmmun_24/"
-							className="text-gray-300 hover:text-white"
-						>
-							<Facebook className="w-6 h-6" />
-							<span className="sr-only">Facebook Page</span>
-						</a>
-						<a
-							href="mailto:nmmun2024.25@gmail.com"
-							className="text-gray-300 hover:text-white"
-						>
-							<Mail className="w-6 h-6" />
-							<span className="sr-only">Email Link</span>
-						</a>
-					</div> */}
 				</div>
 			</div>
 		</footer>

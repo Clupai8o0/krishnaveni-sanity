@@ -1,31 +1,18 @@
 import { PageType } from "./constants";
-import { client } from "./sanity";
-import { Seo } from "./sanity.types";
+import { pageData, messageData } from "./data/index";
 
-export async function getMetadata(
-	lang: string,
-	pageType: PageType
-): Promise<{
-	title: string;
-	description: string;
-	keywords: string;
-}> {
-	const metadata = await client.fetch<Seo>(
-		`*[_type == "page" && language == $lang && pageType == $pageType][0]{
-      "metaTitle": seo.metaTitle,
-      "metaDescription": seo.metaDescription,
-      "metaKeywords": seo.metaKeywords 
-    }`,
-		{ lang, pageType }
-	);
+export async function getMetadata(pageType: PageType) {
+	const pageSeo = pageData["en"]?.[pageType]?.seo;
+	const msgSeo = messageData["en"]?.[pageType]?.seo;
+	const seo = pageSeo ?? msgSeo;
 
 	return {
-		title: metadata.metaTitle || "Krishnaveni School",
+		title: seo?.metaTitle || "Krishnaveni School",
 		description:
-			metadata.metaDescription ||
+			seo?.metaDescription ||
 			"Krishnaveni School Peerzadiguda, Hyderabad, Telangana, India",
 		keywords:
-			metadata.metaKeywords ||
+			seo?.metaKeywords ||
 			"Krishnaveni School, Peerzadiguda, Hyderabad, Telangana, India",
 	};
 }

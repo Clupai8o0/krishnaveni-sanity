@@ -1,6 +1,6 @@
 import { HeroSectionProps } from "@/lib/types";
 import { generateId } from "@/lib/utils";
-import { Image } from "next-sanity/image";
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import clsx from "clsx";

@@ -1,0 +1,2975 @@
+{
+  "pages": {
+    "academics": {
+      "content": [
+        {
+          "_key": "21cfe6979e71",
+          "_type": "heroSection",
+          "ctaBtns": null,
+          "description": "Recognized by the Telangana SSC board, we serve families from Uppal, Boduppal, and Medipally in a safe, values-based environment. Admissions are open for Nursery to Class 8 with expansion to Class 10 underway — enroll early to reserve your seat!",
+          "imageUrl": {
+            "desktop": "https://cdn.sanity.io/images/jzbduz09/production/c251db31dbbb7ad8868f6c6c4c06fbc9afaa4833-1296x864.jpg",
+            "mobile": "https://cdn.sanity.io/images/jzbduz09/production/bc6306a0879e1eabff22bf25f8bec24f053bfce6-428x691.jpg"
+          },
+          "images": {
+            "desktop": {
+              "_type": "image",
+              "asset": {
+                "_ref": "image-c251db31dbbb7ad8868f6c6c4c06fbc9afaa4833-1296x864-jpg",
+                "_type": "reference"
+              }
+            },
+            "mobile": {
+              "_type": "image",
+              "asset": {
+                "_ref": "image-bc6306a0879e1eabff22bf25f8bec24f053bfce6-428x691-jpg",
+                "_type": "reference"
+              }
+            }
+          },
+          "subtitle": "Looking for a school that blends academic excellence, local values, and affordability?",
+          "title": "Why Choose Krishnaveni?"
+        },
+        {
+          "_key": "9eeb1bb4e29e",
+          "_type": "twoColLayout",
+          "content": [
+            {
+              "_key": "8f4f83dd903b",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "4f212ff33d10",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Our simple admission process invovles a walk-in or phone inquiry, followed by a brief parent-child interaction with the Principal."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "e2c1d4526dc8",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "ea9faacc1030",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "Inquiry"
+                },
+                {
+                  "_key": "1c4bedaf1c2b",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " – Walk in or call us"
+                }
+              ],
+              "level": 1,
+              "listItem": "number",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "24f402361aa3",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "241e7575c32c",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "Registration"
+                },
+                {
+                  "_key": "8b775a5797df",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " – Fill the basic form"
+                }
+              ],
+              "level": 1,
+              "listItem": "number",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "8e5412b372b3",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "6d20e68485dd",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "Interaction"
+                },
+                {
+                  "_key": "294ba665e308",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " – Meet with Principal or coordinator"
+                }
+              ],
+              "level": 1,
+              "listItem": "number",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "21664a81dde8",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "b277e1186505",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "Confirmation"
+                },
+                {
+                  "_key": "ec01ca219083",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " – Submit documents, confirm admission"
+                }
+              ],
+              "level": 1,
+              "listItem": "number",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "3dc3b6ad63c8",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "4a3c3bed5398",
+                  "_type": "span",
+                  "marks": [
+                    "em"
+                  ],
+                  "text": "No entrance test for Nursery to Class 1 – admission is on first-come, first-served basis."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "image": {
+            "_type": "image",
+            "asset": {
+              "_ref": "image-2b30fa781fd01af6b8dfe7336e29ac75d31b650f-768x768-png",
+              "_type": "reference"
+            }
+          },
+          "imageFit": null,
+          "imageUrl": "https://cdn.sanity.io/images/jzbduz09/production/2b30fa781fd01af6b8dfe7336e29ac75d31b650f-768x768.png",
+          "reverse": null,
+          "title": "How to apply"
+        }
+      ],
+      "seo": {
+        "_type": "seo",
+        "metaDescription": "Explore the curriculum at Krishnaveni School, a Telangana SSC board school offering activity-based, personalized learning with a low student–teacher ratio and life skills education.",
+        "metaKeywords": "- English medium SSC school in Telangana - activity-based teaching schools in Hyderabad - best curriculum schools for middle-income families - personalized education for slow learners - low student–teacher ratio school",
+        "metaTitle": "Academics at Krishnaveni School – English Medium SSC School in Telangana"
+      }
+    },
+    "parents": {
+      "content": null,
+      "seo": {
+        "_type": "seo",
+        "metaDescription": "Krishnaveni School offers parent-friendly features like Kawiz App updates, WhatsApp alerts, attendance tracking, and diary management — perfect for working parents in Hyderabad.",
+        "metaKeywords": "- best school communication for parents - schools using apps for attendance in Hyderabad - working parent-friendly schools in Telangana - schools with WhatsApp and app updates - student absentee alerts in schools",
+        "metaTitle": "For Parents – Best School Communication & App Updates in Hyderabad | Krishnaveni School"
+      }
+    },
+    "admission": {
+      "content": [
+        {
+          "_key": "907529e97004",
+          "_type": "heroSection",
+          "ctaBtns": null,
+          "description": "Admissions are open for Nursery to Class 8 with expansion to Class 10 underway — enroll early to reserve your seat!",
+          "imageUrl": {
+            "desktop": "https://cdn.sanity.io/images/jzbduz09/production/c251db31dbbb7ad8868f6c6c4c06fbc9afaa4833-1296x864.jpg",
+            "mobile": "https://cdn.sanity.io/images/jzbduz09/production/bc6306a0879e1eabff22bf25f8bec24f053bfce6-428x691.jpg"
+          },
+          "images": {
+            "desktop": {
+              "_type": "image",
+              "asset": {
+                "_ref": "image-c251db31dbbb7ad8868f6c6c4c06fbc9afaa4833-1296x864-jpg",
+                "_type": "reference"
+              }
+            },
+            "mobile": {
+              "_type": "image",
+              "asset": {
+                "_ref": "image-bc6306a0879e1eabff22bf25f8bec24f053bfce6-428x691-jpg",
+                "_type": "reference"
+              }
+            }
+          },
+          "subtitle": "Looking for a school that blends academic excellence, local values, and affordability?",
+          "title": "Why Choose Krishnaveni?"
+        },
+        {
+          "_key": "e6d0b8c98312",
+          "_type": "twoColLayout",
+          "content": [
+            {
+              "_key": "6709bc12b291",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "80f5ef514f2e",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Our simple admission process involves a walk-in or phone inquiry, followed by a brief parent–child interaction with the Principal."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "cc5a05af8ace",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "0ccc1f368b58",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Inquiry"
+                },
+                {
+                  "_key": "36d4d283870e",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": " "
+                },
+                {
+                  "_key": "00bfdad8b5ee",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "– Walk in or call us"
+                }
+              ],
+              "level": 1,
+              "listItem": "number",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "e677582e46e6",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "e759baaa5156",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Registration – Fill the basic form"
+                }
+              ],
+              "level": 1,
+              "listItem": "number",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "0cc29ec131e1",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "f975a36ea31e",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Interaction – Meet with Principal or coordinator"
+                }
+              ],
+              "level": 1,
+              "listItem": "number",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "90b2b3a2ecda",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "7b80a588cb08",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "Confirmation"
+                },
+                {
+                  "_key": "0e9e20babbb0",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " – Submit documents, confirm admission"
+                }
+              ],
+              "level": 1,
+              "listItem": "number",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "e02d1552cdf0",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "79329d10d258",
+                  "_type": "span",
+                  "marks": [
+                    "em"
+                  ],
+                  "text": "No entrance test for Nursery to Class 1 – admission is on first-come, first-served basis."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "image": {
+            "_type": "image",
+            "asset": {
+              "_ref": "image-2b30fa781fd01af6b8dfe7336e29ac75d31b650f-768x768-png",
+              "_type": "reference"
+            }
+          },
+          "imageFit": null,
+          "imageUrl": "https://cdn.sanity.io/images/jzbduz09/production/2b30fa781fd01af6b8dfe7336e29ac75d31b650f-768x768.png",
+          "reverse": false,
+          "title": "How to Apply"
+        },
+        {
+          "_key": "58fd01fbd84b",
+          "_type": "centerLayout",
+          "content": [
+            {
+              "_key": "9ae764bc5f9e",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "760e5ae1b405",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Children aged 2.5 years and above can join Nursery without formal tests."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "1b51b3df2fe5",
+              "_type": "table",
+              "rows": [
+                {
+                  "_key": "71556776-e993-4ed8-b0ff-0e112b7c7054",
+                  "_type": "tableRow",
+                  "cells": [
+                    "Grade",
+                    "Age Requirement"
+                  ]
+                },
+                {
+                  "_key": "62166198-5b9a-44b7-a8c2-0cb7dc7c5c88",
+                  "_type": "tableRow",
+                  "cells": [
+                    "Nursery",
+                    "2.5+ years"
+                  ]
+                },
+                {
+                  "_key": "8c2ac581-993e-46cb-b7d7-5d91ebdd148a",
+                  "_type": "tableRow",
+                  "cells": [
+                    "LKG",
+                    "3.5+ years"
+                  ]
+                },
+                {
+                  "_key": "4644df65-9fcb-49ce-81d9-6c61c0f50f3a",
+                  "_type": "tableRow",
+                  "cells": [
+                    "UKG",
+                    "4.5+ years"
+                  ]
+                },
+                {
+                  "_key": "e7d3c0e2-6fb7-4625-a1d9-8a0ee7f36a00",
+                  "_type": "tableRow",
+                  "cells": [
+                    "Class 1",
+                    "5.5+ years"
+                  ]
+                }
+              ]
+            }
+          ],
+          "title": "Eligibility by Age"
+        },
+        {
+          "_key": "bad04485f94f",
+          "_type": "twoColLayout",
+          "content": [
+            {
+              "_key": "d1f93204c529",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "e7cb060f06c7",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Child's Birth Certificate"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "0d28382a5657",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "b46285bf5b74",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Aadhaar Card (Parent & Child)"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "98697fe87100",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "9e4d4b407541",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "2 Passport Photos (each)"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "bc666694827d",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "a11b9e37293d",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Transfer Certificate (if applicable)"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "image": {
+            "_type": "image",
+            "asset": {
+              "_ref": "image-21485e47a9637f89dfc596ece31d52da6d279a16-768x768-png",
+              "_type": "reference"
+            }
+          },
+          "imageFit": null,
+          "imageUrl": "https://cdn.sanity.io/images/jzbduz09/production/21485e47a9637f89dfc596ece31d52da6d279a16-768x768.png",
+          "reverse": true,
+          "title": "What to Bring?"
+        },
+        {
+          "_key": "5d53ec78fe5a",
+          "_type": "centerLayout",
+          "content": [
+            {
+              "_key": "58a68a86029a",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "ada11e758a29",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "We share fee details directly during the campus visit or through the Kawiz App for enrolled parents. We do not publish fee tables online to ensure fairness and protect family privacy"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "Fees & Transparency"
+        },
+        {
+          "_key": "7471ba2a8adc",
+          "_type": "centerLayout",
+          "content": [
+            {
+              "_key": "5d3c34b86cad",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "1f16a4a113dc",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "We’re preparing to offer merit-based waivers to high-performing and low-income students starting next academic cycle."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "Scholarship Options"
+        },
+        {
+          "_key": "7cbd6e50739d",
+          "_type": "faq",
+          "faqs": [
+            {
+              "answer": "Yes, if seats are available.",
+              "question": "Do you accept mid-year admissions?"
+            },
+            {
+              "answer": "English, with Telugu and Hindi as second/third languages.",
+              "question": "What’s the medium of instruction?"
+            },
+            {
+              "answer": "Yes, we run buses to Uppal and Boduppal.",
+              "question": "Is transport available?"
+            }
+          ],
+          "title": "Common Questions"
+        }
+      ],
+      "seo": {
+        "_type": "seo",
+        "metaDescription": "Learn how to apply to Krishnaveni School in Peerzadiguda. English medium nursery admissions, no entrance test, simple process, and trusted SSC board affiliation.",
+        "metaKeywords": "- how to apply to schools in Peerzadiguda - admission age for nursery in Hyderabad - school admission process Telangana - schools accepting new students in Hyderabad - English medium nursery admissions",
+        "metaTitle": "Admissions – English Medium School in Peerzadiguda | Krishnaveni School"
+      }
+    },
+    "chairman-message": {
+      "content": [
+        {
+          "_key": "2976bb5a49e5",
+          "_type": "centerLayout",
+          "content": [
+            {
+              "_key": "0881efb687f9",
+              "_type": "image",
+              "asset": {
+                "_ref": "image-2a7605ef91e9e9c33fedb877e7f423dfe9d94eec-780x764-png",
+                "_type": "reference"
+              }
+            },
+            {
+              "_key": "ee4d5194c09a",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "36ddc172d2a8",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "\"Our job is not to prepare students for something. Our job is to help students prepare themselves for anything.\""
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "a5ca6d0685f7",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "5c4aff818590",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "Respected Parents, Students and Community Members,"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "f50f4cea3150",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "f9a40ee121d7",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "When we founded Krishnaveni School, we envisioned more than just another educational institution – we dreamed of creating a "
+                },
+                {
+                  "_key": "a0a903d6b227",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "microcosm of the ideal society"
+                },
+                {
+                  "_key": "b6d2984fe82a",
+                  "_type": "span",
+                  "marks": [],
+                  "text": ", where knowledge meets virtue, and ambition walks hand-in-hand with empathy. Today, as I witness our students’ achievements, I’m filled with profound gratitude for everyone who has helped turn this vision into reality."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "8231af8cc6bc",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "32ffc5de2e95",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "The Krishnaveni Difference: Education Reimagined"
+                }
+              ],
+              "markDefs": [],
+              "style": "h2"
+            },
+            {
+              "_key": "3bd400d483eb",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "3b7242314e37",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "In an era where many schools chase rankings, we pursue meaningful impact. Consider how we’re different:"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "3dd5e2877883",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "bb92cca60ded",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "Future-Reader Infrastructure"
+                }
+              ],
+              "level": 1,
+              "listItem": "number",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "b96109111946",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "73f6de0bf2e6",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "Smart Classrooms"
+                },
+                {
+                  "_key": "8733fb48ea5a",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " with interactive panels"
+                }
+              ],
+              "level": 2,
+              "listItem": "number",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "6e8a5586a7de",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "74e165a5c16a",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "Maker Spaces"
+                },
+                {
+                  "_key": "4cbce0003b70",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " for robotics and innovations"
+                }
+              ],
+              "level": 2,
+              "listItem": "number",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "a4f8a1647c9d",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "1a3bb98a048d",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "Digital Language Labs"
+                },
+                {
+                  "_key": "d3dc87c0f8af",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " for global communication skills"
+                }
+              ],
+              "level": 2,
+              "listItem": "number",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "791d4eebdf25",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "4633bcc13185",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "The Teacher Advantage. "
+                },
+                {
+                  "_key": "a6683e3c9bac",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Our faculty undergoes "
+                },
+                {
+                  "_key": "66db8a733e49",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "200+ hours of annual training"
+                },
+                {
+                  "_key": "35191e1610c4",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " in:"
+                }
+              ],
+              "level": 1,
+              "listItem": "number",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "a198ae7e7c04",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "e42b6311b8e4",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Neuro-education techniques"
+                }
+              ],
+              "level": 2,
+              "listItem": "number",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "59395e8a3376",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "cd7003d0751f",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Positive psychology applications"
+                }
+              ],
+              "level": 2,
+              "listItem": "number",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "74de091bef87",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "a60759f6ce16",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "AI-assisted personalized learning"
+                }
+              ],
+              "level": 2,
+              "listItem": "number",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "860cd7031b33",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "ff68f92c4676",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "Learning That Matters."
+                },
+                {
+                  "_key": "dbbc563e089f",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " We've replaced rote memorization with:"
+                }
+              ],
+              "level": 1,
+              "listItem": "number",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "788f0eb1713d",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "580bc6669f5f",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "Case-Study Methodology"
+                },
+                {
+                  "_key": "df52b74654ab",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " (Like \"How would you solve Hyderabad's traffic?\")"
+                }
+              ],
+              "level": 2,
+              "listItem": "number",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "6ad672bc6cfd",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "9ee073ff402a",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "Passion Projects"
+                },
+                {
+                  "_key": "6b621e57cfce",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " (6 months to explore any interest deeply)"
+                }
+              ],
+              "level": 2,
+              "listItem": "number",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "f4aa1b77c60f",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "ac786aa771ef",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "Global Classroom Exchanges"
+                },
+                {
+                  "_key": "ffdb934eaf6d",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " (Virtual collaborations with overseas schools)"
+                }
+              ],
+              "level": 2,
+              "listItem": "number",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "714e655c8624",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "eb55ecd1ad66",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "The Values That Guide Us"
+                }
+              ],
+              "markDefs": [],
+              "style": "h2"
+            },
+            {
+              "_key": "c2e81570fbba",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "1e4e077c16bf",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Amidst technological leaps, we hold fast to timeless principles:"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "85ee946ccfb0",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "8450552d9fe6",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "Sanskar First"
+                },
+                {
+                  "_key": "eb343c7902a3",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " – Morning assemblies blending shlokas with scientific facts"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "64595ab58c61",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "f4e0c9679646",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "Seva as Curriculum"
+                },
+                {
+                  "_key": "3f55a48c1709",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " – Mandatory community service hours"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "004501f2beac",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "afd185ecaa78",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "Roots & Wings"
+                },
+                {
+                  "_key": "121ac5ddcd16",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " – Teaching Telangana’s heritage alongside space technology"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "b96af2ad829e",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "091dfc45b23f",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "To Our Parents: Custodians of Trust"
+                }
+              ],
+              "markDefs": [],
+              "style": "h2"
+            },
+            {
+              "_key": "553003fb1100",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "a827973a6bd0",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "We understand the weight of your decision – choosing a school is choosing the architects of your child’s worldview. This is why we practice "
+                },
+                {
+                  "_key": "b1ad5d3ba8cd",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "radical transparency"
+                },
+                {
+                  "_key": "6f1c7bf99071",
+                  "_type": "span",
+                  "marks": [],
+                  "text": ":"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "bb07aa2608d6",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "834544bef459",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Live CCTV access (with privacy safeguards)"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "cdaaeb270b06",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "176f32850d51",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Real-time performance dashboards"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "5ed2cbdfd920",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "9fdfa4a9c883",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Quarterly “Grievance to Gratitude” open forums"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "788388339a18",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "64f4e25bd6fd",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "A Message to Students"
+                }
+              ],
+              "markDefs": [],
+              "style": "h2"
+            },
+            {
+              "_key": "d9049987aacd",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "30031be51e13",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "You’re entering an ecosystem designed to:"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "d8738a70b579",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "5be105c8e9a4",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "Spark your curiosity"
+                },
+                {
+                  "_key": "e3f99a62fccd",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " (Our “Why Wall” never has blank spaces)"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "078237cd6836",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "f67748a83ca7",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "Stretch your capabilities"
+                },
+                {
+                  "_key": "6dd258d4db5f",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " (Through Olympiads, hackathons)"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "3d82dcb2a236",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "42fc125f46fd",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "Soothe your struggles"
+                },
+                {
+                  "_key": "a1972027367d",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " (With peer counseling circles)"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "4e740c9f281e",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "c990e9803c98",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "The Road Ahead"
+                }
+              ],
+              "markDefs": [],
+              "style": "h2"
+            },
+            {
+              "_key": "20f52149c355",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "06f9c4a926c1",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "As we expand our:"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "998f1717821b",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "70c9edae2bc4",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "Space Tech Club"
+                },
+                {
+                  "_key": "755ab092901f",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " (In partnership with ISRO outreach)"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "68d048bc6d70",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "ed1fefa4dc89",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "Young Entrepreneurs Program"
+                },
+                {
+                  "_key": "11a392aeaf89",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " (With seed funding for student startups)"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "4e44be65de2f",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "00564f8c00e4",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "AI For Good Initiative"
+                },
+                {
+                  "_key": "f180dc3032f6",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " (Solving local problems through technology)"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "535f0577a59d",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "76ad0e8b2a60",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "We remain anchored to our founding belief: "
+                },
+                {
+                  "_key": "5ca6cfbbd8d2",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "True education illuminates both the mind and the heart"
+                },
+                {
+                  "_key": "7c77a5e96c9f",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "e41b3ffb5ed6",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "0c288bf4e1c0",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "Join us"
+                },
+                {
+                  "_key": "97e4d0c34329",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " in this revolutionary journey where every child is taught not what to think, but "
+                },
+                {
+                  "_key": "63c41fa3ee2c",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "how to think"
+                },
+                {
+                  "_key": "63260f6c0cdf",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "; not just to earn a living, but to "
+                },
+                {
+                  "_key": "1ed161594e1a",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "craft a life of purpose."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "42c0cbae31db",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "d9b6b423c0a4",
+                  "_type": "span",
+                  "marks": [],
+                  "text": ""
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "87b4072c6fa6",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "101f79356be8",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "With hope and determination,"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "8da1f6dce038",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "c69434404330",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Polavarapu Venkata Rajendra Prasad"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "06878dcb5e9b",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "db3ac23520c5",
+                  "_type": "span",
+                  "marks": [
+                    "em"
+                  ],
+                  "text": "Chairman"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "Chairman's Message"
+        }
+      ],
+      "seo": {
+        "_type": "seo",
+        "metaDescription": "A visionary message from Chairman P. V. Rajendra Prasad, outlining Krishnaveni School’s mission to build future-ready students with values, innovation, and lifelong purpose.\n",
+        "metaKeywords": "Chairman Message, Krishnaveni School, P. V. Rajendra Prasad, Peerzadiguda, TS SSC, CBSE School Hyderabad, Future-Ready School, Values Based Education, Holistic Learning, Best School Telangana",
+        "metaTitle": "Chairman's Message — Krishnaveni School Peerzadiguda"
+      }
+    },
+    "about": {
+      "content": [
+        {
+          "_key": "7256177e525d",
+          "_type": "heroSection",
+          "ctaBtns": [
+            {
+              "externalLink": null,
+              "internalPage": {
+                "slug": "/en/admissions"
+              },
+              "label": "Apply Now",
+              "style": "primary"
+            },
+            {
+              "externalLink": "https://wa.me/919963373679?text=Hello%20Krishnaveni%20School%2C%20I%E2%80%99d%20like%20to%20book%20a%20school%20tour%20for%20my%20child.",
+              "internalPage": null,
+              "label": "Book a School Tour",
+              "style": "none"
+            }
+          ],
+          "description": "Established in 2017, Krishnaveni School is a recognized Telangana SSC board school focused on affordable education for all families.",
+          "imageUrl": {
+            "desktop": "https://cdn.sanity.io/images/jzbduz09/production/05f745aaf696ed75e192341f84da7c027eb5aa4d-1680x1120.jpg",
+            "mobile": "https://cdn.sanity.io/images/jzbduz09/production/960c9f6115c323d593f04ae389bd07ea91770cbf-637x896.jpg"
+          },
+          "images": {
+            "desktop": {
+              "_type": "image",
+              "asset": {
+                "_ref": "image-05f745aaf696ed75e192341f84da7c027eb5aa4d-1680x1120-jpg",
+                "_type": "reference"
+              }
+            },
+            "mobile": {
+              "_type": "image",
+              "asset": {
+                "_ref": "image-960c9f6115c323d593f04ae389bd07ea91770cbf-637x896-jpg",
+                "_type": "reference"
+              }
+            }
+          },
+          "subtitle": "Best school for values and academics in Hyderabad",
+          "title": "About Krishnaveni School"
+        },
+        {
+          "_key": "30d3aeaf5c87",
+          "_type": "visionMission",
+          "mission": {
+            "content": "To empower every child through a joyful, practical, and disciplined learning environment, rooted in academic fundamentals, life skills, and personal values.",
+            "title": "Mission"
+          },
+          "title": "Our Vision & Mission",
+          "vision": {
+            "content": "To provide affordable, values-driven, and quality education tailored to lower and middle-income families, nurturing confident, responsible, and future-ready students.",
+            "title": "Vision"
+          }
+        },
+        {
+          "_key": "2fcef69f4451",
+          "_type": "twoColLayout",
+          "content": [
+            {
+              "_key": "600e5125749c",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "9bdc6183f80d",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Every student has a story waiting to unfold—our job is just to give them the pen."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "c1b1a287fe2b",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "c831e308f3ab",
+                  "_type": "span",
+                  "marks": [],
+                  "text": ""
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "9a918405bc63",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "53f227762d3b",
+                  "_type": "span",
+                  "marks": [
+                    "em"
+                  ],
+                  "text": "- V. Kavitha (Principal)"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "image": {
+            "_type": "image",
+            "asset": {
+              "_ref": "image-9a0e87f56b6d19dde3f0b6f71dc08c0faeb03bf8-723x690-png",
+              "_type": "reference"
+            }
+          },
+          "imageFit": "contain",
+          "imageUrl": "https://cdn.sanity.io/images/jzbduz09/production/9a0e87f56b6d19dde3f0b6f71dc08c0faeb03bf8-723x690.png",
+          "reverse": false,
+          "title": "Message from our Principal"
+        },
+        {
+          "_key": "c2d4b9a7c641",
+          "_type": "twoColLayout",
+          "content": [
+            {
+              "_key": "d7b08562d3fb",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "3bd80eaaa2b8",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Our job is not to prepare students for something. Our job is to help students prepare themselves for anything."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "3d1a0788aea0",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "e117876db579",
+                  "_type": "span",
+                  "marks": [],
+                  "text": ""
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "8816321b0f99",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "10fb6bfb9257",
+                  "_type": "span",
+                  "marks": [
+                    "em"
+                  ],
+                  "text": "- P. V. Rajendra Prasad (Chairman)"
+                },
+                {
+                  "_key": "ea405294c5fc",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "\n"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "image": {
+            "_type": "image",
+            "asset": {
+              "_ref": "image-2a7605ef91e9e9c33fedb877e7f423dfe9d94eec-780x764-png",
+              "_type": "reference"
+            }
+          },
+          "imageFit": "contain",
+          "imageUrl": "https://cdn.sanity.io/images/jzbduz09/production/2a7605ef91e9e9c33fedb877e7f423dfe9d94eec-780x764.png",
+          "reverse": true,
+          "title": "Message from our Chairman"
+        },
+        {
+          "_key": "425d9b848744",
+          "_type": "twoColLayout",
+          "content": [
+            {
+              "_key": "5e9de9e0964a",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "1c1c0e68e3a6",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Krishnaveni School, a Peerzadiguda education institution, was founded in 2017 by committed educators. Today, we serve students from Uppal, Boduppal, and beyond — combining local values with modern teaching for confident learners."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "786db91403aa",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "b81fd57edf7f",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "\"We combine local cultural values with modern teaching to prepare students for a future of confidence and integrity.\""
+                }
+              ],
+              "markDefs": [],
+              "style": "blockquote"
+            }
+          ],
+          "image": {
+            "_type": "image",
+            "asset": {
+              "_ref": "image-410d1cb28c957b81db5179e93ad93177750a484e-1344x896-jpg",
+              "_type": "reference"
+            }
+          },
+          "imageFit": null,
+          "imageUrl": "https://cdn.sanity.io/images/jzbduz09/production/410d1cb28c957b81db5179e93ad93177750a484e-1344x896.jpg",
+          "reverse": false,
+          "title": "Our Journey Since 2017"
+        },
+        {
+          "_key": "b5aa9f19f7a9",
+          "_type": "uniqueCards",
+          "cards": [
+            {
+              "color": "2951e0",
+              "description": "Telangana SSC-recognized. High teaching standards at an affordable fee.",
+              "icon": "indian-rupee",
+              "title": "Affordable Excellence"
+            },
+            {
+              "color": "7AADD9",
+              "description": "Kawiz App, WhatsApp updates, real-time monitoring, and regular PTMs.",
+              "icon": "heart-handshake",
+              "title": "Strong Parent–School Connection"
+            },
+            {
+              "color": "F92543",
+              "description": "25:1 ratio, guidance for slow learners.",
+              "icon": "user-round",
+              "title": "Personal Attention"
+            },
+            {
+              "color": "25DE32",
+              "description": "Activity-based learning, storytelling, digital tools.",
+              "icon": "shrub",
+              "title": "Values + Modern Methods"
+            }
+          ],
+          "title": "What Sets Us Apart"
+        },
+        {
+          "_key": "e6de3881083a",
+          "_type": "centerLayout",
+          "content": [
+            {
+              "_key": "5f16e2e49fe4",
+              "_type": "image",
+              "asset": {
+                "_ref": "image-6d5f38b1c93b4b41dac5200ef398064c325879b5-200x200-png",
+                "_type": "reference"
+              }
+            },
+            {
+              "_key": "f60703465b45",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "ffeb554a8a1f",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Krishnaveni School is recognized by the Telangana State Education Department and follows the Telangana SSC Board curriculum."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "b0281bef0f58",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "08560fcf6d15",
+                  "_type": "span",
+                  "marks": [
+                    "em"
+                  ],
+                  "text": "We are currently preparing to integrate CBSE-based learning for enhanced academic outcomes."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "Our Recognition"
+        }
+      ],
+      "seo": {
+        "_type": "seo",
+        "metaDescription": "Learn about Krishnaveni School, a recognized Telangana SSC board school in Peerzadiguda offering low-cost, values-based education led by passionate founders and educators.",
+        "metaKeywords": "- best school for values and academics in Hyderabad - low-cost school with quality education - Telangana SSC board school - Peerzadiguda education institutions",
+        "metaTitle": "About Krishnaveni School – Best School for Values & Academics in Hyderabad"
+      }
+    },
+    "contact": {
+      "content": [
+        {
+          "_key": "2dba660d7d23",
+          "_type": "heroSection",
+          "ctaBtns": [
+            {
+              "externalLink": "tel:+919963373679",
+              "internalPage": null,
+              "label": "Call Now",
+              "style": "primary"
+            },
+            {
+              "externalLink": "https://wa.me/919963373679?text=Hello%20Krishnaveni%20School%2C%20I’d%20like%20to%20book%20a%20school%20tour%20for%20my%20child.",
+              "internalPage": null,
+              "label": "Visit School",
+              "style": "outline"
+            }
+          ],
+          "description": "Visit us at Peerzadiguda, Hyderabad or call now to speak with our admissions team about enrollment for Nursery to Class 8",
+          "imageUrl": {
+            "desktop": "https://cdn.sanity.io/images/jzbduz09/production/d70d5b265bccd15413025d7373389ca376eba00f-1296x864.jpg",
+            "mobile": "https://cdn.sanity.io/images/jzbduz09/production/39a90caa7591aff18d2ae6e35cb2ecb1319fc8b9-435x731.jpg"
+          },
+          "images": {
+            "desktop": {
+              "_type": "image",
+              "asset": {
+                "_ref": "image-d70d5b265bccd15413025d7373389ca376eba00f-1296x864-jpg",
+                "_type": "reference"
+              }
+            },
+            "mobile": {
+              "_type": "image",
+              "asset": {
+                "_ref": "image-39a90caa7591aff18d2ae6e35cb2ecb1319fc8b9-435x731-jpg",
+                "_type": "reference"
+              }
+            }
+          },
+          "subtitle": null,
+          "title": "We’re Here to Help You Get Started"
+        },
+        {
+          "_key": "bb4b0efa681d",
+          "_type": "contact",
+          "address": {
+            "address": "Krishnaveni School Peerzadiguda Main Road Hyderabad – 500098 Telangana, India",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50260804.070813!2d103.3194165631587!3d3.006131546229591!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9efcda041387%3A0xf6d6e640790d1d31!2sKrishnaveni%20School!5e0!3m2!1sen!2sau!4v1750594531558!5m2!1sen!2sau",
+            "subtext": "Located minutes from Uppal and Boduppal",
+            "title": "School Address"
+          },
+          "contact": {
+            "email": "ktspeerzadiguda97@gmail.com",
+            "facebook": "https://www.facebook.com/krishnaveni.peerzadiguda.7",
+            "phone": "+919963373679",
+            "subtext": "Call us at the number above or use the form below to schedule a school tour or admission consultation. Let us know how we can help — we’ll get back to you shortly.",
+            "title": "Contact Information",
+            "whatsapp": "https://wa.me/919963373679"
+          },
+          "title": "Contact Us",
+          "transport": {
+            "subtext": "We offer transportation services to nearby areas including Uppal, Boduppal, and Medipally. Ask about routes and pick-up points during your call or visit.",
+            "title": "Transport"
+          },
+          "workingHours": {
+            "monFri": "8:30AM — 3:00PM",
+            "sat": "8:30AM — 12:30PM",
+            "subtext": "Feel free to visit during working hours or call ahead to schedule an appointment.",
+            "sun": "Closed",
+            "title": "Working Hours"
+          }
+        }
+      ],
+      "seo": {
+        "_type": "seo",
+        "metaDescription": "Get in touch with Krishnaveni School in Peerzadiguda. Call for school admissions, schedule a visit, or ask about transport. Serving families from Uppal to Medipally.",
+        "metaKeywords": "- school contact Peerzadiguda Hyderabad - call for school admissions Telangana - visit Krishnaveni School location - school with transport in Hyderabad",
+        "metaTitle": "Contact Krishnaveni School – Peerzadiguda, Hyderabad | Call for Admissions"
+      }
+    },
+    "campusLife": {
+      "content": null,
+      "seo": {
+        "_type": "seo",
+        "metaDescription": "Explore the vibrant campus life at Krishnaveni School – a safe, values-based Telangana SSC school with sports, arts, and co-curricular activities in Peerzadiguda, Hyderabad.",
+        "metaKeywords": "- schools with sports and arts in Peerzadiguda - co-curricular activities in Telangana schools - safe and hygienic schools in Hyderabad - school with cultural and festival celebrations - drawing, handwriting, moral education in school",
+        "metaTitle": "Campus Life at Krishnaveni School – Safe, Activity-Rich School in Peerzadiguda"
+      }
+    },
+    "principal-message": {
+      "content": [
+        {
+          "_key": "927865b386e8",
+          "_type": "centerLayout",
+          "content": [
+            {
+              "_key": "624437dfd952",
+              "_type": "image",
+              "asset": {
+                "_ref": "image-9a0e87f56b6d19dde3f0b6f71dc08c0faeb03bf8-723x690-png",
+                "_type": "reference"
+              }
+            },
+            {
+              "_key": "95115c6e5795",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "edc91ce7b8c2",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "My Dear Students, Parents, and Well-Wishers,"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "3116cb004ca4",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "14ef671a50b6",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "It is with immense pride and heartfelt joy that I welcome you to "
+                },
+                {
+                  "_key": "29e96b809e7d",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "Krishnaveni School of Peerzadigud"
+                },
+                {
+                  "_key": "ef84e1405980",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "a – not just an institution of learning, but a home away from home where dreams take flight, talents blossom, and futures are built. As I walk through our vibrant corridors each morning, witnessing the energy of our students and the dedication of our teachers, I am reminded of why education is the noblest profession – we don’t just teach subjects; we shape lives."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "37aee8c3c7df",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "0ecd7304001a",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "At Krishnaveni, we believe every child is a universe of potential waiting to be discovered. Unlike traditional schools where students are just roll numbers, here, "
+                },
+                {
+                  "_key": "4f658dadb8d3",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "we know every child by name, understand their unique strengths, and celebrate their individuality"
+                },
+                {
+                  "_key": "64e686419c96",
+                  "_type": "span",
+                  "marks": [],
+                  "text": ". Whether it’s the quiet artist who paints breathtaking canvases, the budding scientist who asks “why” a hundred times a day, or the compassionate friend who uplifts others – each student adds irreplaceable value to our family."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "9664d3329202",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "99548522a7eb",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Our Approach: Where Learning Comes Alive"
+                }
+              ],
+              "markDefs": [],
+              "style": "h2"
+            },
+            {
+              "_key": "7332ec506dac",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "10af3a7c0cd4",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "What truly sets us apart is our commitment to making education "
+                },
+                {
+                  "_key": "2ed48f451e80",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "meaningful, exciting, and relevant."
+                },
+                {
+                  "_key": "be3d020b71f5",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " In our classrooms:"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "5d8c77987d79",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "85ca6901f94e",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "Curiosity is the curriculum"
+                },
+                {
+                  "_key": "a863d209e752",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " – Lessons begin with real-world questions like “How do clouds form?” or “Why do currencies have value?”"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "1caa6f99f85b",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "267cfa215da2",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "Creativity is graded"
+                },
+                {
+                  "_key": "18026ab2d660",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " – From designing apps to composing music, original thinking is rewarded"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "b75b1a0686e6",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "242db325137b",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "Compassion is taught"
+                },
+                {
+                  "_key": "35839fa11296",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " – Through community projects and peer mentoring"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "238bd48b08cb",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "8fffaec7fc5a",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Our teachers are more than educators – they are "
+                },
+                {
+                  "_key": "97ad3abe7b71",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "learning architects"
+                },
+                {
+                  "_key": "d56911b73326",
+                  "_type": "span",
+                  "marks": [],
+                  "text": ". Trained in the latest pedagogical methods, they don’t just deliver lectures; they "
+                },
+                {
+                  "_key": "32fe70cd33ab",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "facilitate discoveries"
+                },
+                {
+                  "_key": "e598abc0bfc2",
+                  "_type": "span",
+                  "marks": [],
+                  "text": ". When we teach fractions, students bake cakes to understand measurements. History comes alive through role-plays of historical events. Even complex physics concepts turn into thrilling experiments in our "
+                },
+                {
+                  "_key": "106bb5cd0113",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "state-of-the-art science labs."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "6026b2d9e063",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "e313e2651147",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Beyond Academics: Building Character"
+                }
+              ],
+              "markDefs": [],
+              "style": "h2"
+            },
+            {
+              "_key": "4a8b3d1d5402",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "759e90c60176",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "While academic excellence is crucial, we measure success by more than marksheets. Our "
+                },
+                {
+                  "_key": "4a59b552f433",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "Five Pillars Program"
+                },
+                {
+                  "_key": "1edbe133593b",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " ensures holistic growth:"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "ad70c7321671",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "94deac749baf",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "Intellectual Growth"
+                },
+                {
+                  "_key": "2baf8604dada",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " – Critical thinking classes, research projects"
+                }
+              ],
+              "level": 1,
+              "listItem": "number",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "672dc0a4aabe",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "373b4b7f33b4",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "Emotional Intelligence"
+                },
+                {
+                  "_key": "1ef0975ac665",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " – Mindfulness sessions, counseling"
+                }
+              ],
+              "level": 1,
+              "listItem": "number",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "ddb541c13847",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "7dfb6b7ceda1",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "Physical Wellbeing"
+                },
+                {
+                  "_key": "4ec3a1b75f93",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " – Yoga, nutrition workshops, sports"
+                }
+              ],
+              "level": 1,
+              "listItem": "number",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "39d05de70d77",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "6f6fbbbdf0f1",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "Social Responsibility"
+                },
+                {
+                  "_key": "779de0cce078",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " – Eco-clubs, charity drives"
+                }
+              ],
+              "level": 1,
+              "listItem": "number",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "33e3e86220c0",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "518962580437",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "Cultural Pride"
+                },
+                {
+                  "_key": "2c37ca5c790c",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " – Folk art preservation, language festivals"
+                }
+              ],
+              "level": 1,
+              "listItem": "number",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "6500ad66e18d",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "447c7fc113bf",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "To Our Parents: Partners in Growth"
+                }
+              ],
+              "markDefs": [],
+              "style": "h2"
+            },
+            {
+              "_key": "a54454a628ed",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "6f17344f826a",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Your trust humbles us. We see how mothers wipe anxious tears on first days, how fathers proudly display every progress report, how grandparents pass down values that complement our teachings. This is why we’ve built "
+                },
+                {
+                  "_key": "607a8e967852",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "360° engagement systems:"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "c43dd12433bc",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "4a60e5f30d64",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Monthly “Open Classroom” days"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "56366f5d3b0c",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "b814db382676",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Parenting workshops on digital-age challenges"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "a56881e5a802",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "aa9c4c090053",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Community celebrations like Harvest Fest"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "2d002bfd8cb0",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "b997b6401528",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Our Promise to Students"
+                }
+              ],
+              "markDefs": [],
+              "style": "h2"
+            },
+            {
+              "_key": "abeab5d62ed2",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "568b85ad3f9f",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "When you walk through our gates:"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "a6b8efc90672",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "73a35de9582a",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "You’ll "
+                },
+                {
+                  "_key": "73c74103f4fd",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "fail safely"
+                },
+                {
+                  "_key": "c645791c5ead",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " – because mistakes are just discoveries in disguise"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "bd43dc4e0f49",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "9654f8766363",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "You’ll "
+                },
+                {
+                  "_key": "a43fc673b2da",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "find your voice"
+                },
+                {
+                  "_key": "e61b198ab9e3",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " – whether through debates, blogs or theater"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "d3c9ec1cd911",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "a8185d64319a",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "You’ll "
+                },
+                {
+                  "_key": "2f5f42388678",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "leave ready"
+                },
+                {
+                  "_key": "7e6747297d1c",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " – equipped not just for exams, but for life’s adventures"
+                }
+              ],
+              "level": 1,
+              "listItem": "bullet",
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "b041b9edfde3",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "44c6b5284f29",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "As the world changes faster than ever, Krishnaveni stands as an anchor of "
+                },
+                {
+                  "_key": "e0b851e397c2",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "values "
+                },
+                {
+                  "_key": "30d93e5a7d71",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "and a launchpad for "
+                },
+                {
+                  "_key": "bbd5053c38cb",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "innovation"
+                },
+                {
+                  "_key": "e73409293ae2",
+                  "_type": "span",
+                  "marks": [],
+                  "text": ". Our alumni – now doctors, engineers, entrepreneurs and artists – often return to share how their journey began here, in these very classrooms where we don’t just teach lessons, "
+                },
+                {
+                  "_key": "281e56b17832",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "we teach how to learn forever."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "72b3614792b8",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "b065bf52d9e6",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "Welcome home"
+                },
+                {
+                  "_key": "02a0396fcae5",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " to a place where every day brings new wonders, where education isn’t a race but a joyful expedition, and where your child’s potential will find its truest expression."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "9b1374f33b73",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "526d24c80798",
+                  "_type": "span",
+                  "marks": [],
+                  "text": ""
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "0d9470242168",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "974e6347b8ab",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "With unwavering commitment,"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "fc16f7fc299c",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "6ea43585bed5",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "V. Kavitha"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "de587a8aa4ed",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "dbd788e5a5f4",
+                  "_type": "span",
+                  "marks": [
+                    "em"
+                  ],
+                  "text": "Principal"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "title": "Principal's Message"
+        }
+      ],
+      "seo": {
+        "_type": "seo",
+        "metaDescription": "Discover the heartfelt message from our Principal, V. Kavitha, who shares Krishnaveni School’s vision of nurturing young minds through creativity, compassion, and curiosity.\n",
+        "metaKeywords": "Principal Message, Krishnaveni School, Peerzadiguda, Holistic Education, Best School Hyderabad, CBSE School Telangana, TS SSC, V. Kavitha, School Vision, Top School in Peerzadiguda",
+        "metaTitle": "Principal's Message — Krishnaveni School Peerzadiguda"
+      }
+    },
+    "home": {
+      "content": [
+        {
+          "_key": "d968bb0441bb",
+          "_type": "heroSection",
+          "ctaBtns": [
+            {
+              "externalLink": null,
+              "internalPage": {
+                "slug": "/en/admissions"
+              },
+              "label": "Apply Now",
+              "style": "primary"
+            },
+            {
+              "externalLink": "https://wa.me/919963373679?text=Hello%20Krishnaveni%20School%2C%20I’d%20like%20to%20book%20a%20school%20tour%20for%20my%20child.",
+              "internalPage": null,
+              "label": "Book a School Tour",
+              "style": "none"
+            }
+          ],
+          "description": "Krishnaveni School in Peerzadiguda offers affordable, English-medium education rooted in local values and life skills.",
+          "imageUrl": {
+            "desktop": "https://cdn.sanity.io/images/jzbduz09/production/dfc7e6918a11671c8b0af4dc92ec483993181ebc-1944x1296.jpg",
+            "mobile": "https://cdn.sanity.io/images/jzbduz09/production/9d59dc8a0666915240673a85403c8e5618e4ef26-982x1728.jpg"
+          },
+          "images": {
+            "desktop": {
+              "_type": "image",
+              "asset": {
+                "_ref": "image-dfc7e6918a11671c8b0af4dc92ec483993181ebc-1944x1296-jpg",
+                "_type": "reference"
+              }
+            },
+            "mobile": {
+              "_type": "image",
+              "asset": {
+                "_ref": "image-9d59dc8a0666915240673a85403c8e5618e4ef26-982x1728-jpg",
+                "_type": "reference"
+              }
+            }
+          },
+          "subtitle": "Empowering Future-Ready Students with Strong Academics & Life Skills",
+          "title": "Affordable, Values Driven Education in Peerzadiguda"
+        },
+        {
+          "_key": "5d9ff123e715",
+          "_type": "featureCards",
+          "cards": [
+            {
+              "color": "2951e0",
+              "description": "Telangana SSC-recognized. High teaching standards at an affordable fee.",
+              "icon": "indian-rupee",
+              "title": "Affordable Excellence"
+            },
+            {
+              "color": "7AADD9",
+              "description": "Kawiz App, WhatsApp updates, real-time monitoring.",
+              "icon": "heart-handshake",
+              "title": "Strong Parent–School Connection"
+            },
+            {
+              "color": "F92543",
+              "description": "25:1 ratio, guidance for slow learners.",
+              "icon": "user-round",
+              "title": "Personal Attention"
+            },
+            {
+              "color": "25DE32",
+              "description": "Activity-based learning, storytelling, digital tools.",
+              "icon": "shrub",
+              "title": "Values + Modern Methods"
+            }
+          ],
+          "title": "Why Choose Krishnaveni?"
+        },
+        {
+          "_key": "86608f601875",
+          "_type": "introduction",
+          "ctaBtns": [
+            {
+              "externalLink": null,
+              "internalPage": {
+                "slug": "/en/about"
+              },
+              "label": "Learn More",
+              "style": "primary"
+            },
+            {
+              "externalLink": null,
+              "internalPage": {
+                "slug": "/en/contact"
+              },
+              "label": "Contact Us",
+              "style": "none"
+            }
+          ],
+          "description": "Krishnaveni School is a trusted choice among Peerzadiguda education institutions, offering affordable, values-based learning for children from Nursery to Class 8. With a strong focus on both academics and life skills, our school blends modern teaching methods with local cultural roots to create a well-rounded educational experience for every child.",
+          "facts": [
+            {
+              "description": "Nursery to Class 8 (Class 10 coming soon)",
+              "icon": "graduation-cap",
+              "title": "Grades Offered"
+            },
+            {
+              "description": "Telangana SSC / CBSE ",
+              "icon": "school",
+              "title": "Board Affiliation"
+            },
+            {
+              "description": "Peerzadiguda – serving Uppal, Boduppal, Medipally",
+              "icon": "map-pin",
+              "title": "Location"
+            },
+            {
+              "description": "English (Primary), Telugu & Hindi (2nd/3rd languages)",
+              "icon": "languages",
+              "title": "Medium of Instruction"
+            }
+          ],
+          "image": {
+            "_type": "image",
+            "asset": {
+              "_ref": "image-ff8fe8440d1863a65f913bd775bd34a88dd8de21-1296x864-png",
+              "_type": "reference"
+            }
+          },
+          "imageUrl": "https://cdn.sanity.io/images/jzbduz09/production/ff8fe8440d1863a65f913bd775bd34a88dd8de21-1296x864.png",
+          "title": "At a Glance"
+        },
+        {
+          "_key": "22761bedc0a8",
+          "_type": "bentoGallery",
+          "ctaBtns": [
+            {
+              "externalLink": null,
+              "internalPage": {
+                "slug": "/en/campus-life"
+              },
+              "label": "View More",
+              "style": "primary"
+            }
+          ],
+          "imageUrl": [
+            {
+              "desktopImage": "https://cdn.sanity.io/images/jzbduz09/production/9e7b329421e0056883e25f3eaecb17cbfd093717-684x456.jpg",
+              "label": "Our Events",
+              "mobileImage": "https://cdn.sanity.io/images/jzbduz09/production/9e7b329421e0056883e25f3eaecb17cbfd093717-684x456.jpg"
+            },
+            {
+              "desktopImage": "https://cdn.sanity.io/images/jzbduz09/production/a5c450f591ab829be0b1937ce50230720f9883d8-1134x1911.jpg",
+              "label": "Our Transport Facilities",
+              "mobileImage": "https://cdn.sanity.io/images/jzbduz09/production/92a0997c93b19d7be075711ef2a1a94e8d9dcd65-567x956.jpg"
+            },
+            {
+              "desktopImage": "https://cdn.sanity.io/images/jzbduz09/production/1ddc427bf3123be354607e1d93a2b4d2015c0aca-1680x1120.jpg",
+              "label": "Our Activities",
+              "mobileImage": "https://cdn.sanity.io/images/jzbduz09/production/2a00171dc41291d453add674d2eee3cebd5c3b10-461x836.jpg"
+            },
+            {
+              "desktopImage": "https://cdn.sanity.io/images/jzbduz09/production/61b8eb8ce04daa82e80d19752ccdac4b5cdb89bf-840x560.jpg",
+              "label": "Our Classrooms",
+              "mobileImage": "https://cdn.sanity.io/images/jzbduz09/production/61b8eb8ce04daa82e80d19752ccdac4b5cdb89bf-840x560.jpg"
+            }
+          ],
+          "images": [
+            {
+              "_key": "029bb962f7e5",
+              "desktopImage": {
+                "_type": "image",
+                "asset": {
+                  "_ref": "image-9e7b329421e0056883e25f3eaecb17cbfd093717-684x456-jpg",
+                  "_type": "reference"
+                }
+              },
+              "label": "Our Events",
+              "mobileImage": {
+                "_type": "image",
+                "asset": {
+                  "_ref": "image-9e7b329421e0056883e25f3eaecb17cbfd093717-684x456-jpg",
+                  "_type": "reference"
+                }
+              }
+            },
+            {
+              "_key": "89af02cd8279",
+              "desktopImage": {
+                "_type": "image",
+                "asset": {
+                  "_ref": "image-a5c450f591ab829be0b1937ce50230720f9883d8-1134x1911-jpg",
+                  "_type": "reference"
+                }
+              },
+              "label": "Our Transport Facilities",
+              "mobileImage": {
+                "_type": "image",
+                "asset": {
+                  "_ref": "image-92a0997c93b19d7be075711ef2a1a94e8d9dcd65-567x956-jpg",
+                  "_type": "reference"
+                }
+              }
+            },
+            {
+              "_key": "8eb7ae55efe0",
+              "desktopImage": {
+                "_type": "image",
+                "asset": {
+                  "_ref": "image-1ddc427bf3123be354607e1d93a2b4d2015c0aca-1680x1120-jpg",
+                  "_type": "reference"
+                }
+              },
+              "label": "Our Activities",
+              "mobileImage": {
+                "_type": "image",
+                "asset": {
+                  "_ref": "image-2a00171dc41291d453add674d2eee3cebd5c3b10-461x836-jpg",
+                  "_type": "reference"
+                }
+              }
+            },
+            {
+              "_key": "79bd4e54362d",
+              "desktopImage": {
+                "_type": "image",
+                "asset": {
+                  "_ref": "image-61b8eb8ce04daa82e80d19752ccdac4b5cdb89bf-840x560-jpg",
+                  "_type": "reference"
+                }
+              },
+              "label": "Our Classrooms",
+              "mobileImage": {
+                "_type": "image",
+                "asset": {
+                  "_ref": "image-61b8eb8ce04daa82e80d19752ccdac4b5cdb89bf-840x560-jpg",
+                  "_type": "reference"
+                }
+              }
+            }
+          ],
+          "title": "Explore Our Campus Life"
+        },
+        {
+          "_key": "02621ce4e321",
+          "_type": "testimonials",
+          "testimonials": [
+            {
+              "author": "Sharon Pappala",
+              "authorTitle": "Student",
+              "thumbnail": "https://cdn.sanity.io/images/jzbduz09/production/2e40a5098d5c8b1f0ff5acee705601de6867a416-609x874.png",
+              "video": "https://cdn.sanity.io/files/jzbduz09/production/aa81364686076dd09d45c3151c46a3818cab4990.mp4"
+            },
+            {
+              "author": "Abinya",
+              "authorTitle": "Student",
+              "thumbnail": "https://cdn.sanity.io/images/jzbduz09/production/49cfc84f46533bf877ff007f22932a7a90ca86fd-607x674.png",
+              "video": "https://cdn.sanity.io/files/jzbduz09/production/cbf44912408097afb82cd744a5a7e6838ebc7108.mp4"
+            },
+            {
+              "author": "Priya Jha",
+              "authorTitle": "Teacher",
+              "thumbnail": "https://cdn.sanity.io/images/jzbduz09/production/3e2b987b15cd1edfd47be527997a6ffc47e71e4f-604x688.png",
+              "video": "https://cdn.sanity.io/files/jzbduz09/production/a159e0164e8bcabedafd589b7a8dd95c05f9aca5.mp4"
+            },
+            {
+              "author": "Yamuna",
+              "authorTitle": "Parent",
+              "thumbnail": "https://cdn.sanity.io/images/jzbduz09/production/890f7ff4aa2e0deafe63cf6387d6f5bfecba3fa8-607x761.png",
+              "video": "https://cdn.sanity.io/files/jzbduz09/production/195a82cb28c8e3cb392a69d412d52c121df05f10.mp4"
+            }
+          ],
+          "title": "Why Choose Us?"
+        }
+      ],
+      "seo": {
+        "_type": "seo",
+        "metaDescription": "Krishnaveni School offers affordable, values-based education in Peerzadiguda. Recognized by Telangana SSC Board. Small class sizes, activity-based learning, and strong parent communication.",
+        "metaKeywords": "- affordable English medium school in Peerzadiguda - best school near Uppal or Boduppal - values-based school in Hyderabad - Telangana SSC school admissions - activity-based learning school",
+        "metaTitle": "Affordable English Medium School in Peerzadiguda – Krishnaveni School"
+      }
+    }
+  },
+  "messagePages": {},
+  "navigation": {
+    "cta": {
+      "label": "Contact Us",
+      "link": {
+        "slug": "/en/contact"
+      }
+    },
+    "navLinks": [
+      {
+        "label": "Home",
+        "link": {
+          "slug": "/en"
+        }
+      },
+      {
+        "label": "About Us",
+        "link": {
+          "slug": "/en/about"
+        }
+      },
+      {
+        "label": "Admissions",
+        "link": {
+          "slug": "/en/admissions"
+        }
+      }
+    ],
+    "title": "English Navbar"
+  },
+  "cta": {
+    "ctaBtns": [
+      {
+        "externalLink": null,
+        "internalPage": {
+          "slug": "/en/admissions"
+        },
+        "label": "Apply Now",
+        "style": "primary"
+      },
+      {
+        "externalLink": "https://wa.me/919963373679?text=Hello%20Krishnaveni%20School%2C%20I’d%20like%20to%20book%20a%20school%20tour%20for%20my%20child.",
+        "internalPage": null,
+        "label": "Book a School Tour",
+        "style": "none"
+      }
+    ],
+    "description": "Schedule a visit or speak to our admissions team today.",
+    "imageUrl": {
+      "desktop": "https://cdn.sanity.io/images/jzbduz09/production/d90cf6a6a874201f68243125e7c45ced448a1ae1-1296x864.jpg",
+      "mobile": "https://cdn.sanity.io/images/jzbduz09/production/bba7c6165e83a2cef2d6d3fab6c6130f0dca4b71-517x864.jpg"
+    },
+    "title": "Ready to Learn More?"
+  }
+}

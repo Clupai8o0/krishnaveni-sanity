@@ -225,7 +225,3 @@ export interface MessagePageData {
 	};
 }
 
-// Page params interface
-export interface PageParams {
-	lang: string;
-}

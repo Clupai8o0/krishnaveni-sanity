@@ -1,5 +1,5 @@
-import { Image } from "next-sanity/image";
-import { PortableText } from "next-sanity";
+import Image from "next/image";
+import { PortableText } from "@portabletext/react";
 import { MessagePageData } from "@/lib/types";
 
 const MessageLayout = ({ name, designation, imageUrl, content }: MessagePageData) => {
