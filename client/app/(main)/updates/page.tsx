@@ -15,13 +15,48 @@ const CATEGORY_STYLES: Record<string, string> = {
 	news: "bg-blue-100 text-blue-700",
 	achievement: "bg-yellow-100 text-yellow-700",
 	video: "bg-red-100 text-red-700",
+	gallery: "bg-purple-100 text-purple-700",
 };
 
 const CATEGORY_LABELS: Record<string, string> = {
 	news: "News",
 	achievement: "Achievement",
 	video: "Video",
+	gallery: "Gallery",
 };
+
+type GalleryContent = {
+	description?: string;
+	items?: { url: string; type: string; caption?: string }[];
+};
+
+function parseGalleryContent(content: string): GalleryContent | null {
+	try {
+		const parsed = JSON.parse(content);
+		if (parsed && Array.isArray(parsed.items)) return parsed;
+	} catch {}
+	return null;
+}
+
+function GalleryPreview({ content }: { content: string }) {
+	const gallery = parseGalleryContent(content);
+	if (!gallery?.items?.length) return null;
+	const images = gallery.items.filter((i) => i.type === "image").slice(0, 4);
+	if (!images.length) return null;
+	return (
+		<div className="h-48 w-full grid grid-cols-2 gap-0.5">
+			{images.map((img, i) => (
+				<div key={i} className="overflow-hidden">
+					<img
+						src={img.url}
+						alt={img.caption ?? ""}
+						className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+					/>
+				</div>
+			))}
+		</div>
+	);
+}
 
 export default async function UpdatesPage() {
 	const { data: posts } = await supabase
@@ -37,7 +72,9 @@ export default async function UpdatesPage() {
 			</h1>
 
 			{!posts?.length ? (
-				<p className="text-gray-500 text-lg">No updates yet. Check back soon.</p>
+				<p className="text-gray-500 text-lg">
+					No updates yet. Check back soon.
+				</p>
 			) : (
 				<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
 					{posts.map((post) => (
@@ -46,7 +83,9 @@ export default async function UpdatesPage() {
 							href={`/updates/${post.slug}`}
 							className="group bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-md transition-shadow"
 						>
-							{post.thumbnail_url ? (
+							{post.category === "gallery" ? (
+								<GalleryPreview content={post.content ?? ""} />
+							) : post.thumbnail_url ? (
 								<div className="h-48 w-full overflow-hidden">
 									<img
 										src={post.thumbnail_url}
@@ -82,10 +121,19 @@ export default async function UpdatesPage() {
 								<h2 className="font-serif font-bold text-gray-900 text-lg leading-snug group-hover:text-primary transition-colors line-clamp-2">
 									{post.title}
 								</h2>
-								{post.content && (
+								{post.category === "gallery" ? (
 									<p className="text-gray-500 text-sm mt-2 line-clamp-2">
-										{post.content}
+										{(() => {
+											const g = parseGalleryContent(post.content ?? "");
+											return g?.description || `${g?.items?.length ?? 0} photos`;
+										})()}
 									</p>
+								) : (
+									post.content && (
+										<p className="text-gray-500 text-sm mt-2 line-clamp-2">
+											{post.content}
+										</p>
+									)
 								)}
 							</div>
 						</Link>
