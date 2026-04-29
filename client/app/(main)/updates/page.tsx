@@ -14,14 +14,24 @@ export async function generateMetadata() {
 
 const CATEGORY_STYLES: Record<string, string> = {
 	news: "bg-blue-100 text-blue-700",
-	achievement: "bg-yellow-100 text-yellow-700",
-	video: "bg-red-100 text-red-700",
+	events: "bg-purple-100 text-purple-700",
+	achievements: "bg-yellow-100 text-yellow-700",
+	announcements: "bg-orange-100 text-orange-700",
+	"republic-day": "bg-green-100 text-green-700",
+	celebrations: "bg-pink-100 text-pink-700",
+	"field-trips": "bg-teal-100 text-teal-700",
+	"teacher-development": "bg-indigo-100 text-indigo-700",
 };
 
 const CATEGORY_LABELS: Record<string, string> = {
 	news: "News",
-	achievement: "Achievement",
-	video: "Video",
+	events: "Events",
+	achievements: "Achievements",
+	announcements: "Announcements",
+	"republic-day": "Republic Day",
+	celebrations: "Celebrations",
+	"field-trips": "Field Trips",
+	"teacher-development": "Teacher Development",
 };
 
 export default async function UpdatesPage() {
