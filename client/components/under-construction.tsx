@@ -28,17 +28,9 @@ const UnderConstruction = () => {
 				<p className="text-lg opacity-80">
 					This page is being built. Please check back later.
 				</p>
-				<p className="text-lg opacity-80">
-					यह पेज बनाया जा रहा है। कृपया बाद में फिर से देखें।
-				</p>
-				<p className="text-lg opacity-80">
-					ఈ పేజీ నిర్మించబడుతోంది. దయచేసి తర్వాత తనిఖీ చేయండి.
-				</p>
 
 				<div className="flex flex-col md:flex-row gap-3 mt-4">
-					<Button label="Go Home" href="/en" style="primary" />
-					<Button label="घर जाओ" href="/hi" style="primary" />
-					<Button label="హోమ్ కి వెళ్ళు" href="/te" style="primary" />
+					<Button label="Go Home" href="/" style="primary" />
 				</div>
 			</div>
 		</div>

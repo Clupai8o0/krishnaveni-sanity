@@ -1,7 +1,6 @@
 /**
  * generate-data.mjs
- * Reads sanity-export.json + translated-te.json + translated-hi.json
- * and writes lib/data/index.ts with all static page data.
+ * Reads sanity-export.json and writes lib/data/index.ts with all static page data.
  */
 
 import { readFileSync, writeFileSync, mkdirSync } from "fs";
@@ -22,15 +21,13 @@ function loadJson(path) {
 }
 
 const sanity = loadJson(join(__dirname, "sanity-export.json"));
-const te = loadJson(join(__dirname, "translated-te.json"));
-const hi = loadJson(join(__dirname, "translated-hi.json"));
 
 if (!sanity) {
   console.error("sanity-export.json not found — run fetch-sanity.mjs first");
   process.exit(1);
 }
 
-// ── Fallback data (same as in translate.mjs) ──────────────────────────────────
+// ── Fallback data ─────────────────────────────────────────────────────────────
 
 const ACHIEVEMENTS_PAGE = {
   content: [
@@ -81,9 +78,8 @@ const FACILITIES_PAGE = {
       ctaBtns: [],
     },
     {
-      _key: "facilities-infra",
-      _type: "featureCards",
-      title: "Infrastructure",
+      _key: "facilities-showcase",
+      _type: "facilitiesShowcase",
       cards: [
         { title: "Playroom", description: "Dedicated playroom for early learners with age-appropriate activities.", icon: "gamepad-2", color: "#E74C3C" },
         { title: "Playground", description: "Spacious outdoor playground for physical activity and team sports.", icon: "trees", color: "#27AE60" },
@@ -93,13 +89,6 @@ const FACILITIES_PAGE = {
         { title: "Activity Room", description: "Dedicated space for arts, crafts, and extracurricular activities.", icon: "palette", color: "#E67E22" },
         { title: "Computer Lab", description: "Modern computer lab with high-speed internet access for digital learning.", icon: "monitor-check", color: "#16A085" },
         { title: "Separate Washrooms", description: "Clean, safe, and separate washroom facilities for boys and girls.", icon: "building-2", color: "#7F8C8D" },
-      ],
-    },
-    {
-      _key: "facilities-programs",
-      _type: "featureCards",
-      title: "Academic Programs",
-      cards: [
         { title: "AI-Based Learning", description: "Cutting-edge AI-powered tools integrated into the curriculum.", icon: "cpu", color: "#2951E0" },
         { title: "Vedic Maths & IIT Foundation", description: "Strong foundation in mathematics through Vedic techniques and IIT prep.", icon: "calculator", color: "#F5A623" },
         { title: "Abacus", description: "Abacus training to sharpen mental arithmetic and concentration.", icon: "hash", color: "#E8B84B" },
@@ -117,7 +106,7 @@ const FACILITIES_PAGE = {
   },
 };
 
-const FULL_EN_NAVIGATION = {
+const NAVIGATION = {
   cta: { label: "Contact Us", link: { slug: "/en/contact" } },
   navLinks: [
     { label: "Home", link: { slug: "/en" } },
@@ -131,7 +120,7 @@ const FULL_EN_NAVIGATION = {
   ],
 };
 
-// ── Build English page data ────────────────────────────────────────────────────
+// ── Helpers ───────────────────────────────────────────────────────────────────
 
 function extractCenterLayoutContent(sanityPageKey) {
   const page = sanity.pages[sanityPageKey];
@@ -161,9 +150,7 @@ function cleanCtaBtns(btns) {
 function cleanSection(s) {
   if (!s) return s;
   const result = { ...s };
-  // Remove raw Sanity image objects that leaked through (we keep imageUrl not images)
   delete result.images;
-  // Clean ctaBtns
   if (result.ctaBtns !== undefined) {
     result.ctaBtns = cleanCtaBtns(result.ctaBtns);
   }
@@ -181,8 +168,19 @@ function buildPageData(sanityPageKey, fallback) {
   return fallback;
 }
 
-// English dataset
-const enPages = {
+function cleanCta(cta) {
+  if (!cta) return { title: "", description: "", ctaBtns: [], imageUrl: { desktop: "", mobile: "" } };
+  return {
+    title: cta.title ?? "",
+    description: cta.description ?? "",
+    ctaBtns: cleanCtaBtns(cta.ctaBtns),
+    imageUrl: cta.imageUrl ?? { desktop: "", mobile: "" },
+  };
+}
+
+// ── Build data ────────────────────────────────────────────────────────────────
+
+const pages = {
   home: buildPageData("home", { content: [], seo: { metaTitle: "Krishnaveni School", metaDescription: "" } }),
   about: buildPageData("about", { content: [], seo: { metaTitle: "", metaDescription: "" } }),
   academics: buildPageData("academics", { content: [], seo: { metaTitle: "", metaDescription: "" } }),
@@ -194,7 +192,7 @@ const enPages = {
   facilities: FACILITIES_PAGE,
 };
 
-const enMessagePages = {
+const messagePages = {
   principalMessage: {
     name: "V. Kavitha",
     designation: "Principal",
@@ -211,92 +209,8 @@ const enMessagePages = {
   },
 };
 
-const enNavigation = FULL_EN_NAVIGATION;
-
-function cleanCta(cta) {
-  if (!cta) return { title: "", description: "", ctaBtns: [], imageUrl: { desktop: "", mobile: "" } };
-  return {
-    title: cta.title ?? "",
-    description: cta.description ?? "",
-    ctaBtns: cleanCtaBtns(cta.ctaBtns),
-    imageUrl: cta.imageUrl ?? { desktop: "", mobile: "" },
-  };
-}
-
-const enCta = cleanCta(sanity.cta);
-
-// ── Helpers to build language data from translated files ──────────────────────
-
-function langPages(translated, lang) {
-  if (!translated?.pages) {
-    console.warn(`  ⚠ No translated pages for ${lang}, using English`);
-    return enPages;
-  }
-  const out = {};
-  for (const key of Object.keys(enPages)) {
-    const tp = translated.pages[key];
-    if (tp) {
-      out[key] = {
-        content: (tp.content ?? []).map(cleanSection),
-        seo: cleanSeo(tp.seo) ?? cleanSeo(enPages[key].seo),
-      };
-    } else {
-      console.warn(`  ⚠ Missing ${lang} translation for page "${key}", using English`);
-      out[key] = enPages[key];
-    }
-  }
-  return out;
-}
-
-function langMessagePages(translated, lang) {
-  if (!translated?.messagePages) return enMessagePages;
-  const out = {};
-  for (const key of Object.keys(enMessagePages)) {
-    const tm = translated.messagePages[key];
-    if (tm) {
-      out[key] = {
-        name: enMessagePages[key].name, // never translate name
-        designation: tm.designation ?? enMessagePages[key].designation,
-        imageUrl: enMessagePages[key].imageUrl, // always use English image URL
-        content: tm.content ?? enMessagePages[key].content,
-        seo: cleanSeo(tm.seo) ?? cleanSeo(enMessagePages[key].seo),
-      };
-    } else {
-      out[key] = enMessagePages[key];
-    }
-  }
-  return out;
-}
-
-function langNavigation(translated, lang) {
-  return translated?.navigation ?? enNavigation;
-}
-
-function langCta(translated) {
-  if (!translated?.cta) return enCta;
-  return cleanCta(translated.cta);
-}
-
-const allData = {
-  en: {
-    pages: enPages,
-    messagePages: enMessagePages,
-    navigation: enNavigation,
-    cta: enCta,
-  },
-  te: {
-    pages: langPages(te, "te"),
-    messagePages: langMessagePages(te, "te"),
-    navigation: langNavigation(te, "te"),
-    cta: langCta(te),
-  },
-  hi: {
-    pages: langPages(hi, "hi"),
-    messagePages: langMessagePages(hi, "hi"),
-    navigation: langNavigation(hi, "hi"),
-    cta: langCta(hi),
-  },
-};
+const navigation = NAVIGATION;
+const cta = cleanCta(sanity.cta);
 
 // ── Serialize as TypeScript ───────────────────────────────────────────────────
 
@@ -304,52 +218,30 @@ function ser(val) {
   return JSON.stringify(val, null, 2);
 }
 
-function buildPageRecord(langDataMap) {
-  const entries = Object.entries(langDataMap).map(([lang, ld]) => {
-    const pageEntries = Object.entries(ld.pages)
-      .map(([pKey, pVal]) => `    ${pKey}: ${ser(pVal)} as unknown as HomepageData,`)
-      .join("\n");
-    return `  ${lang}: {\n${pageEntries}\n  },`;
-  });
-  return `{\n${entries.join("\n")}\n}`;
-}
-
-function buildMessageRecord(langDataMap) {
-  const entries = Object.entries(langDataMap).map(([lang, ld]) => {
-    const msgEntries = Object.entries(ld.messagePages)
-      .map(([pKey, pVal]) => `    ${pKey}: ${ser(pVal)} as unknown as MessagePageData,`)
-      .join("\n");
-    return `  ${lang}: {\n${msgEntries}\n  },`;
-  });
-  return `{\n${entries.join("\n")}\n}`;
-}
-
-function buildNavRecord(langDataMap) {
-  const entries = Object.entries(langDataMap).map(([lang, ld]) => {
-    return `  ${lang}: ${ser(ld.navigation)} as unknown as NavigationProps,`;
-  });
-  return `{\n${entries.join("\n")}\n}`;
-}
-
-function buildCtaRecord(langDataMap) {
-  const entries = Object.entries(langDataMap).map(([lang, ld]) => {
-    return `  ${lang}: ${ser(ld.cta)} as unknown as CTAProps,`;
-  });
-  return `{\n${entries.join("\n")}\n}`;
-}
-
 const ts = `// AUTO-GENERATED by scripts/generate-data.mjs — do not edit by hand
 // Re-run: node scripts/generate-data.mjs
 
 import type { HomepageData, MessagePageData, NavigationProps, CTAProps } from "@/lib/types";
 
-export const pageData: Record<string, Record<string, HomepageData>> = ${buildPageRecord(allData)};
+export const pageData: Record<string, Record<string, HomepageData>> = {
+  en: {
+${Object.entries(pages).map(([k, v]) => `    ${k}: ${ser(v)} as unknown as HomepageData,`).join("\n")}
+  },
+};
 
-export const messageData: Record<string, Record<string, MessagePageData>> = ${buildMessageRecord(allData)};
+export const messageData: Record<string, Record<string, MessagePageData>> = {
+  en: {
+${Object.entries(messagePages).map(([k, v]) => `    ${k}: ${ser(v)} as unknown as MessagePageData,`).join("\n")}
+  },
+};
 
-export const navigationData: Record<string, NavigationProps> = ${buildNavRecord(allData)};
+export const navigationData: Record<string, NavigationProps> = {
+  en: ${ser(navigation)} as unknown as NavigationProps,
+};
 
-export const ctaData: Record<string, CTAProps> = ${buildCtaRecord(allData)};
+export const ctaData: Record<string, CTAProps> = {
+  en: ${ser(cta)} as unknown as CTAProps,
+};
 `;
 
 const outDir = join(clientDir, "lib", "data");
@@ -357,7 +249,6 @@ mkdirSync(outDir, { recursive: true });
 const outPath = join(outDir, "index.ts");
 writeFileSync(outPath, ts, "utf-8");
 
-console.log(`✓ Written: lib/data/index.ts`);
-console.log(`  Languages: ${Object.keys(allData).join(", ")}`);
-console.log(`  Pages/lang: ${Object.keys(allData.en.pages).join(", ")}`);
-console.log(`  MessagePages/lang: ${Object.keys(allData.en.messagePages).join(", ")}`);
+console.log(`✓ Written: lib/data/index.ts (EN only)`);
+console.log(`  Pages: ${Object.keys(pages).join(", ")}`);
+console.log(`  MessagePages: ${Object.keys(messagePages).join(", ")}`);

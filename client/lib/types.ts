@@ -191,6 +191,17 @@ export interface PhotoGalleryProps {
 	}[];
 }
 
+export interface FacilitiesShowcaseProps {
+	_key: string;
+	_type: "facilitiesShowcase";
+	cards: {
+		title: string;
+		description: string;
+		icon: IconName;
+		color: string;
+	}[];
+}
+
 // Union type for all sections
 export type PageSection =
 	| HeroSectionProps
@@ -204,7 +215,8 @@ export type PageSection =
 	| FAQsProps
 	| VisionMissionProps
 	| UniqueCardsProps
-	| PhotoGalleryProps;
+	| PhotoGalleryProps
+	| FacilitiesShowcaseProps;
 
 // Base section interface
 export interface BaseSection {

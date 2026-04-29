@@ -3,7 +3,7 @@ import { CTAButton, CTAProps, HomepageData, MessagePageData, NavigationProps } f
 import { pageData, messageData, navigationData, ctaData } from "./data/index";
 
 function fixSlug(slug: string): string {
-	return slug.replace(/^\/(en|hi|te)/, "") || "/";
+	return slug.replace(/^\/en/, "") || "/";
 }
 
 function fixCTAButtons(ctaBtns?: CTAButton[]): CTAButton[] | undefined {
