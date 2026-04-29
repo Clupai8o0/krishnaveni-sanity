@@ -177,6 +177,20 @@ export interface UniqueCardsProps {
 	}[];
 }
 
+export interface PhotoGalleryProps {
+	_key: string;
+	_type: "photoGallery";
+	title: string;
+	emoji: string;
+	description: string;
+	year: string;
+	items: {
+		url: string;
+		type: "image" | "video";
+		caption?: string;
+	}[];
+}
+
 // Union type for all sections
 export type PageSection =
 	| HeroSectionProps
@@ -189,7 +203,8 @@ export type PageSection =
 	| CenterLayoutProps
 	| FAQsProps
 	| VisionMissionProps
-	| UniqueCardsProps;
+	| UniqueCardsProps
+	| PhotoGalleryProps;
 
 // Base section interface
 export interface BaseSection {

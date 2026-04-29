@@ -156,7 +156,7 @@ export default function GalleryGrid({ items }: Props) {
 
 	return (
 		<>
-			<div className="columns-2 md:columns-3 lg:columns-4 gap-2">
+			<div className="columns-2 gap-2">
 				{items.map((item, idx) => (
 					<GridItem
 						key={idx}

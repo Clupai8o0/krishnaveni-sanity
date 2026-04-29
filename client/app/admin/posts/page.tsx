@@ -8,7 +8,6 @@ const CATEGORY_STYLES: Record<string, string> = {
 	news: "bg-blue-100 text-blue-700",
 	achievement: "bg-yellow-100 text-yellow-700",
 	video: "bg-red-100 text-red-700",
-	gallery: "bg-purple-100 text-purple-700",
 };
 
 export default async function AdminPostsPage() {

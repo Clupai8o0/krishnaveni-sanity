@@ -1114,45 +1114,107 @@ export const pageData: Record<string, Record<string, HomepageData>> = {
     {
       "_key": "achievements-cards",
       "_type": "featureCards",
-      "title": "Our Awards & Recognitions",
+      "title": "Achievements 2025",
       "cards": [
         {
-          "title": "Karate Awards",
-          "description": "Our students have excelled in national-level karate competitions, bringing pride to the school.",
-          "icon": "medal",
-          "color": "#E8B84B"
+          "title": "Karate",
+          "description": "M. Saanvi and P. Devisree (5th Class) achieved recognition in the Limca Book of Records. Students earned Karate certifications showcasing discipline and dedication.",
+          "icon": "shield",
+          "color": "#E74C3C"
         },
         {
-          "title": "Gold Medals",
-          "description": "Consistently securing gold medals in academic and sports events at regional and state levels.",
-          "icon": "trophy",
+          "title": "Robotics",
+          "description": "Students secured certifications and medals in Robotics, demonstrating innovation, creativity, and technical skills.",
+          "icon": "bot",
+          "color": "#1ABC9C"
+        },
+        {
+          "title": "Vedic Maths & IIT Foundation",
+          "description": "Students from Classes 6–10 earned medals and certificates, reflecting strong analytical and problem-solving abilities.",
+          "icon": "calculator",
           "color": "#F5A623"
         },
         {
-          "title": "Limca Book of Records",
-          "description": "Recognised in the Limca Book of Records for outstanding collective achievements.",
-          "icon": "book-open",
-          "color": "#4A90D9"
+          "title": "Abacus",
+          "description": "Primary students completed Abacus training and received certifications, improving concentration and calculation speed.",
+          "icon": "hash",
+          "color": "#E8B84B"
         },
         {
-          "title": "Eco Clubs",
-          "description": "Active participation in environmental initiatives and eco-club activities.",
-          "icon": "leaf",
-          "color": "#27AE60"
-        },
-        {
-          "title": "TATA Certifications",
-          "description": "Students and staff have earned certifications under TATA-backed educational programs.",
+          "title": "Tata Building India",
+          "description": "Participation & recognition in programs conducted at Tata Group initiatives.",
           "icon": "award",
           "color": "#2951E0"
+        },
+        {
+          "title": "Eco Club",
+          "description": "Active involvement in National Green Corps (Eco Club) activities and receipt of Eco Club certificates.",
+          "icon": "leaf",
+          "color": "#27AE60"
         }
+      ]
+    },
+    {
+      "_key": "gallery-karate",
+      "_type": "photoGallery",
+      "title": "Karate",
+      "emoji": "🥋",
+      "description": "M. Saanvi and P. Devisree (5th Class) achieved recognition in the Limca Book of Records. Other students also earned Karate certifications, showcasing discipline and dedication.",
+      "year": "2025",
+      "items": [
+        { "url": "/upgrade/karate/WhatsApp%20Image%202026-04-22%20at%2012.42.41%20%282%29.jpeg", "type": "image" },
+        { "url": "/upgrade/limca-awards/WhatsApp%20Image%202026-04-22%20at%2012.42.46%20%283%29.jpeg", "type": "image" },
+        { "url": "/upgrade/karate/WhatsApp%20Image%202026-04-22%20at%2012.42.42.jpeg", "type": "image" },
+        { "url": "/upgrade/karate/WhatsApp%20Image%202026-04-22%20at%2012.42.44%20%282%29.jpeg", "type": "image" },
+        { "url": "/upgrade/karate/WhatsApp%20Image%202026-04-22%20at%2012.42.46.jpeg", "type": "image" },
+        { "url": "/upgrade/karate/WhatsApp%20Image%202026-04-22%20at%2012.42.48%20%281%29.jpeg", "type": "image" }
+      ]
+    },
+    {
+      "_key": "gallery-robotics",
+      "_type": "photoGallery",
+      "title": "Robotics Club",
+      "emoji": "🤖",
+      "description": "Students secured certifications and medals in Robotics, demonstrating innovation, creativity, and technical skills.",
+      "year": "2025",
+      "items": [
+        { "url": "/upgrade/robotics-club/WhatsApp%20Image%202026-04-22%20at%2012.42.39%20%282%29.jpeg", "type": "image" },
+        { "url": "/upgrade/robotics-club/WhatsApp%20Image%202026-04-22%20at%2012.42.47%20%281%29.jpeg", "type": "image" },
+        { "url": "/upgrade/robotics-club/WhatsApp%20Image%202026-04-28%20at%2022.42.14.jpeg", "type": "image" },
+        { "url": "/upgrade/robotics-club/WhatsApp%20Image%202026-04-28%20at%2022.42.26.jpeg", "type": "image" },
+        { "url": "/upgrade/robotics-club/WhatsApp%20Image%202026-04-28%20at%2022.42.41.jpeg", "type": "image" }
+      ]
+    },
+    {
+      "_key": "gallery-eco-club",
+      "_type": "photoGallery",
+      "title": "Eco Club",
+      "emoji": "🌿",
+      "description": "Active involvement in National Green Corps (Eco Club) activities and receipt of Eco Club certificates.",
+      "year": "2025",
+      "items": [
+        { "url": "/upgrade/eco-club/WhatsApp%20Image%202026-04-22%20at%2012.42.47%20%282%29.jpeg", "type": "image" },
+        { "url": "/upgrade/eco-club.jpeg", "type": "image" }
+      ]
+    },
+    {
+      "_key": "gallery-certs",
+      "_type": "photoGallery",
+      "title": "Certifications & Tata Building India",
+      "emoji": "📜",
+      "description": "Student achievement certifications and recognition in Tata Group initiatives (Tata Building India activities).",
+      "year": "2025",
+      "items": [
+        { "url": "/upgrade/certifications/WhatsApp%20Image%202026-04-22%20at%2012.42.43%20%281%29.jpeg", "type": "image" },
+        { "url": "/upgrade/certifications/WhatsApp%20Image%202026-04-22%20at%2012.42.45%20%282%29.jpeg", "type": "image" },
+        { "url": "/upgrade/english-certificate-tata.jpeg", "type": "image" }
       ]
     }
   ],
   "seo": {
     "metaTitle": "Achievements – Krishnaveni School",
-    "metaDescription": "Explore the achievements of Krishnaveni School — karate awards, gold medals, Limca Book of Records recognition, eco clubs, and TATA certifications.",
-    "metaKeywords": "Krishnaveni School achievements, karate awards, gold medals, Limca Book of Records, eco clubs, TATA certifications"
+    "metaDescription": "Explore the achievements of Krishnaveni School — karate, Limca Book of Records, robotics, eco clubs, and TATA certifications.",
+    "metaKeywords": "Krishnaveni School achievements 2025, karate, Limca Book of Records, robotics, eco clubs, TATA certifications"
   }
 } as unknown as HomepageData,
     facilities: {
@@ -1271,6 +1333,95 @@ export const pageData: Record<string, Record<string, HomepageData>> = {
           "icon": "bus",
           "color": "#2ECC71"
         }
+      ]
+    },
+    {
+      "_key": "gallery-republic-day",
+      "_type": "photoGallery",
+      "title": "Republic Day",
+      "emoji": "🇮🇳",
+      "description": "Celebrating Republic Day with pride, patriotism, and enthusiasm.",
+      "year": "2025",
+      "items": [
+        { "url": "/upgrade/republic-day/WhatsApp%20Image%202026-04-22%20at%2012.42.29%20%282%29.jpeg", "type": "image" },
+        { "url": "/upgrade/republic-day/WhatsApp%20Image%202026-04-22%20at%2012.42.29%20%285%29.jpeg", "type": "image" },
+        { "url": "/upgrade/republic-day/WhatsApp%20Image%202026-04-22%20at%2012.42.30%20%281%29.jpeg", "type": "image" },
+        { "url": "/upgrade/republic-day/WhatsApp%20Image%202026-04-22%20at%2012.42.30%20%282%29.jpeg", "type": "image" },
+        { "url": "/upgrade/republic-day/WhatsApp%20Image%202026-04-22%20at%2012.42.30%20%283%29.jpeg", "type": "image" },
+        { "url": "/upgrade/republic-day/WhatsApp%20Image%202026-04-22%20at%2012.42.30.jpeg", "type": "image" },
+        { "url": "/upgrade/republic-day/WhatsApp%20Image%202026-04-22%20at%2012.42.31%20%281%29.jpeg", "type": "image" },
+        { "url": "/upgrade/republic-day/WhatsApp%20Image%202026-04-22%20at%2012.42.31%20%282%29.jpeg", "type": "image" },
+        { "url": "/upgrade/republic-day/WhatsApp%20Image%202026-04-22%20at%2012.42.31%20%283%29.jpeg", "type": "image" },
+        { "url": "/upgrade/republic-day/WhatsApp%20Image%202026-04-22%20at%2012.42.31.jpeg", "type": "image" },
+        { "url": "/upgrade/republic-day/WhatsApp%20Image%202026-04-22%20at%2012.42.32%20%281%29.jpeg", "type": "image" },
+        { "url": "/upgrade/republic-day/WhatsApp%20Image%202026-04-22%20at%2012.42.32.jpeg", "type": "image" },
+        { "url": "/upgrade/republic-day/WhatsApp%20Image%202026-04-22%20at%2012.42.33%20%281%29.jpeg", "type": "image" },
+        { "url": "/upgrade/republic-day/WhatsApp%20Image%202026-04-22%20at%2012.42.33%20%282%29.jpeg", "type": "image" },
+        { "url": "/upgrade/republic-day/WhatsApp%20Image%202026-04-22%20at%2012.42.33%20%283%29.jpeg", "type": "image" },
+        { "url": "/upgrade/republic-day/WhatsApp%20Image%202026-04-22%20at%2012.42.33.jpeg", "type": "image" },
+        { "url": "/upgrade/republic-day/WhatsApp%20Image%202026-04-22%20at%2012.42.34%20%281%29.jpeg", "type": "image" },
+        { "url": "/upgrade/republic-day/WhatsApp%20Image%202026-04-22%20at%2012.42.34%20%282%29.jpeg", "type": "image" },
+        { "url": "/upgrade/republic-day/WhatsApp%20Image%202026-04-22%20at%2012.42.34%20%283%29.jpeg", "type": "image" },
+        { "url": "/upgrade/republic-day/WhatsApp%20Image%202026-04-22%20at%2012.42.34.jpeg", "type": "image" },
+        { "url": "/upgrade/republic-day/WhatsApp%20Image%202026-04-22%20at%2012.42.35%20%281%29.jpeg", "type": "image" },
+        { "url": "/upgrade/republic-day/WhatsApp%20Image%202026-04-22%20at%2012.42.35%20%282%29.jpeg", "type": "image" },
+        { "url": "/upgrade/republic-day/WhatsApp%20Image%202026-04-22%20at%2012.42.35%20%283%29.jpeg", "type": "image" },
+        { "url": "/upgrade/republic-day/WhatsApp%20Image%202026-04-22%20at%2012.42.35.jpeg", "type": "image" },
+        { "url": "/upgrade/republic-day/WhatsApp%20Image%202026-04-22%20at%2012.42.36%20%281%29.jpeg", "type": "image" },
+        { "url": "/upgrade/republic-day/WhatsApp%20Image%202026-04-22%20at%2012.42.36.jpeg", "type": "image" },
+        { "url": "/upgrade/republic-day/WhatsApp%20Image%202026-04-22%20at%2012.42.37%20%281%29.jpeg", "type": "image" },
+        { "url": "/upgrade/republic-day/WhatsApp%20Image%202026-04-22%20at%2012.42.37%20%282%29.jpeg", "type": "image" },
+        { "url": "/upgrade/republic-day/WhatsApp%20Image%202026-04-22%20at%2012.42.37%20%283%29.jpeg", "type": "image" },
+        { "url": "/upgrade/republic-day/WhatsApp%20Image%202026-04-22%20at%2012.42.37%20%284%29.jpeg", "type": "image" },
+        { "url": "/upgrade/republic-day/WhatsApp%20Image%202026-04-22%20at%2012.42.37%20%285%29.jpeg", "type": "image" },
+        { "url": "/upgrade/republic-day/WhatsApp%20Image%202026-04-22%20at%2012.42.37.jpeg", "type": "image" },
+        { "url": "/upgrade/republic-day/WhatsApp%20Image%202026-04-22%20at%2012.42.38%20%281%29.jpeg", "type": "image" },
+        { "url": "/upgrade/republic-day/WhatsApp%20Image%202026-04-22%20at%2012.42.38%20%282%29.jpeg", "type": "image" },
+        { "url": "/upgrade/republic-day/WhatsApp%20Image%202026-04-22%20at%2012.42.38%20%283%29.jpeg", "type": "image" },
+        { "url": "/upgrade/republic-day/WhatsApp%20Image%202026-04-22%20at%2012.42.38.jpeg", "type": "image" },
+        { "url": "/upgrade/republic-day/WhatsApp%20Video%202026-04-22%20at%2012.42.32.mp4", "type": "video" },
+        { "url": "/upgrade/republic-day/WhatsApp%20Video%202026-04-22%20at%2012.42.36.mp4", "type": "video" }
+      ]
+    },
+    {
+      "_key": "gallery-celebrations",
+      "_type": "photoGallery",
+      "title": "Celebrations",
+      "emoji": "🎉",
+      "description": "School celebrations and special occasions bringing the community together.",
+      "year": "2025",
+      "items": [
+        { "url": "/upgrade/celebrations/WhatsApp%20Image%202026-04-22%20at%2012.42.41%20%281%29.jpeg", "type": "image" },
+        { "url": "/upgrade/celebrations/WhatsApp%20Image%202026-04-22%20at%2012.42.42%20%283%29.jpeg", "type": "image" },
+        { "url": "/upgrade/celebrations/WhatsApp%20Image%202026-04-22%20at%2012.42.43%20%282%29.jpeg", "type": "image" },
+        { "url": "/upgrade/celebrations/WhatsApp%20Image%202026-04-22%20at%2012.42.44%20%281%29.jpeg", "type": "image" },
+        { "url": "/upgrade/celebrations/WhatsApp%20Image%202026-04-22%20at%2012.42.45%20%281%29.jpeg", "type": "image" },
+        { "url": "/upgrade/celebrations/WhatsApp%20Image%202026-04-22%20at%2012.42.49%20%282%29.jpeg", "type": "image" }
+      ]
+    },
+    {
+      "_key": "gallery-field-trip",
+      "_type": "photoGallery",
+      "title": "Field Trips",
+      "emoji": "🚌",
+      "description": "Educational field trips enriching students' learning experiences.",
+      "year": "2025",
+      "items": [
+        { "url": "/upgrade/field-trip/WhatsApp%20Image%202026-04-22%20at%2012.42.39%20%281%29.jpeg", "type": "image" },
+        { "url": "/upgrade/field-trip/WhatsApp%20Image%202026-04-22%20at%2012.42.40%20%281%29.jpeg", "type": "image" },
+        { "url": "/upgrade/field-trip/WhatsApp%20Image%202026-04-22%20at%2012.42.40%20%282%29.jpeg", "type": "image" },
+        { "url": "/upgrade/field-trip/WhatsApp%20Image%202026-04-22%20at%2012.42.48%20%282%29.jpeg", "type": "image" }
+      ]
+    },
+    {
+      "_key": "gallery-teachers",
+      "_type": "photoGallery",
+      "title": "Teacher Development",
+      "emoji": "👩‍🏫",
+      "description": "Professional development programs keeping our teachers at the forefront of education.",
+      "year": "2025",
+      "items": [
+        { "url": "/upgrade/professional-development-for-teacher/WhatsApp%20Image%202026-04-22%20at%2012.42.49%20%281%29.jpeg", "type": "image" }
       ]
     }
   ],

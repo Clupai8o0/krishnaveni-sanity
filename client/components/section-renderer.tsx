@@ -12,6 +12,7 @@ import CenterLayout from "./center-layout";
 import FAQs from "./faqs";
 import VisionMission from "./vision-mission";
 import UniqueCards from "./unique-cards";
+import PhotoGallery from "./photo-gallery";
 
 interface Props {
 	content: PageSection[];
@@ -44,6 +45,8 @@ export const SectionRenderer = ({ content }: Props) => {
 						return <VisionMission key={generateId()} {...section} />;
 					case "uniqueCards":
 						return <UniqueCards key={generateId()} {...section} />;
+					case "photoGallery":
+						return <PhotoGallery key={generateId()} {...section} />;
 					default:
 						return null;
 				}

@@ -10,6 +10,7 @@ export const SECTION_TYPES = {
   CENTER_LAYOUT: "centerLayout",
   FAQ: "faq",
   VISION_MISSION: "visionMission",
+  PHOTO_GALLERY: "photoGallery",
 } as const;
 
 // Page Types
