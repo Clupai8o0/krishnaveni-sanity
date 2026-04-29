@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { supabaseAdmin } from "@/lib/supabase";
+import { sanityWriteClient, POST_BY_ID_QUERY, Post } from "@/lib/sanity-client";
 import { PostForm } from "@/components/admin/post-form";
 
 export default async function EditPostPage({
@@ -9,11 +9,7 @@ export default async function EditPostPage({
 	params: Promise<{ id: string }>;
 }) {
 	const { id } = await params;
-	const { data: post } = await supabaseAdmin
-		.from("posts")
-		.select("*")
-		.eq("id", id)
-		.single();
+	const post: Post | null = await sanityWriteClient.fetch(POST_BY_ID_QUERY, { id });
 
 	if (!post) notFound();
 

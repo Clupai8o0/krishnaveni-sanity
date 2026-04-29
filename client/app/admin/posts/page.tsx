@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { supabaseAdmin } from "@/lib/supabase";
+import { sanityWriteClient, ALL_POSTS_QUERY, Post } from "@/lib/sanity-client";
 import { DeleteButton } from "./delete-button";
 
 export const dynamic = "force-dynamic";
@@ -11,10 +11,7 @@ const CATEGORY_STYLES: Record<string, string> = {
 };
 
 export default async function AdminPostsPage() {
-	const { data: posts } = await supabaseAdmin
-		.from("posts")
-		.select("*")
-		.order("created_at", { ascending: false });
+	const posts: Post[] = await sanityWriteClient.fetch(ALL_POSTS_QUERY);
 
 	return (
 		<div>
@@ -42,28 +39,18 @@ export default async function AdminPostsPage() {
 					<table className="w-full text-sm">
 						<thead className="bg-gray-50 border-b border-gray-200">
 							<tr>
-								<th className="text-left px-5 py-3 font-semibold text-gray-600">
-									Title
-								</th>
-								<th className="text-left px-5 py-3 font-semibold text-gray-600">
-									Category
-								</th>
-								<th className="text-left px-5 py-3 font-semibold text-gray-600">
-									Status
-								</th>
-								<th className="text-left px-5 py-3 font-semibold text-gray-600">
-									Date
-								</th>
+								<th className="text-left px-5 py-3 font-semibold text-gray-600">Title</th>
+								<th className="text-left px-5 py-3 font-semibold text-gray-600">Category</th>
+								<th className="text-left px-5 py-3 font-semibold text-gray-600">Status</th>
+								<th className="text-left px-5 py-3 font-semibold text-gray-600">Date</th>
 								<th className="px-5 py-3" />
 							</tr>
 						</thead>
 						<tbody>
 							{posts.map((post, i) => (
 								<tr
-									key={post.id}
-									className={
-										i < posts.length - 1 ? "border-b border-gray-100" : ""
-									}
+									key={post._id}
+									className={i < posts.length - 1 ? "border-b border-gray-100" : ""}
 								>
 									<td className="px-5 py-3.5 font-medium text-gray-900 max-w-xs truncate">
 										{post.title}
@@ -84,7 +71,7 @@ export default async function AdminPostsPage() {
 									</td>
 									<td className="px-5 py-3.5 text-gray-500">
 										{new Date(
-											post.published_at ?? post.created_at
+											post.publishedAt ?? post._createdAt
 										).toLocaleDateString("en-IN", {
 											day: "numeric",
 											month: "short",
@@ -94,12 +81,12 @@ export default async function AdminPostsPage() {
 									<td className="px-5 py-3.5">
 										<div className="flex items-center gap-4 justify-end">
 											<Link
-												href={`/admin/posts/${post.id}/edit`}
+												href={`/admin/posts/${post._id}/edit`}
 												className="text-blue-600 hover:text-blue-800 font-medium transition-colors"
 											>
 												Edit
 											</Link>
-											<DeleteButton id={post.id} slug={post.slug} />
+											<DeleteButton id={post._id} slug={post.slug} />
 										</div>
 									</td>
 								</tr>
