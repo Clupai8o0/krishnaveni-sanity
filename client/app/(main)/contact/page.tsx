@@ -50,6 +50,8 @@ export default function ContactPage() {
 					title: "Contact Information",
 					email: "ktspeerzadiguda97@gmail.com",
 					facebook: "https://www.facebook.com/krishnaveni.peerzadiguda.7",
+					instagram: "https://www.instagram.com/schoolkrishnaveni/",
+					youtube: "https://www.youtube.com/@krishnavenischoolpeerzadig1274",
 					phone: "+919963373679",
 					subtext:
 						"Call us at the number above or use the form below to schedule a school tour or admission consultation. Let us know how we can help. We'll get back to you shortly.",

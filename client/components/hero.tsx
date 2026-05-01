@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import clsx from "clsx";
+import { Facebook, Youtube, Instagram } from "lucide-react";
 
 //todo: JSON-LD
 
@@ -43,6 +44,35 @@ const Hero = ({
 				<p className="text-base md:text-lg text-center mt-4 max-w-2xl opacity-70 text-balance">
 					{description}
 				</p>
+				<div className="flex gap-5 mt-8">
+					<Link
+						href="https://www.facebook.com/krishnaveni.peerzadiguda.7"
+						target="_blank"
+						rel="noopener noreferrer"
+						aria-label="Facebook"
+						className="w-16 h-16 rounded-full bg-[#1877F2] flex items-center justify-center hover:opacity-85 transition-opacity duration-200"
+					>
+						<Facebook size={28} strokeWidth={1.5} />
+					</Link>
+					<Link
+						href="https://www.youtube.com/@krishnavenischoolpeerzadig1274"
+						target="_blank"
+						rel="noopener noreferrer"
+						aria-label="YouTube"
+						className="w-16 h-16 rounded-full bg-[#FF0000] flex items-center justify-center hover:opacity-85 transition-opacity duration-200"
+					>
+						<Youtube size={28} strokeWidth={1.5} />
+					</Link>
+					<Link
+						href="https://www.instagram.com/schoolkrishnaveni/"
+						target="_blank"
+						rel="noopener noreferrer"
+						aria-label="Instagram"
+						className="w-16 h-16 rounded-full bg-[#E1306C] flex items-center justify-center hover:opacity-85 transition-opacity duration-200"
+					>
+						<Instagram size={28} strokeWidth={1.5} />
+					</Link>
+				</div>
 			</div>
 
 			<div className="absolute bg-black opacity-70 w-full h-full z-[2] top-0 left-0"></div>

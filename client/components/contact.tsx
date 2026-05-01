@@ -66,6 +66,16 @@ const Contact = ({
 							content="Facebook"
 							icon="facebook"
 						/>
+						<ContactLink
+							href={contact.instagram}
+							content="Instagram"
+							icon="instagram"
+						/>
+						<ContactLink
+							href={contact.youtube}
+							content="YouTube"
+							icon="youtube"
+						/>
 					</div>
 
 					<div className="contact-section">

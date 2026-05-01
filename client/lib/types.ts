@@ -118,6 +118,8 @@ export interface ContactProps {
 		title: string;
 		email: string;
 		facebook: string;
+		instagram: string;
+		youtube: string;
 		phone: string;
 		subtext: string;
 		whatsapp: string;
