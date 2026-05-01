@@ -71,3 +71,12 @@ export const ACHIEVEMENTS_QUERY = `
   "videos": images[_type == "file"].asset->url,
   reverseLayout, publishedAt, _createdAt
 }`;
+
+export const FACILITIES_QUERY = `
+*[_type == "facility"] | order(order asc) {
+  _id, title, description,
+  "color": color.hex,
+  category,
+  "imageUrl": image.asset->url,
+  order
+}`;

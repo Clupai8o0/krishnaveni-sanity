@@ -199,8 +199,9 @@ export interface FacilitiesShowcaseProps {
 	cards: {
 		title: string;
 		description: string;
-		icon: IconName;
 		color: string;
+		category?: string;
+		imageUrl?: string;
 	}[];
 }
 

@@ -5,9 +5,11 @@
   "scripts": {
     "dev": "sanity dev",
     "build": "sanity build",
-    "start": "sanity start"
+    "start": "sanity start",
+    "seed:facilities": "node scripts/seed-facilities.mjs"
   },
   "dependencies": {
+    "@sanity/color-input": "^6.0.4",
     "@sanity/vision": "^4",
     "react": "^19",
     "react-dom": "^19",
