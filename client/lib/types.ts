@@ -84,6 +84,7 @@ export interface BentoGalleryProps {
 		label: string;
 		mobileImage: string;
 		desktopImage: string;
+		link?: string;
 	}[];
 	ctaBtns: CTAButton[];
 }
@@ -136,6 +137,7 @@ export interface TwoColLayoutProps {
 	imageUrl: string;
 	imageFit?: "cover" | "contain";
 	content: any[];
+	ctaBtns?: CTAButton[];
 }
 
 export interface CenterLayoutProps {

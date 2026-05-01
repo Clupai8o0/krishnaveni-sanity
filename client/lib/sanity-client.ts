@@ -19,7 +19,8 @@ export type Post = {
 	content: string | null;
 	thumbnailUrl: string | null;
 	images: string[] | null;
-	videoUrl: string | null;
+	videos: string[] | null;
+	reverseLayout: boolean | null;
 	published: boolean;
 	publishedAt: string | null;
 	_createdAt: string;
@@ -31,8 +32,20 @@ export const POSTS_QUERY = `
   "slug": slug.current,
   category, content,
   "thumbnailUrl": thumbnail.asset->url,
-  "images": images[].asset->url,
-  videoUrl, publishedAt, _createdAt
+  "images": images[_type == "image"].asset->url,
+  "videos": images[_type == "file"].asset->url,
+  reverseLayout, publishedAt, _createdAt
+}`;
+
+export const UPDATES_QUERY = `
+*[_type == "post" && published == true && !(category in ["achievement", "achievements"])] | order(publishedAt desc) {
+  _id, title,
+  "slug": slug.current,
+  category, content,
+  "thumbnailUrl": thumbnail.asset->url,
+  "images": images[_type == "image"].asset->url,
+  "videos": images[_type == "file"].asset->url,
+  reverseLayout, publishedAt, _createdAt
 }`;
 
 export const POST_BY_SLUG_QUERY = `
@@ -41,8 +54,20 @@ export const POST_BY_SLUG_QUERY = `
   "slug": slug.current,
   category, content,
   "thumbnailUrl": thumbnail.asset->url,
-  "images": images[].asset->url,
-  videoUrl, publishedAt, _createdAt
+  "images": images[_type == "image"].asset->url,
+  "videos": images[_type == "file"].asset->url,
+  reverseLayout, publishedAt, _createdAt
 }`;
 
 export const POST_SLUGS_QUERY = `*[_type == "post" && published == true]{ "slug": slug.current }`;
+
+export const ACHIEVEMENTS_QUERY = `
+*[_type == "post" && published == true && category in ["achievement", "achievements"]] | order(publishedAt desc) {
+  _id, title,
+  "slug": slug.current,
+  category, content,
+  "thumbnailUrl": thumbnail.asset->url,
+  "images": images[_type == "image"].asset->url,
+  "videos": images[_type == "file"].asset->url,
+  reverseLayout, publishedAt, _createdAt
+}`;

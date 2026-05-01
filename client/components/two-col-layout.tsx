@@ -1,7 +1,9 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import { TwoColLayoutProps } from "@/lib/types";
 import { PortableText } from "@portabletext/react";
+import { generateId } from "@/lib/utils";
 import clsx from "clsx";
 
 const TwoColLayout = ({
@@ -10,6 +12,7 @@ const TwoColLayout = ({
 	content,
 	reverse,
 	imageFit,
+	ctaBtns,
 }: TwoColLayoutProps) => {
 	return (
 		<section className="parent-container">
@@ -35,6 +38,20 @@ const TwoColLayout = ({
 					<div className="opacity-80">
 						<PortableText value={content} />
 					</div>
+					{ctaBtns && ctaBtns.length > 0 && (
+						<div className="flex flex-col sm:flex-row gap-2 mt-2">
+							{ctaBtns.map((btn) => (
+								<Link
+									key={generateId()}
+									className={`btn ${btn.style === "primary" ? "btn-primary" : btn.style === "secondary" ? "btn-secondary" : btn.style === "outline" ? "btn-outline" : "btn-none"}`}
+									href={btn.externalLink || btn.internalPage?.slug || ""}
+									target={btn.externalLink ? "_blank" : "_self"}
+								>
+									{btn.label}
+								</Link>
+							))}
+						</div>
+					)}
 				</div>
 			</div>
 		</section>

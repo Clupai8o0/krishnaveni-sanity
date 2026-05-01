@@ -61,14 +61,23 @@ export const post = defineType({
     }),
     defineField({
       name: "images",
-      title: "Images",
+      title: "Images & Videos",
       type: "array",
-      of: [{ type: "image", options: { hotspot: true } }],
+      of: [
+        { type: "image", options: { hotspot: true } },
+        { type: "file", options: { accept: "video/*" } },
+      ],
     }),
     defineField({
-      name: "videoUrl",
-      title: "Video URL",
-      type: "url",
+      name: "reverseLayout",
+      title: "Reverse Layout (Image on Left)",
+      type: "boolean",
+      description: "When a post has a single image, flip so the image appears on the left and text on the right.",
+      initialValue: false,
+      hidden: ({ document }) => {
+        const images = (document?.images as unknown[]) ?? [];
+        return images.length !== 1;
+      },
     }),
   ],
   preview: {
