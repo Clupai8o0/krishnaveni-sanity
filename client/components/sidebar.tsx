@@ -15,7 +15,7 @@ import Image from "next/image";
 import { generateId } from "@/lib/utils";
 import { usePathname } from "next/navigation";
 
-const Sidebar = ({ navigation }: { navigation: NavigationProps }) => {
+const Sidebar = ({ navigation, variant = "dark" }: { navigation: NavigationProps; variant?: "light" | "dark" }) => {
 	const pathname = usePathname();
 	const [open, setOpen] = useState(false);
 
@@ -25,7 +25,7 @@ const Sidebar = ({ navigation }: { navigation: NavigationProps }) => {
 		<nav className="md:hidden">
 			<Sheet open={open} onOpenChange={setOpen}>
 				<SheetTrigger>
-					<Menu className="w-8 h-8 stroke-2 text-white" />
+					<Menu className={`w-8 h-8 stroke-2 ${variant === "light" ? "text-gray-900" : "text-white"}`} />
 				</SheetTrigger>
 				<SheetContent>
 					<SheetHeader className="pt-24 px-10">
